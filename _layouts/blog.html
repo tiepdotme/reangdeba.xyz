@@ -1,0 +1,118 @@
+{% include head.html %}
+{% include navbar.html %}
+{% assign is_post = page.date %}
+{% comment%}
+Here we generate all the tags.
+{% endcomment%}
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+{% assign ttags = post.tags | join:'|' | append:'|' %}
+{% assign rawtags = rawtags | append:ttags %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign tags = "" %}
+{% for tag in rawtags %}
+{% if tag != "" %}
+{% if tags == "" %}
+{% assign tags = tag | split:'|' %}
+{% endif %}
+{% unless tags contains tag %}
+{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% endfor %}
+{% assign rawcats = rawcats | split:'|' | sort %}
+{% assign cats = "" %}
+{% for cat in rawcats %}
+{% if cat != "" %}
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+<head>
+   <link rel="stylesheet" href="https://res.cloudinary.com/reangdeba/raw/upload/v1537725156/main.css">
+   <link rel="stylesheet" href="https://res.cloudinary.com/reangdeba/raw/upload/v1537725322/prism.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="lh-copy pa0 f6">
+   <header class="tc mt4">
+      <a href="/blog/index">
+      <img src="http://res.cloudinary.com/reangdeba/image/upload/v1536968806/sign_2.svg" alt="" width="300">
+      </a>
+      <!-- Browsing option -->
+      {% if page.title == "blog" %}
+         <h1><strong>reang's blog</strong></h1>
+         {% endif %}
+   </header>
+   <main>
+      <div id="barba-wrapper">
+         <div class="container barba-container">
+            <div class="lead">
+                 {% if page.title != "blog" and page.title != "category" and page.title != "tag" %}
+                 <h2><strong>{{ page.title }}</strong></h2>
+                 {% endif %}
+                  {%include tagline.html %}
+                  {% if page.cover %}
+                  <figure><img class="cover" src="{{ page.cover }}">
+                  <figcaption>{{ page.caption }}</figcaption></figure>
+                  {% endif %}
+                  <h1 class="mt0 lh-title cb mb2">
+                     {% if is_post %}
+                     {% endif %}
+                  </h1>
+               </div>
+            </div>
+            <div>
+               {{ content }}
+               {% if is_post %}
+               {% include signoff.html %}
+               {% endif %}
+               <br>
+         </div>
+      </div>
+<p class="lead">[<a href="/feed.xml">feed</a>]</p>
+   {% if page.comments %}
+      <div id="disqus_thread"></div>
+      <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+      var disqus_config = function () {
+      this.page.url = "{{ site.url }}{{ post.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "{{ post.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://reangdeba.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+   {% endif %}
+   </main>
+
+   <footer id="colophon">
+      <div class="container">
+         <p>&copy; 2018&middot;Debashish Reang</p>
+         <p>This blog is based on <a href="http://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a> by <a href="https://muan.co">Mu-An Chiou</a> using <a href="https://jekyllrb.com">Jekyll</a>.</p>
+         <a href="https://madewithlove.org.in" target="_blank" rel="noopener noreferrer">Made with ❤️ in 🇮🇳</a>
+      </div>
+   </footer>
+   <script src="https://res.cloudinary.com/reangdeba/raw/upload/v1537725418/prism.js"></script>
+</body>
+</html>
