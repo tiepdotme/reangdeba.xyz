@@ -82,7 +82,9 @@ Here we generate all the categories.
                <br>
          </div>
       </div>
-<p class="lead">[<a href="/feed.xml">feed</a>]</p>
+      {% if page.title == "blog" %}
+         <p class="lead">[<a href="/feed.xml">feed</a>]</p>
+         {% endif %}
    {% if page.comments %}
       <div id="disqus_thread"></div>
       <script>
