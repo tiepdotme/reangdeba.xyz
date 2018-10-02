@@ -36,8 +36,8 @@ My fairly widespread non-academic interests - including music, books, blog posts
 
 ## Reads
 * Non-Native English Speakers Learning Computer
-Programming: Barriers, Desires, and Design Opportunities [here](http://pgbovine.net/publications/non-native-english-speakers-learning-programming_CHI-2018.pdf)
-* Jessica Su's answer to "Do grades really matter?" [here](http://qr.ae/TUGTI8)
+Programming: Barriers, Desires, and Design Opportunities [here](https://pgbovine.net/publications/non-native-english-speakers-learning-programming_CHI-2018.pdf)
+* Jessica Su's answer to "Do grades really matter?" [here](https://qr.ae/TUGTI8)
 
 ## Music
 I am a huge fan of Taylor Swift's music. One Direction's songs keep me cheered up as well. Well, that doesn't stop me from listening to other artists and other genres, does it?

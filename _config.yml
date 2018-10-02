@@ -19,7 +19,7 @@ description: "Hi! I am Debashish Reang, a sophomore at the Indian Institute
 of Technology Kanpur. Deeply interested in Computer Science and Education, I
 aspire to get a PhD in Computational Biology and serve as a member of faculty."
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://reangdeba.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://reangdeba.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 facebook_username: imreang
 github_username:  reangdeba
 
