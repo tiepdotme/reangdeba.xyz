@@ -42,12 +42,13 @@ Here we generate all the categories.
 {% endif %}
 {% endfor %}
 <head>
-   <link rel="stylesheet" href="https://res.cloudinary.com/reangdeba/raw/upload/v1537725156/main.css">
+   <link rel="stylesheet" href="/main.css">
    <link rel="stylesheet" href="https://res.cloudinary.com/reangdeba/raw/upload/v1537725322/prism.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body class="lh-copy pa0 f6">
-   <header class="tc mt4">
+
+<body>
+   <header class="tc">
       <a href="/blog/index">
       <img src="https://res.cloudinary.com/reangdeba/image/upload/v1536968806/sign_2.svg" alt="" width="300">
       </a>
@@ -57,8 +58,8 @@ Here we generate all the categories.
          {% endif %}
    </header>
    <main>
-      <div id="barba-wrapper">
-         <div class="container barba-container">
+      <div>
+         <div>
             <div class="lead">
                  {% if page.title != "blog" and page.title != "category" and page.title != "tag" %}
                  <h2><strong>{{ page.title }}</strong></h2>
@@ -73,16 +74,13 @@ Here we generate all the categories.
                      {% endif %}
                   </h1>
                </div>
-            <div class="container barba-container">
+            <div>
                {{ content }}
                {% if is_post %}
                {% include signoff.html %}
                {% endif %}
                <br>
          </div>
-      {% if page.title == "blog" %}
-         <p class="lead">[<a href="/feed.xml">feed</a>]</p>
-         {% endif %}
    {% if page.comments %}
       <div id="disqus_thread"></div>
       <script>
