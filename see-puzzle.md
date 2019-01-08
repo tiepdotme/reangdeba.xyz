@@ -13,6 +13,7 @@ title: Puzzle Day 2019
 
 * Be sure to submit your solutions anytime before 06:00:00 10th Jan 2019.
 * You may submit your solutions [here](https://goo.gl/forms/8H9sH8gi62yYUsey2).
+* Make sure that you fill out this form [here](https://goo.gl/forms/ETaoFtXwB7b34FQF2). ***Thanks!***
 * You may submit multiple times, we would consider the ***latest one***.
 
 ### Goodluck!
