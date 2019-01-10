@@ -18,16 +18,21 @@ title: This was Puzzle Day 2019
 ### Thanks for taking part.
 
 ### Winners:
+
 #### 4/5
 * **1st:** Meow - Priyadarshi Singh
+
 #### 3/5
 * **2nd:** SRVX - Shubham Bhagat, Rohit Ranjan, Varchasv Shri
 * **3rd:** Cracklers - Anuj Shah, Sunit Gautam, Rahul Rohit
+
 ### Leaderboard
+
 #### 2/5
 * AIRPuzz				
 * The Rocket Scientists	
-* rajpoots				
+* rajpoots	
+
 #### 1/5
 * QSee						
 * EEL DRAGON
