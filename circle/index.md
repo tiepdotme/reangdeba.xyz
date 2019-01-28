@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "circle"
+title: "Circle"
 ---
 
 > Currently the last semester of my Sophomore year is ON. So, the list below may not be updated frequently. Good luck with what you're doing. See ya!

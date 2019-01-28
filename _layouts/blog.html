@@ -1,70 +1,20 @@
-{% include head.html %}
-{% include navbar.html %}
-{% assign is_post = page.date %}
-{% comment%}
-Here we generate all the tags.
-{% endcomment%}
-{% assign rawtags = "" %}
-{% for post in site.posts %}
-{% assign ttags = post.tags | join:'|' | append:'|' %}
-{% assign rawtags = rawtags | append:ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
-{% assign tags = "" %}
-{% for tag in rawtags %}
-{% if tag != "" %}
-{% if tags == "" %}
-{% assign tags = tag | split:'|' %}
-{% endif %}
-{% unless tags contains tag %}
-{% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
-{% comment%}
-Here we generate all the categories.
-{% endcomment%}
-{% assign rawcats = "" %}
-{% for post in site.posts %}
-{% assign tcats = post.category | join:'|' | append:'|' %}
-{% assign rawcats = rawcats | append:tcats %}
-{% endfor %}
-{% assign rawcats = rawcats | split:'|' | sort %}
-{% assign cats = "" %}
-{% for cat in rawcats %}
-{% if cat != "" %}
-{% if cats == "" %}
-{% assign cats = cat | split:'|' %}
-{% endif %}
-{% unless cats contains cat %}
-{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
-{% endunless %}
-{% endif %}
-{% endfor %}
-<head>
-   <link rel="stylesheet" href="/main.css">
-   <link rel="stylesheet" href="https://res.cloudinary.com/reangdeba/raw/upload/v1537725322/prism.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
+---
+layout: default
+---
 <body>
    <header class="tc">
-      <a href="/blog/index">
-      <img src="https://res.cloudinary.com/reangdeba/image/upload/v1536968806/sign_2.svg" alt="" width="300">
-      </a>
       <!-- Browsing option -->
       {% if page.title == "blog" %}
-         <h1><strong>reang's blog</strong></h1>
+         <h1><strong>A few words...</strong></h1>
          {% endif %}
    </header>
    <main>
       <div>
          <div>
             <div class="lead">
-                 {% if page.title != "blog" and page.title != "category" and page.title != "tag" %}
+                 {% if page.title != "blog" %}
                  <h2><strong>{{ page.title }}</strong></h2>
                  {% endif %}
-                  {%include tagline.html %}
                   {% if page.cover %}
                   <figure><img class="cover" src="{{ page.cover }}">
                   <figcaption>{{ page.caption }}</figcaption></figure>
@@ -76,9 +26,7 @@ Here we generate all the categories.
                </div>
             <div>
                {{ content }}
-               {% if is_post %}
-               {% include signoff.html %}
-               {% endif %}
+               
                <br>
          </div>
    {% if page.comments %}
@@ -105,14 +53,6 @@ Here we generate all the categories.
  </div>
     </div>
    </main>
-
-   <footer id="colophon">
-      <div class="container">
-         <p>&copy; 2018&middot;Debashish Reang</p>
-         <p>This blog is based on <a href="https://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a> by <a href="https://muan.co">Mu-An Chiou</a> using <a href="https://jekyllrb.com">Jekyll</a>.</p>
-         <a href="https://madewithlove.org.in" target="_blank" rel="noopener noreferrer">Made with ❤️ in 🇮🇳</a>
-      </div>
-   </footer>
    <script src="https://res.cloudinary.com/reangdeba/raw/upload/v1537725418/prism.js"></script>
 </body>
 </html>

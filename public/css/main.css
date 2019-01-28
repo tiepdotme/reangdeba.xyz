@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Muli');
+/* @import url('https://fonts.googleapis.com/css?family=Muli'); */
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
 
 @media (min-width: 1200px) {
@@ -16,7 +17,7 @@
 }
 
 body {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 	margin: 0;
 	padding-bottom: 2rem;
 	background-color: #fff;
@@ -32,7 +33,7 @@ h2,
 h3,
 h4,
 p.lead {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 	font-weight: 600
 }
 
@@ -65,7 +66,7 @@ div.container {
 a {
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
-	color: #2a7ae2;
+	color: #ac4142;
 	text-decoration: none
 }
 
@@ -111,14 +112,22 @@ footer#colophon .container,
 	flex-wrap: wrap;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
-	justify-content: space-between
+	justify-content: space-between;
 }
 
-#masthead .container,
-footer#colophon  {
+#masthead .container {
 	line-height: 1;
 	width: 100%;
-	margin-top: -5px
+	margin-top: -5px;
+	color: #000;
+}
+
+footer#colophon {
+	border-top: 1px solid #eee;
+	line-height: 1;
+	width: 100%;
+	margin-top: 2%;
+	color: #000;
 }
 
 main .container {
@@ -126,7 +135,9 @@ main .container {
 }
 #masthead {
 	font-size: 90%;
-	padding: 2rem 0;
+	margin-top: 1%;
+	padding: 1rem 0;
+	border-bottom: 1px solid #eee;
 }
 
 #masthead:hover,
@@ -157,7 +168,7 @@ main .container {
 
 #masthead nav ul li {
 	margin-right: 1rem;
-	color: #2a7ae2;
+	color: #000;
 	display: inline-block;
 }
 
@@ -881,15 +892,14 @@ blockquote {
 }
 
 blockquote p {
-	border-left: 0.3rem solid #2a7ae2;
+	border-left: 0.5rem solid #ac4142;
 	padding-left: 1.5rem;
-	background-color: #fffffb;
+	background-color: #fffffc;
 }
 
 blockquote p>* {
 	display: block
 }
-
 iframe {
 	border: none
 }
@@ -1360,7 +1370,7 @@ button[data-balloon] {
 
 .work-grid article h2 span {
 	font-size: 90%;
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 	font-weight: normal;
 	color: #777
 }
@@ -1450,7 +1460,7 @@ button[data-balloon] {
 #masthead nav ul li .home-link:hover,
 #masthead nav ul li .home-link:active,
 #masthead nav ul li .home-link.active {
-	box-shadow: 0 3px 0 #e84393
+	box-shadow: 0 3px 0 #e84393;
 }
 
 #masthead nav ul li .circle-link:focus,
@@ -1591,7 +1601,7 @@ iframe {
 /* for blog tags */
 
 .page-title {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 	font-size: 100%;
 	line-height: 1.15;
 	text-transform: uppercase;
@@ -1599,7 +1609,7 @@ iframe {
 
 .posts,
 h3 {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 	font-size: 100%;
 	line-height: 1.15;
 }
@@ -2096,19 +2106,19 @@ h3 {
 }
 
 .sans-serif {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 }
 
 .serif {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 }
 
 .system-sans-serif {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 }
 
 .system-serif {
-	font-family: 'Muli', sans-serif;
+	font-family: 'Lora', serif;
 }
 
 /* Pygments via Jekyll */
@@ -2719,7 +2729,7 @@ h6 {
 }
 
 .blue {
-	color: #2a7ae2
+	color: #ac4142
 }
 
 .light-blue {

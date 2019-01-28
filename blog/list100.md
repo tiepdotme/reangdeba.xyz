@@ -1,6 +1,6 @@
 ---
 layout: page
-title: list 100
+title: "'Bucket' List"
 ---
 > Things I want to do before I die.
 > Please let me know if you have any recommendations.
