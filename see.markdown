@@ -1,6 +1,8 @@
 ---
 layout: page
-title: This was Puzzle Day 2019
+title: "This was Puzzle Day 2019"
+comments: true
+permalink: /see/
 ---
 
 > Please read the guidelines before proceeding: [Guidelines here](https://docs.google.com/document/d/1VgrH4PHpT8v42gdCkbfpYa-awBduX4wapjBXfgsNz8c/edit?usp=sharing)
@@ -16,9 +18,7 @@ title: This was Puzzle Day 2019
 * Make sure that you fill out this form [here](https://goo.gl/forms/ETaoFtXwB7b34FQF2). ***Thanks!***
 
 ### Thanks for taking part.
-
 ### Leaderboard:
-
 #### 4/5
 
 * **1st:** Meow - Priyadarshi Singh

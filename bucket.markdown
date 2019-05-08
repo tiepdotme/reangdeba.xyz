@@ -1,9 +1,10 @@
 ---
 layout: page
 title: "'Bucket' List"
+comments: true
+permalink: /bucket/
 ---
-> Things I want to do before I die.
-> Please let me know if you have any recommendations.
+> Things I want to do before I die. Please let me know if you have any recommendations.
 
 
 <ol>
@@ -14,11 +15,11 @@ title: "'Bucket' List"
     <li>&#10007; Meet David J. Malan</li>
     <li>&#10003; Get into IIT</li>
     <li>&#10007; Oxford</li>
-    <li>&#10003; Dance in a concert</li>
+    <li>&#10003; Attend a concert</li>
     <li>&#10007; Go camping</li>
     <li>&#10007; Visit Dubai</li>
     <li>&#10007; Start a non-profit organization</li>
-    <li>&#10007; Read 1000 books (60 till now)</li>
+    <li>&#10007; Read 1000 books</li>
     <li>&#10007; Write a book</li>
     <li>&#10007; Sing in front of an audience</li>
     <li>&#10003; Shout <code>Thain Thain</code> in public</li>

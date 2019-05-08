@@ -1,33 +1,18 @@
-title: Debashish Reang
-email: reang.bade@gmail.com
-description: "Hi! I am Debashish Reang, a sophomore at the Indian Institute
-of Technology Kanpur. Deeply interested in Computer Science and Education, I
-aspire to get a PhD in Computational Biology and serve as a member of faculty."
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://reangdeba.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-facebook_username: imreang
+# Site settings
+title: reang's blog
+email: 
+description: "The life and thoughts of Reang."
+baseurl: ""
+url: "https://reangdeba.github.io"
+twitter_username: reangdeba
 github_username:  reangdeba
-
-author: Debashish Reang
-
-social:
-  name: Debashish Reang
-  links:
-    - https://twitter.com/reangdeba
-    - https://www.facebook.com/imreang
-    - https://www.linkedin.com/in/reangdeba
-    - https://github.com/reangdeba
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+permalink: pretty
 
-share: true # Turn on twitter and facebook share buttons
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
