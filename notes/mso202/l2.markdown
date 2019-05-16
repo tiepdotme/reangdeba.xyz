@@ -1,0 +1,28 @@
+---
+layout: note
+mathjax: true
+---
+
+**Sequence:**
+An infinite sequence of complex numbers indexed by natural numbers is called a sequence. e.g., $${1/n}, \space {z^n}$$.
+
+**Subsequence:**
+A subset of a sequence indexed by a strictly increasing sequence of natural numbers is called a subsequence. e.g., $${1/2n}$$ is a subsequence of $${1/n}$$.
+
+**Convergence:**
+A sequence{zn}is said to converge to a limit \\(z\\) if \\(z_n\rightarrow{z}\\) as $$n\rightarrow{\infty}$$.
+
+> Given an    $$\space \epsilon > 0$$ there is a $$N > 0$$ such that   $$\space\lvert{z_n-z}\rvert<\epsilon$$ for all $$\space n > N.$$ e.g., $${1/n}$$ converges to 0.
+
+**$${z_n}$$ converges to \\(z\\) if and only if \\({Re(z_n)}\\) and \\({Im(z_n)}\\) converge to \\(Re(z)\\) and \\(Im(z)\\), respectively.**
+
+**Cauchy Sequence:**
+A sequence $${z_n}$$ is a Cauchy sequence if given an $$\epsilon > 0$$ there is a $$N > 0$$ such that $$\lvert{z_n-z_m}\rvert < \epsilon$$ for all $$n, m > N.$$
+
+**Series:**
+Given a sequence of complex numbers $${z_n}$$, an infinite sum of the form
+$$\sum_{n=0}^{\infty}z_n$$ is called a *series*.
+
+***Partial sums of a series:***
+Given a series $$\sum_{n=0}^{\infty} z_n$$ the $$k-th$$ partial sum $$s_k$$ is given by $$\sum_{n=0}^{k}z_n$$.
+
