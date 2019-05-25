@@ -1,69 +1,43 @@
 ---
 layout: note
+title: "Complex numbers, Polar form, De Moivre’s formula"
 mathjax: true
 ---
 <!-- Completed! but need to typeset a few properties of polar form -->
-### Introduction
+
 **Complex number:**
-An ordered pair of real numbers $$(x, y)$$ is a complex number.
+An ordered pair of real numbers $$(x, y)$$ is a complex number. Represented by $$(x, y)$$ := $$x+iy$$, where $$x$$ is the **real part** and $$y$$ is the **imaginary part.**
 
-Since $$(x, y) = x(1, 0) + y(1, 0)$$, denoting $$(0, 1)$$ as $$i$$ and $$(x, 0)$$ as \\(x\\), we represent $$(x, y)$$ as $$x+iy$$, where $$x$$ is the real part and $$y$$ is the imaginary part.
 
-### How are complex number different from \\(R^2\\)?
-
-\\(C\\) is a field wrt $$+$$ and $$\cdot$$ defined as follows:  
-$$
-(x_1+iy_1) + (x_2+iy_2) 
-$$$$
-:= x_1+x_2+i(y_1+y_2)
-$$  
-$$
-(x_1+iy_1) \cdot (x_2+iy_2)
-$$$$
-:=(x_1x_2-y_1y_2)+i(x_1y_2+x_2y_1)
-$$
-
-In particular, \\(i^2=-1\\). 
-
-Check that \\(\frac{1}{(x_1+iy_1)}=\frac{x_1-iy_1}{x_1^2+y_1^2}\\)
-
-### Geometry of \\(C\\):
 \\(C\\) is different from \\(R^2\\) algebraically, it is the same physically!
 So, **the geometry of \\(C\\) is that of \\(R^2\\)**
 
-Length of \\(x+iy:=\sqrt{x^2+y^2}= \left\lvert{x+iy}\right\rvert.\\) Also called the *modulus* of $$x+iy.$$
+$$C$$ is different from $$R^2$$ in that, $$C$$ is a field.
 
-Conjugate of $$x+iy=$$ reflection of $$x+iy$$ about x-axis = $$x-iy$$
+**Length of** \\(x+iy:=\sqrt{x^2+y^2}= \left\lvert{x+iy}\right\rvert.\\) Also called the *modulus* of $$x+iy.$$
 
-We denote the conjugate of $$x+iy$$ by $$\overline{x+iy}$$.
+**Conjugate** of $$x+iy=$$ reflection of $$x+iy$$ about x-axis = $$x-iy$$. We denote the conjugate of $$x+iy$$ by $$\overline{x+iy}$$.
 
-### Properties of $$\left\lvert{x+iy}\right\rvert, \overline{x+iy}$$
-* $$Z\bar{Z}=\lvert{Z}\rvert^2;$$
-* $$ReZ = \frac{Z+\bar{Z}}{2}, ImZ = \frac{Z-\bar{Z}}{2i};$$
-* $$Z\bar{Z}=\lvert{Z_1}\rvert\lvert{Z_2}\rvert=\lvert{Z_2Z_1}\rvert;$$
-* $$\overline{Z_1+Z_2}=\bar{Z_1}+\bar{Z_2}; \overline{Z_1Z_2}=\bar{Z_1}\cdot\bar{Z_2}$$
 * **Triangle Inequality:** $$\lvert{Z_1+Z_2}\rvert\leq\lvert{Z_1}\rvert+\lvert{Z_2}\rvert$$
 * **Parallelogram law:** $$\lvert{Z_1+Z_2}^2\rvert+\lvert{Z_1-Z_2}^2\rvert=2(\lvert{Z_1}^2\rvert+\lvert{Z_2}^2\rvert)$$
 
-### Polar Coordinates of a complex number
-Given a complex number $$z=x+iy(\neq 0)$$.
+**Given** a complex number $$z=x+iy(\neq 0)$$. Let $$x=r\cos\theta$$,  $$y=r\sin\theta$$
 
-Let $$x=r\cos\theta$$ and $$y=r\sin\theta$$, 
-then $$z=r(\cos\theta+i\sin\theta)$$;
+**Polar form.** $$z=re^{i\theta}$$. $$\theta$$ is called the ***argument*** of \\(z\\).
 
-Set $$\cos\theta+i\sin\theta$$ as $$e^{i\theta}$$. $$\theta$$ is called the *argument* of \\(z\\).
+$$arg(z)$$ defined as:
+$$arg:C\rightarrow{R}$$ is a **multivalued function** 
 
-$$arg(z)$$ is defined as:
-$$arg:C\rightarrow{R}$$ is a multivalued function, $$\because e^{i\theta}=e^{i(\theta+2n\pi)}$$
+$$\because e^{i\theta}=e^{i(\theta+2n\pi)}$$
 
-Define principal argument as 
+**Principal argument.** 
 
 $$Arg:C\rightarrow{(-\pi, \pi]}$$
 
 $$z \mapsto argz \space \exists -\pi< argz\leq\pi$$
 
 <!-- Insert properties here! -->
-**De-moivre's formula:**
+**De-moivre's formula.**
 $$(re^{i\theta})^n = r^n(\cos(n\theta)+i\sin(n\theta))$$
 
 **n-distinct roots** of $$\omega^n=z$$ where $$z=re^{i\theta}$$ is given by $$\sqrt[n]{r}e^{i(\theta+2k\pi)/n}$$

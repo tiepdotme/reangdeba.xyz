@@ -2,8 +2,8 @@
 layout: page
 title: "Circle"
 permalink: /circle/
-comments: true
-linked: true
+comments: false
+linked: false
 ---
 > Updates to this list should happen regularly from now on. Check this site's GitHub repo for last update.
 

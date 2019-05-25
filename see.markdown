@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "This was Puzzle Day 2019"
-comments: true
+comments: false
 permalink: /see/
 ---
 

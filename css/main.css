@@ -13,7 +13,7 @@ html, body { height: 100%; }
 
 body {
   font-family: 'Roboto', Arial, sans-serif;
-  font-size: 18px;
+  /* font-size: 18px; */
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
@@ -79,7 +79,7 @@ cite {
   /* font-family: 'Stylish', sans-serif; */
   display: block;
   color: #333;
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: -1px;
   float: left;
   line-height: 56px;
@@ -109,7 +109,7 @@ cite {
 }
 
 .footer-heading {
-  font-size: 18px;
+  /* font-size: 18px; */
   font-weight: 300;
   letter-spacing: -.5px;
   margin-bottom: 15px;
