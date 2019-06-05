@@ -1,18 +1,27 @@
 # Site settings
-title: reang's blog
-email: 
-description: "The life and thoughts of Reang."
+title: "Debashish Reang"
+email: "reang.bade@gmail.com"
+description: "Musings of a Computer Vision and Natural Language Processing enthusiast."
 baseurl: ""
 url: "https://reangdeba.github.io"
 twitter_username: reangdeba
 github_username:  reangdeba
+author: Debashish Reang
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# disqus and google_analytics
+google_analytics: UA-141493078-1
+disqus_shortname: reangdeba
 
 highlighter: rouge
 kramdown:
   input: GFM
   auto_ids: true
   syntax_highlighter: rouge
+
+plugins:
+  - jemoji
+  - jekyll-feed

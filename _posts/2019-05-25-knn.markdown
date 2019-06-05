@@ -5,10 +5,10 @@ title: "Understanding k-Nearest Neighbours in Python & Numpy with Applications"
 excerpt: "I'll explain the inner-workings of the k-NN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy."
 date: 2019-05-26 00:00:00
 mathjax: true
+author: Debashish Reang
 ---
-<!-- complete setup and code part -->
-This tutorial was contributed by [Debashish Reang]("https://reangdeba.github.io/"). Feel free to get in touch for contributions, and suggestions.
 
+<!-- complete setup and code part -->
 <div class="imgcap">
     <img src="/assets/images/knn.png">
     <div class="thecap">
