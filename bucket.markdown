@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "'Bucket' List"
-comments: true
+comments: false
 permalink: /bucket/
 ---
 > Things I want to do before I die. Please let me know if you have any recommendations.
