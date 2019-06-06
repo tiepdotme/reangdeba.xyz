@@ -9,13 +9,19 @@ A non-exhaustive list of my fairly widespread non-academic interests including m
 
 ### Some of my favourite books
 
-* The Fault in our Stars - John Green 
+> :green_book: : Currently Reading
+
+#### 2019
+
+* **The Stuff of Thought:** *Language as a Window into Human Nature* - Steven Pinker :green_book:
+* Looking for Alaska - John Green :cry:
+
+#### 2018 and earlier
+
+* The Fault in our Stars - John Green :broken_heart::broken_heart:
 > tfios would always be close to my heart for many reasons!
 
-> \* Currently Reading
-
-* Sapiens - Yuval Noah Harari*
-* Looking for Alaska - John Green
+<!-- * Sapiens - Yuval Noah Harari* -->
 * The Girl in Room 105 - Chetan Bhagat
 * One Indian Girl - Chetan Bhagat
 * Five Point Someone - Chetan Bhagat
