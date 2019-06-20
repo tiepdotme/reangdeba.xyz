@@ -1,11 +1,10 @@
 ---
 layout: page
 title: "Circle"
+subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, books, favourite blog posts, answers, other interesting reads, and videos."
 permalink: /circle/
 ---
 > Updates to this list should happen regularly from now on. Check this site's GitHub repo for last update.
-
-A non-exhaustive list of my fairly widespread non-academic interests including music, books, favourite blog posts, answers, other interesting reads, and videos.
 
 ### Some of my favourite books
 
@@ -13,7 +12,7 @@ A non-exhaustive list of my fairly widespread non-academic interests including m
 
 #### 2019
 
-* **The Stuff of Thought:** *Language as a Window into Human Nature* - Steven Pinker :green_book:
+* **Origin** - Dan Brown :green_book:
 * Looking for Alaska - John Green :cry:
 
 #### 2018 and earlier

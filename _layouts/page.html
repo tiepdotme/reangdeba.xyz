@@ -3,10 +3,14 @@ layout: default
 ---
 <div class="post">
 
-  <header class="post-header">
-    <h2>{{ page.title }}</h2>
-  </header>
-
+  <section>
+    <header class="post-header">
+      <h2>{{ page.title }}</h2>
+      {% if page.subtitle %}
+        <p>{{ page.subtitle }}</p>
+      {% endif %}
+    </header>
+  </section>
   <article class="post-content">
   {{ content }}
   </article>
@@ -36,5 +40,5 @@ layout: default
 
 <!-- mathjax -->
 {% if page.mathjax %}
-<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 {% endif %}
