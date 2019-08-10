@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Understanding k-Nearest Neighbours in Python & Numpy with Applications</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Musings of a Computer Vision and Natural Language Processing enthusiast.">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/android-chrome-144x144.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff"><!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Understanding k-Nearest Neighbours in Python &amp; Numpy with Applications | Debashish Reang</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Understanding k-Nearest Neighbours in Python &amp; Numpy with Applications" />
+<meta name="author" content="Debashish Reang" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="I’ll explain the inner-workings of the kNN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy." />
+<meta property="og:description" content="I’ll explain the inner-workings of the kNN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy." />
+<link rel="canonical" href="http://localhost:4000/misc/2019-05-25-knn/" />
+<meta property="og:url" content="http://localhost:4000/misc/2019-05-25-knn/" />
+<meta property="og:site_name" content="Debashish Reang" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2019-05-26T05:30:00+05:30" />
+<script type="application/ld+json">
+{"headline":"Understanding k-Nearest Neighbours in Python &amp; Numpy with Applications","dateModified":"2019-05-26T05:30:00+05:30","datePublished":"2019-05-26T05:30:00+05:30","url":"http://localhost:4000/misc/2019-05-25-knn/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/misc/2019-05-25-knn/"},"author":{"@type":"Person","name":"Debashish Reang"},"description":"I’ll explain the inner-workings of the kNN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy.","@type":"BlogPosting","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Debashish Reang" /><link rel="canonical" href="http://localhost:4000/misc/2019-05-25-knn/">
+
+    <!-- Custom CSS Thanks to Andrej Karpathy!-->
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <script src="https://kit.fontawesome.com/560b2c2c41.js"></script>
+
+</head>
+
+
+    <body>
+      
+    <header class="site-header-blog">
+
+  <div class="wrap">
+
+    <a class="site-title" href="/">Debashish Reang</a>
+    
+    <nav class="site-nav">
+        <a class="menu-icon">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+               viewBox="0 0 18 15" enable-background="new 0 0 18 15" xml:space="preserve">
+              <path fill="#505050" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0
+                h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#505050" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484
+                h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#505050" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0
+                c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+        </a>
+      <div class="trigger">
+        <a class="page-link" href="/">About me</a>
+        <!-- <a class="page-link" href="/circle">Circle</a> -->
+        <!-- <a class="page-link" href="/projects">Projects</a> -->
+        <a class="page-link" href="/blog">Blog</a>
+      </div>
+    </nav>
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrap">
+      <div class="post">
+
+  <header class="post-header">
+    <h1>Understanding k-Nearest Neighbours in Python & Numpy with Applications</h1>
+    <p class="meta">May 26, 2019 • Debashish Reang</p>
+  </header>
+
+  <article class="post-content">
+    <!-- Re-read the tutorial, listen to the lecture and clarify! Also the pedagogy needs improvement. -->
+
+<p>The entire tutorial is motivated by the task of image classification, and I would use the problem of image classification to explain the concepts.</p>
+
+<div class="imgcap">
+    <img src="/assets/images/knn.png" />
+    <div class="thecap">
+        <p>k-nearest neigbours with k = 6. <a href="http://scott.fortmann-roe.com/docs/BiasVariance.html">Image courtesy</a></p>
+    </div>
+</div>
+
+<p>This tutorial is aimed at introducing k-nearest neighbours (kNN) to you. It is not used in practice now at least for the task of image cassification, but it can be a powerful tool in helping to build the intuition and motivation behind other state-of-the-art models and algorithms. This tutorial involves in-depth explanation of the inner-workings of the algorithm, explain some math and intuition behind it, and implement the code from scratch. Finally, we would explore the limitations, and ways to fine tune the algorithm.</p>
+
+<p>For the full code used on this page, visit <a href="https://github.com/reangdeba/blog-code/tree/master/knn">my GitHub repo</a>.</p>
+
+<h2 id="table-of-contents">Table of contents</h2>
+<ul>
+  <li><a href="#assume">Assumptions</a></li>
+  <li><a href="#intro">Introduction</a></li>
+  <li><a href="#nb">Nearest Neighbor</a></li>
+  <li><a href="#knn">What is kNN?</a></li>
+  <li><a href="#k">More on K</a></li>
+  <li><a href="#code">Preparing to cook</a></li>
+  <li><a href="#pcs">Limitations, Improvements</a></li>
+  <li><a href="#summary">Summary</a></li>
+</ul>
+
+<p><a name="assume"></a></p>
+
+<h2 id="assumptions">Assumptions</h2>
+<p>This tutorial assumes that you are familiar with a few terms, concepts, and paradigms of machine learning. Supervised learning, dimensions, test set, training set, validation set etc. should sound familiar to you. It also assumes that you understand and are able to write code in Python. You should be able to make a few interpretations looking at plots, and code blocks. And most importantly the will to learn, and patience to read till the end is a must required pre-requisite! I hope you enjoy the tutorial.</p>
+
+<p><a name="intro"></a></p>
+
+<h2 id="introduction">Introduction</h2>
+<p>kNN is a ‘classifier’ algorithm where the learning is based on how similar a datapoint is to others. It is one of the many supervised learning algorithms used in data mining and machine Learning. It is a non-parametric algorithm which means that there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. You can intuitively think of this algorithm as ‘learning by analogy’ that is, it looks at the dataset, remembers it, and then try to draw analogy in the data features. It then tries to apply the analogy that it has drawn to unseen data (test data).</p>
+
+<p><a name="nb"></a></p>
+
+<h2 id="nearest-neighbor">Nearest Neighbor</h2>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">nearestNeighbor</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="n">images</span><span class="p">,</span> <span class="n">label</span><span class="p">):</span>
+        <span class="c"># some magic here!</span>
+        <span class="k">return</span> <span class="n">model</span>
+
+    <span class="k">def</span> <span class="nf">predict</span><span class="p">(</span><span class="n">model</span><span class="p">,</span> <span class="n">test_images</span><span class="p">):</span>
+        <span class="c"># use the model learned to predict labels on unseen images</span>
+        <span class="k">return</span> <span class="n">test_labels</span>
+</code></pre></div></div>
+
+<div class="imgcap">
+    <img src="/assets/images/knn_horse.png" />
+    <div class="thecap">
+        <p>Look at the image above. The nearest neighbor classifier predicts the horse to be a car. Pretty dumb, right?</p>
+    </div>
+</div>
+
+<p>Before we get into the details and the code of kNN, it makes sense here to understand what a ‘nearest neighbor’ is. Here’s the idea: so, you have the training data which is labeled. Then given a test image you want to predict the label of that image. An obvious way to do that is to look at the images that you have in training set and see to which image the given image is the most similar to. <strong>Now the question is: how to quantify that similarity?</strong>. There is no one correct or obvious answer to this one. There are many choices and approaches, but the one that this tutorial will use is the distance metric, i.e., how far is one image from the other. Now, the distance metric itself can have many formulations, we will look into L1 &amp; L2 distances here.</p>
+
+<p><strong>The distance metric.</strong> There are many choices for the distance metric. L1, L2 distances are the common and simple ones.</p>
+
+<script type="math/tex; mode=display">d_1 (I_1, I_2) = \sum_{p} \left| I^p_1 - I^p_2 \right|</script>
+
+<script type="math/tex; mode=display">d_2 (I_1, I_2) = \sqrt{\sum_{p} \left( I^p_1 - I^p_2 \right)^2}</script>
+
+<p>From the above image you can see that the nearest neighbour classifier wrongly classified the test image. It is strange to only use the label of the nearest image when making predictions. Instead, a reasonable approach would be to take a majority vote among the k-many neaighbours and make prediction. This intuitively means that even if the closest neighbor gives the wrong prediction, when you consider the k-closest images and take vote of their labels, chances are you would get fairly more accurate label prediction than just using one.</p>
+
+<p><a name="knn"></a></p>
+
+<h2 id="what-is-knn">What is kNN?</h2>
+<p><strong>Notations.</strong> We will use <script type="math/tex">x</script> to denote a <em>feature</em> (aka. predictor, attribute) and <script type="math/tex">y</script> to denote the <em>target</em> (aka. label, class) we are trying to predict.</p>
+
+<p>kNN falls in the <strong>supervised learning</strong> family of algorithms. It is one of the simplest algorithms in Machine Learning. Informally, this means that we are given a labelled dataset consiting of training observations <script type="math/tex">(x,y)</script> and would like to capture the relationship between <script type="math/tex">x</script> and <script type="math/tex">y</script>. More formally, our goal is to learn a function <script type="math/tex">h:X\rightarrow{Y}</script> so that given an unseen observation <script type="math/tex">x</script>, the function <script type="math/tex">h(x)</script> can confidently predict the corresponding output <script type="math/tex">y</script>.</p>
+
+<p>kNN is a type of non-parametric, instance-based learning, or lazy learning algorithm.</p>
+<ul>
+  <li><strong>Non-parametric.</strong> It makes no explicit assumptions about the functional form of <script type="math/tex">h</script>, avoiding the dangers of mismodeling the underlying distribution of the data. For example, suppose our data is highly non-Gaussian but the learning model we choose assumes a Gaussian form. In that case, our algorithm would make extremely poor predictions.</li>
+  <li><strong>Instance-based.</strong> The function is only approximated locally and all computation is deferred until classification.</li>
+</ul>
+
+<blockquote>
+  <p>kNN is instance-based, non-parametric learning algorithm.
+The kNN is similar to NN classifier except that it takes majority vote of k nearest neighbors for prediction rather than solely using the nearest neighbor.</p>
+</blockquote>
+
+<p>If you paid attention, you must have noticed that the algorithm computes <strong>during</strong> the time of classification (testing). It also requires that we remember the training data, so the amount of memory required would be substantial for large datasets. This is not desirable, since we can do with our classifier taking time during training but at the time of prediction we want it to predict fast.</p>
+
+<blockquote>
+  <p>Minimal training but expensive testing.</p>
+</blockquote>
+
+<p><a name="k"></a></p>
+
+<h2 id="more-on-k">More on K</h2>
+<p>The k-nearest neighbor classifier requires a setting for k. But what number works best? At this point, you’re probably wondering how to pick the variable k and what its effects are on your classifier. Well, like most machine learning algorithms, the k in kNN is a <strong>hyperparameter</strong> that you, as a designer, must pick in order to get the best possible fit for the data set. Intuitively, you can think of k as controlling the shape of the decision boundary between classes.</p>
+
+<div class="imgcap">
+    <img src="/assets/images/knn_large.jpeg" />
+    <div class="thecap">
+        <p>When k is small, we are restraining the region of a given prediction and forcing our classifier to be “more blind” to the overall distribution. A small value for k provides the most flexible fit, which will have low bias but high variance. Our decision boundary will be more jagged. On the other hand, a higher k averages more voters in each prediction and hence is more resilient to outliers. Intuitively, it smoothes out the boundaries. Larger values of k will have lower variance but increased bias.</p>
+    </div>
+</div>
+<p>(If you want to learn more about the bias-variance tradeoff, check out <a href="http://scott.fortmann-roe.com/docs/BiasVariance.html">Scott Roe’s Blog post</a>. You can mess around with the value of k and watch the decision boundary change!)</p>
+
+<p><strong>Okay, but how to find k?</strong>
+Luckily, there is a correct way of tuning the hyperparameter. The idea is to split our training set in two: a slightly smaller training set, and what we call a validation set. In other words: given a training set, we break it up into two parts- a new training set and a new test set (which we call <em>validation set</em>), and then run our classifier on this new test set. By the end of this procedure, we could plot a graph that shows which values of k work best. We would then stick with this value and evaluate once on the actual test set.</p>
+
+<blockquote>
+  <p>Split your training set into training set and a validation set. Use validation set to tune all hyperparameters. At the end run a single time on the test set and report performance.</p>
+</blockquote>
+
+<p><strong>A more sophisticated technique.</strong><br />
+<strong>Cross-validation.</strong> In cases where the size of your training data (and therefore also the validation data) might be small, people sometimes use a more sophisticated technique for hyperparameter tuning called cross-validation. For example, in 5-fold cross-validation, we would split the training data into 5 equal folds (parts), use 4 of them for training, and 1 for validation. We would then iterate over which fold is the validation fold, evaluate the performance, and finally average the performance across the different folds.</p>
+
+<div class="imgcap">
+    <img src="/assets/images/cvplot.png" />
+    <div class="thecap">
+        <p>Example of a 5-fold cross-validation run for the parameter k. For each value of k we train on 4 folds and evaluate on the 5th. Hence, for each k we receive 5 accuracies on the validation fold (accuracy is the y-axis, each result is a point). The trend line is drawn through the average of the results for each k and the error bars indicate the standard deviation. Note that in this particular case, the cross-validation suggests that a value of about k = 7 works best on this particular dataset (corresponding to the peak in the plot). If we used more than 5 folds, we might expect to see a smoother (i.e. less noisy) curve.</p>
+        <a href="http://cs231n.github.io/classification/">Credit: cs231n notes.</a>
+    </div>
+</div>
+
+<p><a name="code"></a></p>
+
+<h2 id="preparing-to-cook">Preparing to cook</h2>
+<div class="imgcap">
+    <img src="/assets/images/cifar10.png" />
+    <div class="thecap">
+        <a href="https://www.cs.toronto.edu/~kriz/cifar.html">Credit: CIFAR-10.</a>
+    </div>
+</div>
+
+<p>Let’s implement what we learned so far in code. The best way to understand how and why something works is to implement and play around with the thing yourself! We will write the kNN algorithm from scratch, and use it to predict labels of <a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10 dataset</a>. For that you need to download the dataset, do preprocessing of the data before you can use it as input to the algorithm. The next section describes the setup.</p>
+
+<p><a name="dataset"></a></p>
+<h3 id="setting-up">Setting up</h3>
+<p>This section has instructions for setting up things on your machine, in case you want to run the code and see. If you are only interested in the algorithm, feel free to skip to <a href="#algo">the algorithm</a>.</p>
+
+<p><strong>Installing Anaconda:</strong> If you decide to work locally, we recommend using the free <a href="https://www.anaconda.com/distribution/">Anaconda Python distribution</a>, which provides an easy way for you to handle package dependencies. Please be sure to download the Python 3 version, which currently installs Python 3.7.</p>
+
+<p><strong>Anaconda virtual environment:</strong> Once you have Anaconda installed, it makes sense to create a virtual environment for this task. If you choose not to use a virtual environment, it is up to you to make sure that all dependencies for the code are installed globally on your machine.<br /> To set up a virtual environment, run (in a terminal) <code class="highlighter-rouge">conda create -n tutorial python=3.7 anaconda</code> to create an environment called <code class="highlighter-rouge">tutorial</code>.</p>
+
+<p>Then, to activate and enter the environment, run <code class="highlighter-rouge">source activate tutorial</code>. To exit, you can simply close the window, or run <code class="highlighter-rouge">source deactivate tutorial</code>.<br />
+You may refer to <a href="https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html">this page</a> for more detailed instructions on managing virtual environments with Anaconda.</p>
+
+<p>Download the starter code from <a href="https://res.cloudinary.com/reangdeba/raw/upload/v1558873071/knn.zip">here</a>. Extract, and <code class="highlighter-rouge">cd path/to/directory</code>. Assuming that you followed the setup instruction above, type <code class="highlighter-rouge">jupyter notebook</code> in the terminal while you’re at <code class="highlighter-rouge">knn directory</code>. This should start the notebook server. Open the <code class="highlighter-rouge">knn.ipynb</code> notebook. Further instructions are written there. Feel free to play around with the code, if interested let me know of the interpretations you made and the challenges you faced.<br />Make sure you <code class="highlighter-rouge">cd path/to/datasets/directory</code> and run <code class="highlighter-rouge">./get_datasets.sh</code> before running the cells in the notebook.</p>
+
+<p><a name="algo"></a></p>
+
+<h3 id="the-algorithm">The algorithm</h3>
+<p><strong>The classifier algorithm.</strong> Like almost every other machine learning algorithm this algorithm also has two main parts namely: <code class="highlighter-rouge">train</code> and <code class="highlighter-rouge">predict</code>. The algorithm also needs <strong>distance metric</strong> for prediction, so <code class="highlighter-rouge">compute_distances</code> is also implemented. The code block below looks longish one (mainly because of the comments). But, all that the algorithm is doing is train the model, compute distances and predict labels!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">KNearestNeighbor</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="s">""" a kNN classifier with L2 distance """</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">pass</span>
+
+    <span class="k">def</span> <span class="nf">train</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
+        <span class="s">"""
+        Train the classifier. For k-nearest neighbors this is just
+        memorizing the training data.
+
+        Inputs:
+        - X: A numpy array of shape (num_train, D) containing the training data
+          consisting of num_train samples each of dimension D.
+        - y: A numpy array of shape (N,) containing the training labels, where
+             y[i] is the label for X[i].
+        """</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span>
+
+    <span class="k">def</span> <span class="nf">compute_distances</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">):</span>
+        <span class="s">"""
+        Compute the distance between each test point in X and each training point
+        in self.X_train.
+
+        Inputs:
+        - X: A numpy array of shape (num_test, D) containing test data.
+
+        Returns:
+        - dists: A numpy array of shape (num_test, num_train) where dists[i, j]
+          is the Euclidean distance between the ith test point and the jth training
+          point.
+        """</span>
+        <span class="n">num_test</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">num_train</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">dists</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">num_test</span><span class="p">,</span> <span class="n">num_train</span><span class="p">))</span>
+
+        <span class="n">a</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="o">-</span><span class="mi">2</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="o">.</span><span class="n">T</span><span class="p">)</span>
+        <span class="n">b</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">X_train</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="n">c</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">X</span><span class="o">**</span><span class="mi">2</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)[:,</span> <span class="n">np</span><span class="o">.</span><span class="n">newaxis</span><span class="p">])</span>
+
+        <span class="n">dists</span> <span class="o">=</span>  <span class="n">a</span> <span class="o">+</span> <span class="n">b</span> <span class="o">+</span> <span class="n">c</span>
+
+        <span class="k">return</span> <span class="n">dists</span>
+
+    <span class="k">def</span> <span class="nf">predict_labels</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">dists</span><span class="p">,</span> <span class="n">k</span><span class="o">=</span><span class="mi">1</span><span class="p">):</span>
+        <span class="s">"""
+        Given a matrix of distances between test points and training points,
+        predict a label for each test point.
+
+        Inputs:
+        - dists: A numpy array of shape (num_test, num_train) where dists[i, j]
+          gives the distance betwen the ith test point and the jth training point.
+
+        Returns:
+        - y: A numpy array of shape (num_test,) containing predicted labels for the
+          test data, where y[i] is the predicted label for the test point X[i].
+        """</span>
+        <span class="n">num_test</span> <span class="o">=</span> <span class="n">dists</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">y_pred</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_test</span><span class="p">)</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">num_test</span><span class="p">):</span>
+            <span class="c"># A list of length k storing the labels of the k nearest neighbors to</span>
+            <span class="c"># the ith test point.</span>
+            <span class="n">closest_y</span> <span class="o">=</span> <span class="p">[]</span>
+            
+            <span class="c"># find knns</span>
+            <span class="n">nbrs</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">argsort</span><span class="p">(</span><span class="n">dists</span><span class="p">[</span><span class="n">i</span><span class="p">,</span> <span class="p">:])[:</span><span class="n">k</span><span class="p">]</span>
+            <span class="k">for</span> <span class="n">nbr</span> <span class="ow">in</span> <span class="n">nbrs</span><span class="p">:</span>
+                <span class="n">closest_y</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">y_train</span><span class="p">[</span><span class="n">nbr</span><span class="p">])</span>
+            
+            <span class="c"># credits: geeksforgeeks</span>
+            <span class="c"># a neat implementation for choosing </span>
+            <span class="c"># the label that occurs maximum number of times </span>
+            <span class="c"># take majority vote</span>
+            <span class="k">def</span> <span class="nf">most_frequent</span><span class="p">(</span><span class="n">list_</span><span class="p">):</span> 
+                <span class="nb">dict</span> <span class="o">=</span> <span class="p">{}</span> 
+                <span class="n">count</span><span class="p">,</span> <span class="n">itm</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="s">''</span> 
+                <span class="k">for</span> <span class="n">item</span> <span class="ow">in</span> <span class="nb">reversed</span><span class="p">(</span><span class="n">list_</span><span class="p">):</span> 
+                    <span class="nb">dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">=</span> <span class="nb">dict</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="n">item</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span> <span class="o">+</span> <span class="mi">1</span>
+                    <span class="k">if</span> <span class="nb">dict</span><span class="p">[</span><span class="n">item</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">count</span> <span class="p">:</span> 
+                        <span class="n">count</span><span class="p">,</span> <span class="n">itm</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">[</span><span class="n">item</span><span class="p">],</span> <span class="n">item</span> 
+                <span class="k">return</span><span class="p">(</span><span class="n">itm</span><span class="p">)</span>
+            
+            <span class="n">y_pred</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">most_frequent</span><span class="p">(</span><span class="n">closest_y</span><span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">y_pred</span>
+</code></pre></div></div>
+
+<p><a name="pcs"></a></p>
+
+<h2 id="limitations-improvements">Limitations, Improvements</h2>
+<h3 id="pros">Pros</h3>
+<ul>
+  <li>
+    <p>Simple to understand and easy to implement as you can see.</p>
+  </li>
+  <li>
+    <p>Many algorithms are hard-coded for binary classification. But, kNN works just as fine with multiclass datasets as you saw if you played with the code yourself.</p>
+  </li>
+  <li>
+    <p>kNN works pretty okay even in settings where the data is “unusual” since it does not look into the underlying distribution of the data. It makes no explicit assumptions about the functional form of the data.</p>
+  </li>
+</ul>
+
+<h3 id="cons">Cons</h3>
+<ul>
+  <li>
+    <p>The kNN algorithm is computationally expensive during testing phase which is impractical in industry settings. <strong>Note</strong> contrast this to sophisticated Neural Networks which has lengthy training phase but only take miliseconds during prediction.</p>
+  </li>
+  <li>
+    <p>kNN can suffer from <strong>skewed class distributions</strong>. If a label say, is very frequent in the dataset then the classifier can wrongly predict test labels more often than not.</p>
+  </li>
+  <li>
+    <p>The accuracy of kNN can be severely degraded with high-dimension data because there is little difference between the nearest and farthest neighbor (<em>curse of dimensionality</em>).</p>
+  </li>
+</ul>
+
+<h3 id="improvements">Improvements</h3>
+<p>There are many ways in which the kNN algorithm can be improved.</p>
+
+<ul>
+  <li>
+    <p>A simple and effective way to <strong>remedy skewed class distributions</strong> is by implementing weighed voting. The class of each of the k neighbors is multiplied by a weight proportional to the inverse of the distance from that point to the given test point. This ensures that nearer neighbors contribute more to the final vote than the more distant ones.</p>
+  </li>
+  <li>
+    <p><strong>Changing the distance metric</strong> for different applications may help improve the accuracy of the algorithm. (i.e. Hamming distance for text classification)</p>
+  </li>
+  <li>
+    <p><strong>Rescaling your data</strong> makes the distance metric more meaningful. For instance, given 2 features height and weight, an observation such as x=[180,70] will clearly skew the distance metric in favor of height. One way of fixing this is by column-wise subtracting the mean and dividing by the standard deviation.</p>
+  </li>
+  <li>
+    <p><strong>Dimensionality reduction techniques</strong> like PCA (<a href="http://cs229.stanford">read Andrew’s note</a> on this) should be executed prior to appplying kNN and help make the distance metric more meaningful.</p>
+  </li>
+  <li>
+    <p><strong>Approximate Nearest Neighbor techniques</strong>. A good implementation by <a href="https://github.com/facebookresearch/faiss">Facebook AI Research</a>.</p>
+  </li>
+</ul>
+
+<p><a name="summary"></a></p>
+
+<h2 id="summary">Summary</h2>
+<p>In this tutorial, you learned about the k-Nearest Neighbor algorithm, how it works and how it can be applied in a classification setting. We also implemented the algorithm in Python and Numpy from scratch in such a way that we understand the inner-workings of the algorithm. We even used matplotlib to create visualizations to further understand our data. Finally, we explored the pros and cons of kNN and the many improvements that can be made to adapt it to different project settings.</p>
+
+<p>If you want to practice some more with the algorithm, try and run it on the <a href="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)">Breast Cancer Wisconsin dataset</a> which you can find in the <a href="https://archive.ics.uci.edu/ml/index.php">UC Irvine Machine Learning repository</a>. You’ll need to preprocess the data carefully this time. Do it once with scikit-learn’s algorithm and a second time with our version of the code but try adding the weighted distance implementation.</p>
+
+<h2 id="further-readings">Further readings</h2>
+<p>If are interested in understanding more about how the algoritm works, and want to learn more of ML, ML techniques etc. you can check the following resources.</p>
+
+<ul>
+  <li><a href="http://cs229.stanford.edu/">Stanford’s CS229</a>, used to be taught by Andrew Ng.</li>
+  <li><a href="http://info.usherbrooke.ca/hlarochelle/cours/ift725_A2014/description.html">Hugo Larochelle’s</a> nice, but fairly advanced class on Machine Learning. Note that the page is in French but the slides and videos are in English.</li>
+  <li><a href="http://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf">A Few Useful Things to Know about Machine Learning</a>. An interesting read.</li>
+</ul>
+
+<h2 id="references">References</h2>
+<h3 id="notes">Notes</h3>
+<ul>
+  <li>
+    <p>Stanford’s <a href="http://cs231n.github.io/classification/#knn">cs231n notes on kNN and classification</a></p>
+  </li>
+  <li>
+    <p><a href="https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/">Kevin Zakka’s guide on kNN</a></p>
+  </li>
+</ul>
+
+<p>Thank you for reading my guide, and I hope it helped you in theory &amp; practice! Feel free to drop a line in case of doubts, appreciation, suggestions etc.<br />
+<!-- Thanks also to Ankit Meel for reading the guide and suggesting improvements. --></p>
+
+  </article>
+
+  <!-- mathjax -->
+  
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+  
+  
+  
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+      /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+      var disqus_shortname = 'reangdeba'; // required: replace example with your forum shortname
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function () {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+  
+  
+</div>
+
+      </div>
+    </div>
+
+    </body>
+</html>
