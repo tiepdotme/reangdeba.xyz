@@ -22,9 +22,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inconsolata', monospace;
 } 
 
-a         { color: #ff0f00; text-decoration: none; }
+a         { color: #1DA1F2; text-decoration: none; }
 a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #ff0f00; }
+a:visited { color: #1DA1F2; }
 
 /* Utility */
 
@@ -54,10 +54,10 @@ cite {
   font-family: 'Inconsolata', monospace;
 }
 
-section {
+/* section {
   margin-bottom: 10px;
   border-bottom: 1px solid #e8e8e8;
-}
+} */
 .site-header-blog {
   /* border-top: 5px solid #333; */
   border-bottom: 1px solid #e8e8e8;
@@ -103,12 +103,12 @@ section {
 .site-nav .menu-icon { display: none; }
 
 .emoji {
-  /* color: #ff0f00; */
+  /* color: #1DA1F2; */
   font-size: 20px;
 }
 .site-nav .page-link {
   margin-left: 20px;
-  color: #ff0f00;
+  color: #1DA1F2;
   letter-spacing: -.5px;
 }
 
@@ -451,7 +451,7 @@ section {
     line-height: 1.25;
     padding: 5px 10px;
     margin: 0;
-    color: #ff0f00;
+    color: #1DA1F2;
   }
 
   .post-header h1 { font-size: 36px; }
@@ -534,5 +534,5 @@ center {
 }
 
 red {
-  color: #ff0f00;
+  color: #1DA1F2;
 }

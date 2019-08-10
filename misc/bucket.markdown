@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "'Bucket' List"
+title: "✅ Bucket list"
 comments: false
 permalink: /bucket/
 ---

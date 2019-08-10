@@ -2,13 +2,15 @@
 layout: post
 comments: true
 title: "Understanding k-Nearest Neighbours in Python & Numpy with Applications"
-excerpt: "I'll explain the inner-workings of the k-NN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy."
+excerpt: "I'll explain the inner-workings of the kNN algorithm in depth, explore some math and the intuition behind it, touch upon a few applications and implement the algorithm from scratch using Python and Numpy."
 date: 2019-05-26 00:00:00
 mathjax: true
 author: Debashish Reang
 ---
+<!-- Re-read the tutorial, listen to the lecture and clarify! Also the pedagogy needs improvement. -->
 
-<!-- complete setup and code part -->
+The entire tutorial is motivated by the task of image classification, and I would use the problem of image classification to explain the concepts.
+
 <div class="imgcap">
     <img src="/assets/images/knn.png">
     <div class="thecap">
@@ -16,7 +18,7 @@ author: Debashish Reang
     </div>
 </div>
 
-This tutorial is aimed at introducing k-nearest neighbours (k-NN) to you. It is not used in practice now, but it can be a powerful tool in helping build the intuition and perspective to learning other models and algorithms. It involves in-depth explanation of the inner-workings of the algorithm, its applications (or at least historically), some math and intuition, and most importantly the code implemented from scratch. Finally, we would explore the limitations, and ways to fine tune the algorithm.
+This tutorial is aimed at introducing k-nearest neighbours (kNN) to you. It is not used in practice now at least for the task of image cassification, but it can be a powerful tool in helping to build the intuition and motivation behind other state-of-the-art models and algorithms. This tutorial involves in-depth explanation of the inner-workings of the algorithm, explain some math and intuition behind it, and implement the code from scratch. Finally, we would explore the limitations, and ways to fine tune the algorithm.
 
 For the full code used on this page, visit [my GitHub repo](https://github.com/reangdeba/blog-code/tree/master/knn).
 
@@ -24,7 +26,7 @@ For the full code used on this page, visit [my GitHub repo](https://github.com/r
 - [Assumptions](#assume)
 - [Introduction](#intro)
 - [Nearest Neighbor](#nb)
-- [What is k-NN?](#knn)
+- [What is kNN?](#knn)
 - [More on K](#k)
 - [Preparing to cook](#code)
 - [Limitations, Improvements](#pcs)
@@ -33,14 +35,13 @@ For the full code used on this page, visit [my GitHub repo](https://github.com/r
 <a name='assume'></a>
 
 ## Assumptions
-This tutorial assumes that you are familiar with a few terms, concepts, and paradigms of machine learning. Supervised learning, dimensions, test set, training set, validation set etc. should sound familiar to you. It also assumes that you are proficient enough to understand and write code in Python. You should be able to make a few interpretations looking at plots, and code blocks. And most importantly the will to learn, and patience to read to the end is a must! I hope you enjoy the tutorial.
+This tutorial assumes that you are familiar with a few terms, concepts, and paradigms of machine learning. Supervised learning, dimensions, test set, training set, validation set etc. should sound familiar to you. It also assumes that you understand and are able to write code in Python. You should be able to make a few interpretations looking at plots, and code blocks. And most importantly the will to learn, and patience to read till the end is a must required pre-requisite! I hope you enjoy the tutorial.
 
 <a name='intro'></a>
 
 ## Introduction
-k-NN is a classifier algorithm where the learning is based on how similar a datapoint is to others. It is one of the many supervised learning algorithms used in data mining and machine Learning. It is a non-parametric algorithm which means that there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. You can intuitively think of this algorithm as 'learning by analogy' that is, it looks at the dataset, remembers it, and then try to draw analogy in the data features.
+kNN is a 'classifier' algorithm where the learning is based on how similar a datapoint is to others. It is one of the many supervised learning algorithms used in data mining and machine Learning. It is a non-parametric algorithm which means that there is no assumption for underlying data distribution. In other words, the model structure determined from the dataset. You can intuitively think of this algorithm as 'learning by analogy' that is, it looks at the dataset, remembers it, and then try to draw analogy in the data features. It then tries to apply the analogy that it has drawn to unseen data (test data).
 
-The entire tutorial is motivated by the task of image classification, and I would use the problem of image classification to explain the concepts.
 <a name='nb'></a>
 
 ## Nearest Neighbor
@@ -51,7 +52,7 @@ class nearestNeighbor(object):
         pass
 
     def train(images, label):
-        # magic here!
+        # some magic here!
         return model
 
     def predict(model, test_images):
@@ -62,11 +63,11 @@ class nearestNeighbor(object):
 <div class="imgcap">
     <img src="/assets/images/knn_horse.png">
     <div class="thecap">
-        <p>Look at the image above. The nearest neighbor classifier would predict the horse to be a car. Here's the idea, the classifier predicts the closest label that it thinks is the correct based on some metric like distance. Read on to find more.</p>
+        <p>Look at the image above. The nearest neighbor classifier predicts the horse to be a car. Pretty dumb, right?</p>
     </div>
 </div>
 
-Before we get into the details and the code of k-NN, it makes sense here to understand what a 'nearest neighbor' is. Here's the idea: so, you have the training data which is labeled. Then given a test image you want to predict the label of that image. An obvious way to do that is to look at the images that you have in training set and see to which image the given image is the most similar to. **Now the question is: how to quantify that similarity?**. There is no one correct or obvious answer to this one. There are many choices and approaches, but the one that this tutorial will use is the distance metric, i.e., how far is one image from the other. Now, the distance metric itself can have many formulations, we will look into L1 & L2 distances here.
+Before we get into the details and the code of kNN, it makes sense here to understand what a 'nearest neighbor' is. Here's the idea: so, you have the training data which is labeled. Then given a test image you want to predict the label of that image. An obvious way to do that is to look at the images that you have in training set and see to which image the given image is the most similar to. **Now the question is: how to quantify that similarity?**. There is no one correct or obvious answer to this one. There are many choices and approaches, but the one that this tutorial will use is the distance metric, i.e., how far is one image from the other. Now, the distance metric itself can have many formulations, we will look into L1 & L2 distances here.
 
 **The distance metric.** There are many choices for the distance metric. L1, L2 distances are the common and simple ones.
 
@@ -78,17 +79,17 @@ From the above image you can see that the nearest neighbour classifier wrongly c
 
 <a name='knn'></a>
 
-## What is k-NN?
+## What is kNN?
 **Notations.** We will use $$x$$ to denote a *feature* (aka. predictor, attribute) and $$y$$ to denote the *target* (aka. label, class) we are trying to predict.
 
-k-NN falls in the **supervised learning** family of algorithms. It is one of the simplest algorithms in Machine Learning. Informally, this means that we are given a labelled dataset consiting of training observations $$(x,y)$$ and would like to capture the relationship between $$x$$ and $$y$$. More formally, our goal is to learn a function $$h:X\rightarrow{Y}$$ so that given an unseen observation $$x$$, the function $$h(x)$$ can confidently predict the corresponding output $$y$$.
+kNN falls in the **supervised learning** family of algorithms. It is one of the simplest algorithms in Machine Learning. Informally, this means that we are given a labelled dataset consiting of training observations $$(x,y)$$ and would like to capture the relationship between $$x$$ and $$y$$. More formally, our goal is to learn a function $$h:X\rightarrow{Y}$$ so that given an unseen observation $$x$$, the function $$h(x)$$ can confidently predict the corresponding output $$y$$.
 
-k-NN is a type of non-parametric, instance-based learning, or lazy learning algorithm.
+kNN is a type of non-parametric, instance-based learning, or lazy learning algorithm.
 * **Non-parametric.** It makes no explicit assumptions about the functional form of $$h$$, avoiding the dangers of mismodeling the underlying distribution of the data. For example, suppose our data is highly non-Gaussian but the learning model we choose assumes a Gaussian form. In that case, our algorithm would make extremely poor predictions.
 * **Instance-based.** The function is only approximated locally and all computation is deferred until classification.
 
-> k-NN is instance-based, non-parametric learning algorithm.
-The k-NN is similar to NN classifier except that it takes majority vote of k nearest neighbors for prediction rather than solely using the nearest neighbor.
+> kNN is instance-based, non-parametric learning algorithm.
+The kNN is similar to NN classifier except that it takes majority vote of k nearest neighbors for prediction rather than solely using the nearest neighbor.
 
 If you paid attention, you must have noticed that the algorithm computes **during** the time of classification (testing). It also requires that we remember the training data, so the amount of memory required would be substantial for large datasets. This is not desirable, since we can do with our classifier taking time during training but at the time of prediction we want it to predict fast.
 
@@ -97,7 +98,7 @@ If you paid attention, you must have noticed that the algorithm computes **durin
 <a name='k'></a>
 
 ## More on K
-The k-nearest neighbor classifier requires a setting for k. But what number works best? At this point, you’re probably wondering how to pick the variable k and what its effects are on your classifier. Well, like most machine learning algorithms, the k in k-NN is a **hyperparameter** that you, as a designer, must pick in order to get the best possible fit for the data set. Intuitively, you can think of k as controlling the shape of the decision boundary between classes.
+The k-nearest neighbor classifier requires a setting for k. But what number works best? At this point, you’re probably wondering how to pick the variable k and what its effects are on your classifier. Well, like most machine learning algorithms, the k in kNN is a **hyperparameter** that you, as a designer, must pick in order to get the best possible fit for the data set. Intuitively, you can think of k as controlling the shape of the decision boundary between classes.
 
 <div class='imgcap'>
     <img src='/assets/images/knn_large.jpeg'>
@@ -134,7 +135,7 @@ Luckily, there is a correct way of tuning the hyperparameter. The idea is to spl
     </div>
 </div>
 
-Let's implement what we learned so far in code. The best way to understand how and why something works is to implement and play around with the thing yourself! We will write the k-NN algorithm from scratch, and use it to predict labels of [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). For that you need to download the dataset, do preprocessing of the data before you can use it as input to the algorithm. The next section describes the setup.
+Let's implement what we learned so far in code. The best way to understand how and why something works is to implement and play around with the thing yourself! We will write the kNN algorithm from scratch, and use it to predict labels of [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html). For that you need to download the dataset, do preprocessing of the data before you can use it as input to the algorithm. The next section describes the setup.
 
 <a name='dataset'></a>
 ### Setting up
@@ -249,19 +250,19 @@ class KNearestNeighbor(object):
 ### Pros
 * Simple to understand and easy to implement as you can see.
 
-* Many algorithms are hard-coded for binary classification. But, k-NN works just as fine with multiclass datasets as you saw if you played with the code yourself.
+* Many algorithms are hard-coded for binary classification. But, kNN works just as fine with multiclass datasets as you saw if you played with the code yourself.
 
-* k-NN works pretty okay even in settings where the data is "unusual" since it does not look into the underlying distribution of the data. It makes no explicit assumptions about the functional form of the data.
+* kNN works pretty okay even in settings where the data is "unusual" since it does not look into the underlying distribution of the data. It makes no explicit assumptions about the functional form of the data.
 
 ### Cons
-* The k-NN algorithm is computationally expensive during testing phase which is impractical in industry settings. **Note** contrast this to sophisticated Neural Networks which has lengthy training phase but only take miliseconds during prediction.
+* The kNN algorithm is computationally expensive during testing phase which is impractical in industry settings. **Note** contrast this to sophisticated Neural Networks which has lengthy training phase but only take miliseconds during prediction.
 
-* k-NN can suffer from **skewed class distributions**. If a label say, is very frequent in the dataset then the classifier can wrongly predict test labels more often than not.
+* kNN can suffer from **skewed class distributions**. If a label say, is very frequent in the dataset then the classifier can wrongly predict test labels more often than not.
 
-* The accuracy of k-NN can be severely degraded with high-dimension data because there is little difference between the nearest and farthest neighbor (*curse of dimensionality*).
+* The accuracy of kNN can be severely degraded with high-dimension data because there is little difference between the nearest and farthest neighbor (*curse of dimensionality*).
 
 ### Improvements
-There are many ways in which the k-NN algorithm can be improved.
+There are many ways in which the kNN algorithm can be improved.
 
 * A simple and effective way to **remedy skewed class distributions** is by implementing weighed voting. The class of each of the k neighbors is multiplied by a weight proportional to the inverse of the distance from that point to the given test point. This ensures that nearer neighbors contribute more to the final vote than the more distant ones.
 
@@ -269,14 +270,14 @@ There are many ways in which the k-NN algorithm can be improved.
 
 * **Rescaling your data** makes the distance metric more meaningful. For instance, given 2 features height and weight, an observation such as x=[180,70] will clearly skew the distance metric in favor of height. One way of fixing this is by column-wise subtracting the mean and dividing by the standard deviation.
 
-* **Dimensionality reduction techniques** like PCA ([read Andrew's note](http://cs229.stanford) on this) should be executed prior to appplying k-NN and help make the distance metric more meaningful.
+* **Dimensionality reduction techniques** like PCA ([read Andrew's note](http://cs229.stanford) on this) should be executed prior to appplying kNN and help make the distance metric more meaningful.
 
 * **Approximate Nearest Neighbor techniques**. A good implementation by [Facebook AI Research](https://github.com/facebookresearch/faiss).
 
 <a name='summary'></a>
 
 ## Summary
-In this tutorial, you learned about the k-Nearest Neighbor algorithm, how it works and how it can be applied in a classification setting. We also implemented the algorithm in Python and Numpy from scratch in such a way that we understand the inner-workings of the algorithm. We even used matplotlib to create visualizations to further understand our data. Finally, we explored the pros and cons of k-NN and the many improvements that can be made to adapt it to different project settings.
+In this tutorial, you learned about the k-Nearest Neighbor algorithm, how it works and how it can be applied in a classification setting. We also implemented the algorithm in Python and Numpy from scratch in such a way that we understand the inner-workings of the algorithm. We even used matplotlib to create visualizations to further understand our data. Finally, we explored the pros and cons of kNN and the many improvements that can be made to adapt it to different project settings.
 
 If you want to practice some more with the algorithm, try and run it on the [Breast Cancer Wisconsin dataset](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic)) which you can find in the [UC Irvine Machine Learning repository](https://archive.ics.uci.edu/ml/index.php). You’ll need to preprocess the data carefully this time. Do it once with scikit-learn’s algorithm and a second time with our version of the code but try adding the weighted distance implementation.
 
@@ -289,9 +290,9 @@ If are interested in understanding more about how the algoritm works, and want t
 
 ## References
 ### Notes
-* Stanford's [cs231n notes on k-NN and classification](http://cs231n.github.io/classification/#knn)
+* Stanford's [cs231n notes on kNN and classification](http://cs231n.github.io/classification/#knn)
 
-* [Kevin Zakka's guide on k-NN](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
+* [Kevin Zakka's guide on kNN](https://kevinzakka.github.io/2016/07/13/k-nearest-neighbor/)
 
 Thank you for reading my guide, and I hope it helped you in theory & practice! Feel free to drop a line in case of doubts, appreciation, suggestions etc.<br>
 <!-- Thanks also to Ankit Meel for reading the guide and suggesting improvements. -->
