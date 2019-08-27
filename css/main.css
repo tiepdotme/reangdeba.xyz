@@ -201,7 +201,7 @@ cite {
 .page-content a:link {
   text-decoration: none;
   border-bottom: 1px solid #ccc;
-  color: inherit;
+  color: #000;
 }
 
 /* Home styles */
