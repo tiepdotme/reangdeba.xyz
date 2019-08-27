@@ -1,30 +1,36 @@
 /* Base */
 /* ----------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
 /* @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap'); */
 
 * {
   margin: 0;
   padding: 0;
 }
 
+hr {
+  margin-left: 22.5%;
+  max-width: 55%;
+  text-align: center;
+}
 html, body { height: 100%; }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font-family: 'Roboto', sans-serif;
   /* font-size: 18px; */
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
   background-color: #fdfdfd;
 }
 
 /* h1, h2, h3, h4, h5, h6 { 
 font-family: 'Quicksand', sans-serif;}  */
 
-a         { color: #ac4142; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #ac4142; }
+a         { color: #2196f3; text-decoration: none;}
+a:hover   { color: #2196f3; text-decoration: none;}
+a:visited { color: #2196f3;}
 
 /* Utility */
 
@@ -50,7 +56,8 @@ cite {
   /* border-top: 5px solid #333; */
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
-  background-color: #ac4142;
+  background-color: #2196f3;
+  text-decoration: none;
   /* font-family: 'Inconsolata', monospace; */
 }
 
@@ -58,11 +65,13 @@ cite {
   margin-bottom: 10px;
   border-bottom: 1px solid #e8e8e8;
 } */
+
 .site-header-blog {
-  /* border-top: 5px solid #333; */
-  border-bottom: 1px solid #e8e8e8;
-  font-family: 'Quicksand', sans-serif;
+  border-top: 4px solid #333;
+  /* border-bottom: 1px solid #e8e8e8; */
+  font-family: 'Roboto', sans-serif;
   min-height: 56px;
+  text-decoration: none;
   /* background-color: #000; */
 }
 .note-title,
@@ -92,12 +101,14 @@ cite {
   line-height: 56px;
   position: relative;
   z-index: 1;
+  /* text-decoration: none; !important; */
 }
 
 .site-nav {
   float: right;
   line-height: 56px;
   color: #727272;
+  text-decoration: none;
 }
 
 .site-nav .menu-icon { display: none; }
@@ -107,11 +118,14 @@ cite {
   font-size: 20px;
 }
 .site-nav .page-link {
-  font-weight: bold;
+  /* font-weight: bold; */
   margin-left: 20px;
-  color: #ac4142;
+  color: #000;
   letter-spacing: -.5px;
+  text-decoration: none;
 }
+
+
 
 /* Site footer */
 
@@ -184,6 +198,11 @@ cite {
   background-color: #fff;
 }
 
+.page-content a:link {
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+  color: inherit;
+}
 
 /* Home styles */
 /* ----------------------------------------------------------*/
@@ -203,7 +222,7 @@ cite {
 .posts .post-date {
   display: block;
   font-size: 15px;
-  color: #818181;
+  color: #000;
 }
 
 
@@ -259,10 +278,10 @@ cite {
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
-  font-size: 18px;
-  opacity: .6;
+  /* font-size: 18px; */
+  /* opacity: .6; */
   letter-spacing: -1px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 30px 0;
 }
 
