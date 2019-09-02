@@ -68,11 +68,20 @@ cite {
 
 .site-header-blog {
   border-top: 4px solid #333;
+  color: #666666;
   /* border-bottom: 1px solid #e8e8e8; */
   font-family: 'Roboto', sans-serif;
   min-height: 56px;
   text-decoration: none;
-  /* background-color: #000; */
+  top: 0;
+      position: fixed;
+      right: 0;
+    left: 0;
+    z-index: 1030;
+    border: none;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+    box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+  background-color: #fff;
 }
 .note-title,
 .note-title:hover,
@@ -194,8 +203,9 @@ cite {
 /* ----------------------------------------------------------*/
 
 .page-content {
-  padding: 30px 0;
+  padding: 30px 0px;
   background-color: #fff;
+  /* margin-top: 4%; */
 }
 
 /* .page-content a:link {
@@ -209,7 +219,7 @@ cite {
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts { list-style-type: none; margin-top: 10%;}
 
 .posts li { margin-bottom: 30px; }
 
@@ -223,16 +233,17 @@ cite {
   display: block;
   font-size: 15px;
   color: #000;
+  /* margin-top: 10%; */
 }
 
 
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post-header { margin: 10px 0 10px; }
+.post-header { margin: 10px 0 10px;}
 
 .post-header h1 {
-  font-size: 36px;
+  font-size: 20px;
   letter-spacing: -1.75px;
   line-height: 1;
   font-weight: 300;
@@ -318,7 +329,8 @@ cite {
   border-radius: 50%;
   margin-left: 40%;
   margin-right: 40%;
-  display: block;
+  /* display: block; */
+   display: none;
 }
 
 /* terminal */
@@ -436,17 +448,26 @@ cite {
     float: none;
     clear: both;
   }
+   .wrap {max-width: 80%;     
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+  }
 
 }
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; max-width: 80%;}
-  hr {
-  margin-left: 10%;
-  max-width: 80%;
-  text-align: center;
-}
+  .wrap {max-width: 80%;     
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: auto;
+  }
+
 .profile-picture {
   /* position: relative;
   float: center;
@@ -454,6 +475,7 @@ cite {
   margin-left: auto;
   margin-right: auto; */
   display: none;
+  margin-top: auto;
 }
   .site-nav {
     position: fixed;
