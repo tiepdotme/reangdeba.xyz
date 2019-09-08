@@ -10,9 +10,18 @@ layout: default
 
   <article class="post-content">
     {{ content }}
+    <blockquote><p>For comments, corrections etc. please send me an <a href="mailto:reang.bade@gmail.com">email</a>, or reach out on <a
+        href="https://twitter.com/reangdeba">Twitter</a>.</p></blockquote>
   </article>
 
   <!-- mathjax -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      showMathMenu: false,
+      extensions: ["tex2jax.js"],
+      jax: ["input/TeX", "output/HTML-CSS"],
+    });
+  </script>
   {% if page.mathjax %}
     <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
   {% endif %}

@@ -3,7 +3,6 @@ layout: default
 permalink: /blog/
 title: Blog
 ---
-
 <div class="home">
   <ul class="posts">
     {% for post in site.posts %}
@@ -15,6 +14,4 @@ title: Blog
       </li>
     {% endfor %}
   </ul>
-
-  <p><i class="fas fa-rss"></i> subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
 </div>
