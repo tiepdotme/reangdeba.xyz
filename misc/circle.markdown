@@ -4,20 +4,19 @@ title: "Circle"
 subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, books, favourite blog posts, answers, other interesting reads, and videos."
 permalink: /circle/
 ---
-> Updates to this list should happen regularly from now on. Check this site's GitHub repo for last update.
-
 ### Some of my favourite books
 
 > :green_book: : Currently Reading
 
 #### 2019
 
-* **Origin** - Dan Brown :green_book:
+<!-- * **Origin** - Dan Brown :green_book: -->
+* Who Will Cry When You Die? - Robin Sharma :green_book:
 * Looking for Alaska - John Green :cry:
 
 #### 2018 and earlier
 
-* The Fault in our Stars - John Green :broken_heart::broken_heart:
+* The Fault in our Stars - John Green :broken_heart:
 > tfios would always be close to my heart for many reasons!
 
 <!-- * Sapiens - Yuval Noah Harari* -->
@@ -39,3 +38,8 @@ permalink: /circle/
 * Maze Runner: The Scorch Trials - James Dashner
 * After Ever After - Jordan Sonnenblick
 * Drums, Girls and Dangerous Pie - Jordan Sonnenblick
+
+### Movies
+
+* The Fault in Our Stars
+* The Pursuit of Happyness
