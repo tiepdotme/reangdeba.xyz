@@ -1,8 +1,10 @@
 /* Base */
 /* ----------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=EB+Garamond&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap'); */
 
 * {
   margin: 0;
@@ -10,16 +12,19 @@
 }
 
 hr {
-  margin-left: 22.5%;
-  max-width: 55%;
+  /* /* margin-left: 22.5%; */
+  /* max-width: 55%; */
   text-align: center;
+  border-top: 2px solid #cacaca;
 }
-html, body { height: 100%; }
+html, body { height: 100%;}
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font-family: 'Roboto', sans-serif;
   /* font-size: 18px; */
+  /* font-family: 'EB Garamond', serif; */
+  /* font-family: 'Lusitana', serif; */
   line-height: 1.5;
   font-weight: 300;
   background-color: #fdfdfd;
@@ -58,6 +63,7 @@ cite {
   min-height: 56px;
   background-color: #2196f3;
   text-decoration: none;
+  /* font-family: 'EB Garamond', serif; */
   /* font-family: 'Inconsolata', monospace; */
 }
 
@@ -70,7 +76,8 @@ cite {
   border-top: 4px solid #333;
   color: #666666;
   /* border-bottom: 1px solid #e8e8e8; */
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-family: 'EB Garamond', serif; */
   min-height: 56px;
   text-decoration: none;
   top: 0;
@@ -305,7 +312,8 @@ cite {
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
-  background-color: #eef;
+  /* background-color: #eef; */
+  background-color: #404040;
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -701,6 +709,7 @@ input[type='checkbox'] {
 .warning-msg {
   color: #9F6000;
   background-color: #FEEFB3;
+  border: 2px solid orange;
 }
 .error-msg {
   color: #D8000C;
@@ -708,3 +717,14 @@ input[type='checkbox'] {
 }
 
 .responsive-wrap iframe { max-width: 100%;}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.cards img {
+  max-width: 45%;
+  border-radius: 10px 10px 10px 10px;
+  margin: 10px;
+}
