@@ -60,7 +60,7 @@ I decided on the same day that we'll be traveling to Dehradun. I don't know what
     <img src="https://lh3.googleusercontent.com/eOSr-9m-zyDDDoJU_Lpht4k30P4O62-wVIgvYq6Th1D2s6doeLA47X_eaNs6POYGUf3JIurqtd1YyEoeK_dsjRaGVzaH_BLdc-GFpn8fO8yKabzeMY5t_yN4fw5WtL0NgZioBq4XCw=w2400">
 </div>
 
-I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was supercool to see them early in the morning. The coffee on the way tasted great but it was not cheap.
+I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was supercool to see them early in the morning.
 
 ### Uttarakhand
 ---
