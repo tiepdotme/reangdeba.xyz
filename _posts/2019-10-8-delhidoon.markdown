@@ -31,7 +31,7 @@ The original plan was to travel to New Delhi and stay there for a week. However,
 ### Kanpur Central to New Delhi
 ---
 
-I had never travelled by train (*read: I've never been inside a train compartment*) and had no idea how the system works. Huge shout out to Luvneesh for walking me through everything patiently. He helped me with finding cheap tickets and how things work. You're probably thinking how stupid I am but it's always better to ask someone in person, if they are around rather than reading up everything online. :grinning: He even went to the extent of instructing how to board the train and what to expect once you board the train and stuff. Thanks!
+I had never travelled by train (*read: I've never been inside a train compartment*) and had no idea how the system works. Huge shout out to Luvneesh for walking me through everything patiently. He helped me with finding cheap tickets and how things work. He even went to the extent of instructing how to board the train and what to expect once you board the train and stuff. Thanks!
 
 <div class="cards">
     <img src="https://lh3.googleusercontent.com/W3aERWZXTeRvI5IajgfDwhKSQV38Kx2EmBsjJXq6hOyxgHd67kvzqRjxwWww0gdfC6RHhCitr91gn2dTL4DWU6mTNoIbJ5w67pRC7fgXSE2GbBF5AFymA_5XtPSbn3TxG9_3ou5nbg=w2400">
