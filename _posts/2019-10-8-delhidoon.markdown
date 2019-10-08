@@ -11,7 +11,7 @@ I always wanted to see new places. I also keep a [bucket list](/bucket), and tra
 
 
 #### Where?
-The original plan was to travel to New Delhi and stay there for a week. However, a good soul from Delhi suggested that there isn't much in New Delhi to spend a week there (**which is true!**). So, I changed plans on the way and ended up going to Dehradun and Mussoorie. From my personal experience I'd say that the change of plans worked out really well. I fell in love with Mussoorie. I'll list the places I went to (at least what I remember):
+The original plan was to travel to New Delhi and stay there for a week. However, a good soul from Delhi suggested that there isn't much in New Delhi to spend a week there (**which is true!**). So, I changed plans on the way and ended up going to Dehradun and Mussoorie. From my personal experience I'd say that the change of plans worked out perfectly well. I fell in love with Mussoorie. I'll list the places I went to (at least what I remember):
 
 * Kanpur Central
 * India Gate
@@ -60,7 +60,7 @@ I decided on the same day that we'll be traveling to Dehradun. I don't know what
     <img src="https://lh3.googleusercontent.com/eOSr-9m-zyDDDoJU_Lpht4k30P4O62-wVIgvYq6Th1D2s6doeLA47X_eaNs6POYGUf3JIurqtd1YyEoeK_dsjRaGVzaH_BLdc-GFpn8fO8yKabzeMY5t_yN4fw5WtL0NgZioBq4XCw=w2400">
 </div>
 
-I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was really supercool to see them early in the morning. The coffee on the way tasted great but it was not cheap.
+I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was supercool to see them early in the morning. The coffee on the way tasted great but it was not cheap.
 
 ### Uttarakhand
 ---
@@ -71,7 +71,7 @@ Sadly, I did not walk the streets here since my friends were unwilling, and I di
     <img src="https://lh3.googleusercontent.com/mOBEQGQEM-ebavTbqgyFX6p94P3Ic_Edl5HDS7pXlyOmvvYnulgasIyKcL43KLZVHRVtDWLlS5TbqZaHPa8ZPB5hDv9iukBvrxS6Zlx2Ymwwoshcov6MyXBUQfeS6Wb_LQ-4wUqxSA=w2400">
 
 </div>
-The next day we went to Mussoorie. The weather there was really lovely. I spotted a few JCBs along the way (*memes, people*). To be honest, I probably could stay there for months without ever getting bored if it was not for the internet connection. They made me dress up in this beautiful dress. Wall climbing always seemed easy to me, but when I tried it myself that day it was a disaster. But, it was fun.
+The next day we went to Mussoorie. The weather there was lovely. I spotted a few JCBs along the way (*memes, people*). To be honest, I probably could stay there for months without ever getting bored if it was not for the internet connection. They made me dress up in this beautiful dress. Wall climbing always seemed easy to me, but when I tried it myself that day it was a disaster. But, it was fun.
 
 
 
@@ -96,6 +96,6 @@ You can call this the second leg if you will. I went back to Delhi and spent two
 </div>
 
 #### What next?
-I really don't know. But, thank you to everyone who helped me on this trip. I guess this experience will help in future trips. I plan on ticking off all the things on my [bucket list](/bucket) (*with a few exceptions :cry:*).
+I don't really know. But, thank you to everyone who helped me on this trip. I guess this experience will help in future trips. I plan on ticking off all the things on my [bucket list](/bucket) (*with a few exceptions :cry:*).
 
 ***Inspired by** [Tania Rascia's](https://www.taniarascia.com/europe/) Whirlwind Tour of Europe.*
