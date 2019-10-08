@@ -4,17 +4,14 @@ title: "Travelogue - New Delhi & Uttarakhand"
 excerpt: "Adventures in the capital and a few words on how I ended up in the lap of the mighty Himalayas."
 author: Debashish Reang
 ---
-I recently went on my first ever solo trip which included the first ever train and overnight bus journey.
-I thought a few people would be curious about the trip or at least I'll get to show a few good photos that I shot. :wink:
-The original plan was to write it along the way. But, many things came my way and I just couldn't 
-find the time to write it. The midterm recess have just begun and so I thought now might be the best time to write it
-before my memory of the trip starts to fade. I've tried to organize things chronologically, but the truth can be whatever I wish to. :stuck_out_tongue_closed_eyes:
+I recently went on my first ever solo trip, which included the first-ever train and overnight bus journey. I thought a few people would be curious about the trip, or at least I’ll get to show a few good photos that I shot. :wink:
+The original plan was to write it along the way. But, many things came my way, and I couldn’t find the time to write it. The midterm recess has just begun, and so I thought now might be the best time to write it before my memory of the trip starts to fade.  I’ve tried to organize things chronologically, but the truth can be whatever I wish to. :stuck_out_tongue_closed_eyes:
 #### Why?
-I always wanted to see new places. I also keep a [bucket list](/bucket) and traveling is a big part of it. So, I thought to myself
-why not start now. Also, my summer term had just ended and I really had nothing to do except watching movies or wondering about stupid things and getting depressed.
+I always wanted to see new places. I also keep a [bucket list](/bucket), and traveling is a big part of it. So, I thought to myself, why not start now. The summer term had just ended, and I had nothing to do except watching movies or wondering about stupid things and getting depressed.
+
 
 #### Where?
-The original plan was to travel to New Delhi and stay there for like a week. However, a good soul from Delhi suggested that there isn't much in New Delhi to spend a week there (**which is true!**). So, I changed plans on the way and ended up going to Dehradun and Mussoorie. From my personal experience I'd say that the change of plans worked out really well. I fell in love with Mussoorie. I'll list the places I went to (at least what I remember):
+The original plan was to travel to New Delhi and stay there for a week. However, a good soul from Delhi suggested that there isn't much in New Delhi to spend a week there (**which is true!**). So, I changed plans on the way and ended up going to Dehradun and Mussoorie. From my personal experience I'd say that the change of plans worked out really well. I fell in love with Mussoorie. I'll list the places I went to (at least what I remember):
 
 * Kanpur Central
 * India Gate
@@ -34,7 +31,7 @@ The original plan was to travel to New Delhi and stay there for like a week. How
 ### Kanpur Central to New Delhi
 ---
 
-I had never travelled by train (*read: never got inside a train compartment*) and had no idea how the system works. Huge shout out to Luvneesh for walking me through everything patiently. He helped me with finding cheap tickets and how things work. You're probably thinking how stupid I am but it's always better to ask someone in person, if they are around rather than reading up everything online. :grinning: He even went to the extent of instructing how to board the train and what to expect once you board the train and stuff. Thanks!
+I had never travelled by train (*read: I've never been inside a train compartment*) and had no idea how the system works. Huge shout out to Luvneesh for walking me through everything patiently. He helped me with finding cheap tickets and how things work. You're probably thinking how stupid I am but it's always better to ask someone in person, if they are around rather than reading up everything online. :grinning: He even went to the extent of instructing how to board the train and what to expect once you board the train and stuff. Thanks!
 
 <div class="cards">
     <img src="https://lh3.googleusercontent.com/W3aERWZXTeRvI5IajgfDwhKSQV38Kx2EmBsjJXq6hOyxgHd67kvzqRjxwWww0gdfC6RHhCitr91gn2dTL4DWU6mTNoIbJ5w67pRC7fgXSE2GbBF5AFymA_5XtPSbn3TxG9_3ou5nbg=w2400">
@@ -44,7 +41,7 @@ I had never travelled by train (*read: never got inside a train compartment*) an
 ### New Delhi
 ---
 
-I reached New Delhi on time. My friends Jalpana and Rakesh were kind enough to put me up for the time I was in New Delhi. They even came to pick me up from NDLS train station. The solo trip ended up being not so solo when they joined me on my way to Mussoorie. We spent the next few days together. Thanks for everything!
+I reached New Delhi on time. My friends Jalpana and Rakesh were kind enough to let me stay at their place. They even came to pick me up from NDLS train station. The solo trip ended up being not so solo when they joined me on my way to Mussoorie. We spent the next few days together. Thanks for everything!
 
 They showed me around the city and we went to India Gate and Nehru Park which is about 8 km from India Gate. India Gate always reminds me of the time I got a mark less than the full marks in one GK exam because I incorrectly wrote "Gateway of India" instead of "India Gate". In my defense, "India Gate" sounds so wrong grammatically while "Gateway of India" sounded perfect in every sense. :dancer:
 <div class="cards">
@@ -57,26 +54,24 @@ They showed me around the city and we went to India Gate and Nehru Park which is
 
 ### New Delhi to Uttarakhand
 ---
-I decided the same day that we'll be going traveling to Dehradun. I don't know what I did but I managed to convince them somehow and hence began the first ever overnight bus journey. They were surprised by my ethusiasm (*IITK folks read: **enthu**, it's not legal for you all to read otherwise*).
+I decided on the same day that we'll be traveling to Dehradun. I don't know what I did but I managed to convince them somehow and hence began the first ever overnight bus journey. They were surprised by my ethusiasm (*IITK folks read: **enthu**, it's not legal for you all to read otherwise*).
 <div class="cards">
     <img src="https://lh3.googleusercontent.com/yZFlZSPQ9-u4IiijqjdqEaVz4wHAsIOIipl2vxkFQRRKjsgCUq0bF1uFOrDpUoxhOxE-Yh3YwlfN2Pq8SBRl8iKmMvh4xFy1PZeTq4xcZpbLbzhH4AQvWr4D4ZUXKKJm7_1PY4KNAw=w2400">
     <img src="https://lh3.googleusercontent.com/eOSr-9m-zyDDDoJU_Lpht4k30P4O62-wVIgvYq6Th1D2s6doeLA47X_eaNs6POYGUf3JIurqtd1YyEoeK_dsjRaGVzaH_BLdc-GFpn8fO8yKabzeMY5t_yN4fw5WtL0NgZioBq4XCw=w2400">
 </div>
 
-I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was really supercool to see them early in the morning. The coffee on the way was tasty to be honest but they it was not cheap.
-Also, they asked us to take our shoes off in the bus, so we took them off and kept with us in the upper
-berth. Yay!
+I spotted a few rabbits in Muzaffarnagar on the way to Dehradun. It was really supercool to see them early in the morning. The coffee on the way tasted great but it was not cheap.
 
 ### Uttarakhand
 ---
-While at Uttarakhand, I went to visit a Tibetan Monastery that had great food among other things. I also met my friends here like after a very long time. They were kind enough to put me up. Trip to Pacific Mall was great too. Oh, the butter naans in Uttarakhand are way better than the ones in UP. 
-Sadly, I did not walk the streets here, since my friends were unwilling and I did not know much of the place and as far as I remember, it was sunny as well.
+While at Uttarakhand, I went to visit a Tibetan Monastery that had great food, among other things. I also met my friends here, after a very long time. They were kind enough to let me stay at their place. Trip to Pacific Mall was great too. Oh, the butter naans in Uttarakhand are way better than the ones in UP. 
+Sadly, I did not walk the streets here since my friends were unwilling, and I did not know much about the place, and as far as I remember, it was a sunny day.
 <div class="cards">
     <img src="https://lh3.googleusercontent.com/n_g1NLsJ6PeUshuYzTnYUJWruW6VWTxMcJB8R8R-3wtUejX51XOzfHnKXLJqMGAXWl4TAbvG0VUvQFLNNOjSvxro8x7P5GJPDy-XQJVIhynvNrQmDbmKkdtG7O4a2dnHwN42anzagQ=w2400">
     <img src="https://lh3.googleusercontent.com/mOBEQGQEM-ebavTbqgyFX6p94P3Ic_Edl5HDS7pXlyOmvvYnulgasIyKcL43KLZVHRVtDWLlS5TbqZaHPa8ZPB5hDv9iukBvrxS6Zlx2Ymwwoshcov6MyXBUQfeS6Wb_LQ-4wUqxSA=w2400">
 
 </div>
-The next day we went to Mussoorie. The weather there was really lovely. I spotted a few JCBs along the way (*memes, people*). To be honest, I probably could stay there for like months without ever getting bored if it was not for the internet connection. They made me dress up in this beautiful dress. Wall climbing always seemed easy to me, but when I tried it myself that day it was a disaster. But, it was fun.
+The next day we went to Mussoorie. The weather there was really lovely. I spotted a few JCBs along the way (*memes, people*). To be honest, I probably could stay there for months without ever getting bored if it was not for the internet connection. They made me dress up in this beautiful dress. Wall climbing always seemed easy to me, but when I tried it myself that day it was a disaster. But, it was fun.
 
 
 
