@@ -18,9 +18,7 @@
     {%- seo -%}
     
     {%- feed_meta -%}
-    {%- if jekyll.environment == 'production' and site.google_analytics -%}
-        {%- include google-analytics.html -%}
-    {%- endif -%}
+    {% include google-analytics.html %}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <!-- Custom CSS Thanks to Andrej Karpathy!-->
