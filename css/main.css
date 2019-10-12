@@ -22,7 +22,7 @@ html, body { height: 100%;}
 body {
   /* font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
   font-family: 'Roboto', sans-serif;
-  /* font-size: 18px; */
+  font-size: 18px;
   /* font-family: 'EB Garamond', serif; */
   /* font-family: 'Lusitana', serif; */
   line-height: 1.5;
@@ -63,6 +63,7 @@ cite {
   min-height: 56px;
   background-color: #2196f3;
   text-decoration: none;
+  font-weight: bold;
   /* font-family: 'EB Garamond', serif; */
   /* font-family: 'Inconsolata', monospace; */
 }
@@ -79,6 +80,7 @@ cite {
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: 'EB Garamond', serif; */
   min-height: 56px;
+  font-weight: bold;
   text-decoration: none;
   top: 0;
       position: fixed;
@@ -312,8 +314,8 @@ cite {
 .post pre,
 .post code {
   border: 1px solid #d5d5e9;
-  /* background-color: #eef; */
-  background-color: #404040;
+  background-color: #eef;
+  /* background-color: #404040; */
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
