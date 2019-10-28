@@ -3,6 +3,7 @@ layout: post
 title: "Travelogue - New Delhi & Uttarakhand"
 excerpt: "Adventures in the capital and a few words on how I ended up in the lap of the mighty Himalayas."
 author: Debashish Reang
+thumbnail: "/assets/images/delhidoon_thumbnail.png"
 ---
 I recently went on my first ever solo trip, which included the first-ever train and overnight bus journey. I thought a few people would be curious about the trip, or at least I’ll get to show a few good photos that I shot. :wink:
 The original plan was to write it along the way. But, many things came my way, and I couldn’t find the time to write it. The midterm recess has just begun, and so I thought now might be the best time to write it before my memory of the trip starts to fade.  I’ve tried to organize things chronologically, but the truth can be whatever I wish to. :stuck_out_tongue_closed_eyes:
