@@ -4,7 +4,7 @@ comments: false
 title: "Welcome"
 excerpt: "The whys, hows etc. about the blog."
 author: Debashish Reang
-thumbnail: "/assets/images/delhidoon_thumbnail.png"
+thumbnail: "/assets/images/welcome_thumbnail.png"
 ---
 **Hey! Thanks for stopping by.** 
 

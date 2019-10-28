@@ -267,7 +267,7 @@ cite {
 
 .posts .post-date {
   /* display: block; */
-  /* font-size: 15px; */
+  font-size: 15px;
   color: #000;
   /* margin-top: 10%; */
 }
@@ -768,7 +768,7 @@ input[type='checkbox'] {
 }
 
 .navbar-brand img{
-  vertical-align;: middle;
+  vertical-align: middle;
 }
 /* .container{
   max-width: 60%;
@@ -817,4 +817,96 @@ reddot {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+
+black {
+  color: black;
+}
+white {
+  color: white;
+}
+
+.twitter-follow-button {
+  display: inline-block !important;
+}
+
+.github-button {
+  display: inline-block !important;
+}
+
+.cv {
+  margin-bottom: 20px;
+  height: 28px;
+  padding: 3px 10px;
+}
+
+/* Resume styles */
+
+.search a{
+  /* font-size: 20px; */
+  /* letter-spacing: -1px; */
+  line-height: 1;
+  display: block;
+  color: rgba(0,0,0,.6);
+  /* margin-bottom: 10px; */
+  padding: 8px 8px 8px 8px;
+}
+.search a:hover {
+  background: rgb(236, 236, 236);
+  color: #000;
+  height: auto;
+  width: auto;
+  border-radius: 5px;
+  padding: 8px 8px 8px 8px;
+  /* padding: 20px; */
+  display: block !important;
+}
+
+/* .search a {
+  display: inline-block;
+} */
+.search a img {
+  display: inline-block;
+  /* font-size: 20px; */
+  /* letter-spacing: -1px; */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.search h3{
+  font-size: 18px;
+  /* letter-spacing: -1px; */
+  line-height: 1;
+  /* display: block; */
+  color: rgba(0,0,0,.6);
+  /* margin-bottom: 10px; */
+  padding: 8px 8px 8px 8px;
+  font-weight: 300;
+  display: inline-block;
+}
+.search h3:hover{
+  /* font-size: 20px; */
+  /* letter-spacing: -1px; */
+  line-height: 1;
+  /* display: block; */
+  display: inline-block;
+  color: black;
+  /* margin-bottom: 10px; */
+  padding: 8px 8px 8px 8px;
+}
+
+.search small {
+  color: black;
+}
+.search red {
+  color: red;
+}
+
+#search-input {
+  font-weight: bold;
+}
+.input-group-text {
+  font-weight: bold;
+  color: #ac4142;
 }
