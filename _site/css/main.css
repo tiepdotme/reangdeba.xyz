@@ -801,7 +801,7 @@ name {
   font-size: 21px;
 }
 
-@media (min-width:1025px) { .container { width: 55% !important;} }
+@media (min-width:1100px) { .container { width: 55% !important;} }
 
 .btn-ind {
   display: inline;
