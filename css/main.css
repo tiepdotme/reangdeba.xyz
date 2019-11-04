@@ -348,9 +348,10 @@ cite {
   padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 5px;
   font-size: 15px;
   overflow:auto;
+  /* color: #ac4142; */
 }
 
 .post code { padding: 1px 5px; }

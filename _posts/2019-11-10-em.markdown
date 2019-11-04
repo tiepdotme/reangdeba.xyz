@@ -1,0 +1,24 @@
+---
+layout: post
+comments: false
+title: "The EM Algorithm"
+excerpt: "An attempt to make sense of tampering of marks in public examinations."
+mathjax: true
+author: Debashish Reang
+thumbnail: "/assets/images/tbse_thumbnail.jpg"
+date: 2019-05-08 00:00:00
+---
+`code`
+
+```javascript
+const america = {
+  name: 'The United States of America',
+  yearFounded: 1776,
+
+  describe() {
+    console.log(`${this.name} was founded in ${this.yearFounded}.`)
+  },
+}
+
+america.describe()
+```

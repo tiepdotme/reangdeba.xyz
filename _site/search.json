@@ -38,6 +38,18 @@
   
     {
 
+      "title"    : "The EM Algorithm",
+      "url"      : "/2019/05/08/em/",
+      "category" : "",
+      "tags"     : "",
+      "date"     : "May 8, 2019",
+      "thumbnail": "/assets/images/tbse_thumbnail.jpg",
+      "discription" : ""
+
+    } ,
+  
+    {
+
       "title"    : "Hacking into the TBSE Class X Exam Results 2018",
       "url"      : "/2019/05/08/tbse/",
       "category" : "",
