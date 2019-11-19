@@ -18,7 +18,7 @@ This post summarizes our attempt to find tampering of marks in the final examina
 
 > If you wish, read up more on the summary of the exam and the statistics [here](http://tbse.in/new/Madhyamik2018Abstract.html).
 
-**The final results:** We scraped the final results using [Python](https://www.python.org) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) from the result site. Scraping the results was easy since there was no extra information other than roll number was required. We just had to increment the roll numbers one by one. So much for privacy! 
+**The final results:** We scraped the final results using [Python](https://www.python.org) and [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) from the result site. Scraping the results was easy since there was no extra information other than roll number was required. We just had to increment the roll numbers one by one. So much for privacy!
 
 <div class="imgcap">
 <img src="/assets/images/chart.png">
@@ -27,45 +27,68 @@ This post summarizes our attempt to find tampering of marks in the final examina
 
 This chart is funny to us. You can clearly see that the marks are not [normally distributed](https://en.wikipedia.org/wiki/Normal_distribution), as the marks of any standardised test should be. A Layman would probably straightaway tell you that there's a peak somewehere around $$250$$, and that number of students decreased towards the higher-mark spectrum. Now this is where things start to get interesting for us. Let us look at the district-wise breakdown.
 
+<div class="row">
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/dhalai.png">
 <div class="thecap">Marks distribution in Dhalai district</div>
 </div>
-
+</div>
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/south.png">
 <div class="thecap">Marks distribution in South district</div>
 </div>
+</div>
+</div>
 
+<div class="row">
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/unokoti.png">
 <div class="thecap">Marks distribution in Unokoti district</div>
 </div>
-
+</div>
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/sepahi.png">
 <div class="thecap">Marks distribution in Sepahijala district</div>
 </div>
+</div>
+</div>
 
+
+<div class="row">
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/khowai.png">
 <div class="thecap">Marks distribution in Khowai district</div>
 </div>
-
+</div>
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/west.png">
 <div class="thecap">Marks distribution in West district</div>
 </div>
+</div>
+</div>
 
+
+<div class="row">
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/gomati.png">
 <div class="thecap">Marks distribution in Gomati district</div>
 </div>
-
+</div>
+<div class="col">
 <div class="imgcap">
 <img src="/assets/images/north.png">
 <div class="thecap">Marks distribution in North district</div>
 </div>
+</div>
+</div>
+
 
 Assuming that you've looked at the charts, you see that odd peak somewhere midway between $$200$$ and $$300$$ in  every graph. If you are disappointed with it, well you are not alone. Not a single district follows the ideal distribution of marks. The graphs are nowhere close to normal distribution by any means.
 We tell you that the peak that you see is $$238$$. Yes! you read it right. $$844$$ students got $$238$$ marks. Now you may ask, "What's with $$238$$? Afterall it is a test score, so any number of students could have obtained it." That's where statistics disagree! $$238$$ coincidentally (really?) happens to be the pass mark (**read** *the mark which takes you to grade XI* ). 7 subjects, you need $$34$$ each in subject to pass. so $$ 7 * 34 = 238 $$
@@ -82,7 +105,7 @@ We tell you that the peak that you see is $$238$$. Yes! you read it right. $$844
 * Had the students been not given grace marks, say none got $$238$$ marks, then overall pass percentage would have dropped by ~$$40$$%.
 
 **Summary and concluding remarks:**
-We saw the overall statistics of the exam result, then the district-wise break down of the marks distribution and how much they deviated from the ideal distribution. A whooping $$844$$ students got $$238$$ marks, the overall pass percentage would drop by ~$$40$$% if the passing marks was say $$240$$ marks. We hope that this scenario improves over the coming years, and the concept of 'grace-marks' be scraped. 
+We saw the overall statistics of the exam result, then the district-wise break down of the marks distribution and how much they deviated from the ideal distribution. A whooping $$844$$ students got $$238$$ marks, the overall pass percentage would drop by ~$$40$$% if the passing marks was say $$240$$ marks. We hope that this scenario improves over the coming years, and the concept of 'grace-marks' be scraped.
 
 **Future work:**
 This year's results would probably be published in the first/second week of June. To interested people at IITK: Do let me know if you are working on a similar thing, if you will, we can work together over the summer. **Cheers!**
