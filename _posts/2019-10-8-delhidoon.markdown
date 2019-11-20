@@ -181,4 +181,4 @@ I don't really know. But, thank you to everyone who helped me on this trip. I gu
 
 ***Inspired by** [Tania Rascia's](https://www.taniarascia.com/europe/) Whirlwind Tour of Europe.*
 
-Thanks to Nandita Gupta for reading the drafts of this post.
+Thanks to Nandita Gupta for reading the drafts to this post.
