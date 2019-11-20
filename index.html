@@ -9,14 +9,7 @@ title: "Debashish Reang"
 <div class="row">
   <div class="col col-md-7 col-centered">
     <name>I'm Debashish</name><br>
-    <!-- <p>I am a 3rd year undergraduate student at the <a href="https://iitk.ac.in">
-        Indian Institute of Technology Kanpur</a> majoring in <b>Electrical Engineering</b>
-      with interests in Machine Learning.
-      Prior to that, I was at NPS International
-      School Guwahati, where I spent 2 wonderful years multiplying matrices,
-      titrating chemicals and what not!
-    </p> -->
-    <p class="lead">I study Computer Vision and write about Machine Learning, Travel and Politics at times.</p>
+    <p class="lead">I am interested in Computer Vision. I love to code machine learning algorithms from scratch, travel, and also make political commentary at times.</p>
     <br>
     <div><a href="https://twitter.com/reangdeba?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false"
       data-size="large" data-show-count="false">Follow @reangdeba</a>
@@ -82,11 +75,11 @@ title: "Debashish Reang"
   </div></h2>
 </section> -->
 
-
+<div class="mac">
 <h3>Latest Articles &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<a href="/blog/"><button type="button" class="btn btn-outline-warning btn-sm btn-ind">View all</button></a></h3>
 <!-- <div class="home"> -->
   <ul class="posts">
-    {% for post in site.posts limit: 6 %}
+    {% for post in site.posts limit: 3 %}
     <li>
       <!-- <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span> -->
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><img src="{{ post.thumbnail }}">&nbsp; &nbsp; &nbsp; {{ post.title }}</a>
@@ -95,15 +88,13 @@ title: "Debashish Reang"
     </li>
     {% endfor %}
   </ul>
+ </div>
 <!-- </div> -->
-<section>
+<!-- <section>
   <br>
   <h3>News</h3>
-  <!-- <p>Life as it happened...ever since I had a life on the internet!</p> -->
   <p>
     <ul>
-      <!-- <li>Check out the <a href="/python-tutorial/">Python Numpy Tutorial</a>
-        that I wrote for EE698V.</li> -->
       <li><b>[Aug 2019]</b> Working on Cognitive Behavioral Therapy Project at the
         <a href="https://sites.google.com/site/labofneuralsystems/">Lab of Neural Systems</a>
         with Prof. Nitin Gupta. :tada:
@@ -113,7 +104,7 @@ title: "Debashish Reang"
         Prof. Preeti Malakar</a> on high performance computing! :tada:</li>
     </ul>
   </p>
-</section>
+</section> -->
 
 <!-- <section>
   <br>
@@ -160,3 +151,49 @@ title: "Debashish Reang"
       computing</b> for critical weather simulation and its visualization in real-time.
   </p>
 </section> -->
+<div class="row">
+    <div class="col">
+        <h3>Families</h3>
+        <ul>
+            <p><a href="https://sites.google.com/site/labofneuralsystems/"><b><u>Lab of Neural Systems</u></b></a>: We are developing a new, web-based, and fully automated tool called <a href="https://treadwill.org">TreadWill</a> for delivering cognitive training. I work on the NLP part to improve post recommendation.</p>
+            <p><a href="http://home.iitk.ac.in/~vipular/"><b><u>Prof. Arora's Group</u></b></a>: We are working on lattice generation for physics using Machine Learning.</p>
+            <p><a href="https://www.cse.iitk.ac.in/users/pmalakar/group.html"><b><u>Parallel Computing Lab</u></b></a>: We are working on integrating weather simulation and visualization using Parallel Computing.</p>
+            <p><a href="https://qciitk.wordpress.com/"><b><u>Quiz Club IIT Kanpur</u></b></a>: I am one of the coordinators of the club. It is one of the oldest student clubs at IIT Kanpur. Its history go way back to 1978. <a href="/assets/docs/Midterm_Report_QC_IITK_2019_20.pdf">Here</a> is the midterm report of our achievements. :smile:</p>
+        </ul>
+    </div>
+</div>
+<div class="row mac">
+    <div class="col">
+        <h3>Open Source Projects</h3>
+        <br>
+        <div class="row">
+            <div class="col col-md-3 col-centered">
+                <h5>🌀 algorithms</h5>
+            </div>
+            <div class="col col-md-6">
+                Implementation of the most common ML and non-ML algorithms in pure Python and NumPy.
+            </div>
+            <div class="col col-md-3 col-centered">
+                <div class="social_count">
+                    <img alt="GitHub stars" src="https://img.shields.io/github/stars/reangdeba/algorithms?label=Source&style=social">
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col col-md-3 col-centered">
+                <h5>🥞 ml4phy</h5>
+            </div>
+            <div class="col col-md-6">
+                Lattice generation for Physics using Machine Learning.
+            </div>
+            <div class="col col-md-3 col-centered">
+                <div class="social_count">
+                    <img alt="GitHub stars" src="https://img.shields.io/github/stars/reangdeba/ml4phy?label=Source&style=social">
+                </div>
+            </div>
+        </div>
+        <hr>
+    </div>
+</div>
