@@ -351,30 +351,62 @@ cite {
 .post-content ul,
 .post-content ol { padding-left: 20px; }
 
-.post pre,
+/* Code */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px;
+}
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9;
+}
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent;
+}
+/* .post pre,
 .post code {
   border: 1px solid #d5d5e9;
-  background-color: #eef;
+  background-color: #eef; */
   /* background-color: #404040; */
-  padding: 8px 12px;
+  /* padding: 8px 12px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 5px;
   font-size: 15px;
-  overflow:auto;
+  overflow:auto; */
   /* color: #ac4142; */
-}
+/* } */
 
-.post code { padding: 1px 5px; }
+/* .post code { padding: 1px 5px; } */
 
 .post ul,
 .post ol { margin-left: 1.35em; }
 
-.post pre code {
+/* .post pre code {
   border: 0;
   padding-right: 0;
   padding-left: 0;
-}
+} */
 
 .profile-picture {
   /* position: relative; */
@@ -396,7 +428,7 @@ cite {
   border-radius: 3px;
 }
 
-.post pre.terminal code { background-color: #333; }
+/* .post pre.terminal code { background-color: #333; } */
 
 /* AK custom CSS mods */
 .imgright { float: right; margin-left: 10px; }
