@@ -1,14 +1,16 @@
 ---
 layout: post
 comments: false
-title: "Winter of Code: life update and the road ahead"
+title: "Reflections: life update and the road ahead"
 author: Debashish Reang
 thumbnail: "/assets/images/reang.jpg"
 ---
-
+<div class="info-msg">
+<b>Last updated on</b>: December 3, 2019. Opinion of a third year undergrad student.
+</div>
 > Life lesson: **Don't bite more than you can chew.**
 
-So the endterm is almost over. I just realised that I've been doing everything wrong until this morning. I should have worked on the things at hand, rather than eyeing for things that are ahead. An example of this is me working on various online coursework for certificates and fun, rather than studying for the required courses. It is too late now to improve my grades this semester, I guess I will still have to live with six-point-something. If I do not get a summer internship abroad (which is highly unlikely as it stands), I'll stay back during the summer and do 18 credits of coursework. Preferably an undergraduate project under Prof. Preeti Malakar and a Humanities and Social Sciences (HSS) Level 2 course. This would mean that I shall complete my degree by the seventh semester.
+So the endterm is <s>almost</s> over. I just realised that I've been doing everything wrong until this morning. I should have worked on the things at hand, rather than eyeing for things that are ahead. An example of this is me working on various online coursework for certificates and fun, rather than studying for the required courses. It is too late now to improve my grades this semester, I guess I will still have to live with six-point-something. If I do not get a summer internship abroad (which is highly unlikely as it stands), I'll stay back during the summer and do 18 credits of coursework. Preferably an undergraduate project under Prof. Preeti Malakar and a Humanities and Social Sciences (HSS) Level 2 course. This would mean that I shall complete my degree by the seventh semester.
 
 I plan on working as a research assistant in my 8th semester with a Professor and publish our findings at a major conference. I do not know what the long term implications of this would be, but I just realised if I don't graduate with good grades no university will admit me as a grad student. I currently don't have good grades as such. But, I still have three (or may be two) terms of college left and can certainly still make a mark, if I keep my distractions low. So, I will try as much as I can to improve my grades. In the best case I can graduate with a CPI of around 7.9 by the end of my degree. I'll think about converting to Dual Degree if things don't stay as planned. But, more on that later.
 
@@ -19,8 +21,3 @@ As a first step to focussing on things at hand I am going to complete the three 
 * [ ] Work on the project that I started under Prof. Vipul Arora -- Since this project is open ended, I plan on getting as much done as possible by the end of December. I'll maintain more communication with him, so that he cannot say I did not maintain contact like he said previously.
 
 I have six courses next semester. And I plan on doing them very well instead of working on too many things. I will only do coursework next semester, instead of undertaking any projects. I think the professors will allow me to come and work for them if I do a good job this December.
-
-As a challenge to myself, I'll write an update to this post on 31st December. The update message shall have the work that I did in December, and the report(s) if any.
-<div class="warning-msg">
-The update will be posted here on December 31.
-</div>

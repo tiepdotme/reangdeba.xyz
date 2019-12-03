@@ -24,10 +24,3 @@ it always have been this way to be honest, it's just that we did not care enough
 I've often heard people going around saying that you should be more involved in other things to feel better. well sorry I only have 24 hours? What do you expect me to do? play for 10 hours straight, or study for the whole day or what else? The advise sounds so generic and baseless. I mean it's just dodging the thing until you start feeling better. well you might start to feel better but what if it comes back, because it would if you don't deal with it head on. you cannot keep on working the whole time. I don't have a single "fits all" solution to any of the things i talked about above, but yes you cannot keep yourself involved the whole time. it's just not possible! Too much ranting, eh? I just wish that you are happy, I mean truly happy about the current state of things because you know you've given it your all. and that you love yourself for who you are. please do not harm yourself that does not do anyone any good. accept it when you screw up and try to mend your ways to correct stuff. talk often to your loved ones and your parents. tell them when something is right or when something goes terribly wrong. you should pause for a second and also be grateful for where you've reached. i'm sure you will be happier and more caring about you and others around you.
 
 and yes i'll smile and wave at you if i happen to come across you.
-
-Addendum: you should watch Hasan's take on this issue below.
-> Video credits: "The Patriot Act" on YouTube.
-
-<div class="videoWrapper">
-<iframe width="500" height="324" src="https://www.youtube.com/embed/1tEuU_1ZGSY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
