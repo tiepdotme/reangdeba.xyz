@@ -10,7 +10,7 @@ layout: default
 {% endcapture %}
 {% unless words contains "-" %}
   {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
-{% endunless %}</reddot></p>
+{% endunless %}</reddot> • {% if page.last_updated %}<b>Last updated on</b>: {{ page.last_updated | date: "%B %-d, %Y" }}{% endif %}</p>
 
   </header>
 
