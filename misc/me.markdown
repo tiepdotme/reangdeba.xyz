@@ -27,10 +27,12 @@ Here are some other things of interest, in no particular:
 <br>
 \* I love bicycle rides. It's the best thing in the world to do. We can go for a ride if you happen to be around, and I happen to be free.
 <br>
-And I love dancing to 'Sadi Gali' and 'London Thumakda'.
+I love dancing to 'Sadi Gali' and 'London Thumakda'. And I'll eat anything that contains the word chocolate in it.
 
 ^ I mention this because:
 <br>
 a) I've been asked a few times if I was from China or Nepal or Bhutan. I'm glad that you're curious. Happy to let you know.
 <br>
 b) This helps me appreciate the diverse world we live in. I'm grateful. :smile:
+
+Here is my [bucket](/bucket/) list.

@@ -347,7 +347,8 @@ cite {
   /* letter-spacing: -1px; */
   font-style: italic;
   margin: 30px 0;
-  line-height: 1.2;
+  line-height: 1.5;
+  height: auto;
 }
 
 
@@ -442,8 +443,9 @@ pre code {
 }
 .imgcap {
   color: #555;
-  /* font-size: 14px; */
+  font-size: 16px;
   text-align: center;
+  font-style: italic;
 }
 
 .svgdiv {
