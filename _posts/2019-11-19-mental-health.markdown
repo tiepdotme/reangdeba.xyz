@@ -4,6 +4,7 @@ comments: false
 title: "On Mental health and growing up"
 author: Debashish Reang
 thumbnail: "/assets/images/mental_health.jpg"
+comments: true
 ---
 
 > I wrote this as a [Facebook post](https://www.facebook.com/reangdeba/posts/1868818929930257) recently. Everyone's been going through a lot, and not many people are talking about it. I have also gone through a lot. I hope you can relate to what most of us are going through and empathise with us.

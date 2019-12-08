@@ -1,6 +1,6 @@
 ---
 layout: post
-comments: false
+comments: true
 title: "Hacking into the TBSE Class X Exam Results 2018"
 mathjax: true
 author: Debashish Reang

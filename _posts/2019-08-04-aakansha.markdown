@@ -1,9 +1,7 @@
 ---
 layout: post
-comments: false
+comments: true
 title: "Aakansha: The story of a dreamer"
-excerpt: "This post sums up a recent sitdown with one of the most energetic and ambitious person I met till date."
-date: 2019-08-04 00:00:00
 author: Debashish Reang
 thumbnail: "/assets/images/aakansha_thumbnail.png"
 ---
@@ -19,7 +17,7 @@ thumbnail: "/assets/images/aakansha_thumbnail.png"
 I was up before the others, before the birds, before the sun. I drank a cup of coffee, wolfed down that last piece of bread, set up my laptop, and sat down to write. I hope I can do justice to the story I am about to write. **This is the story of Aakansha.**
 
 I consider myself fortunate enough for being fortunate enough to hear a story as inspiring as hers. It is not everyday that you hear about a girl winning a 5km marathon out of nowhere, considering the fact that she never ran a marathon before that. If you would allow me - forget marathon, she had not run in any race apart from her day to day races with the bulls and cows on the rural fields.
- 
+
 Aakansha lives a few miles away from the buzzing city of Kanpur in a small village named Ishwariganj with her mother, her uncle’s house overlooking hers. In a tragic turn of events, she lost her father to alcoholism 3 years ago. Like most households in the area, her family relies on supplies from the agri field for their livelihood.
 
 Unnat Bharat Abhiyan (UBA) and Techkriti, IIT Kanpur jointly organised a 5km marathon on 13th October 2018, which was a huge success. The marathon was open to all - schools, boys and girls up to the age of 20 were invited to register for the marathon for free. Among hundreds of other enthusiastic runners, Aakansha showed up in her day to day chappals, full of enthusiasm and the will to win.
