@@ -992,3 +992,9 @@ white {
 .no_border {
     border: none;
 }
+.center {
+    text-align: center;
+}
+.offset {
+    margin-left: 2em;
+}
