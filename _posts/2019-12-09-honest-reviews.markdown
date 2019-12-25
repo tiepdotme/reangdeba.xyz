@@ -2,7 +2,7 @@
 layout: post
 title: "A survivor's guide to Electrical Engineering at IIT Kanpur...so far!"
 author: Debashish Reang
-thumbnail: "/assets/images/2019.jpg"
+thumbnail: "/assets/images/ee.jpg"
 #last_updated: "2019-12-09"
 comments: true
 ---
