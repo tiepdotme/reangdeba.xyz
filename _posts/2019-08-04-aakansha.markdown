@@ -5,7 +5,6 @@ title: "Aakansha: The story of a dreamer"
 author: Debashish Reang
 thumbnail: "/assets/images/aakansha_thumbnail.png"
 ---
-> I wrote this mini-article as a part of an assignment assigned by Ms. Rita Singh during the summer. Truth be told, it is really hard to write about someone else. But, I did try nonetheless. This assignment involved interviewing the person, and narrating events that I wasn't a part of in any way. I hope I did justice to the work assigned. The article may contain grammatical, and other unintended errors.
 
 <div class="imgcap">
     <img src="/assets/images/aakansha.jpg" alt="Aakansha and her mother.">
