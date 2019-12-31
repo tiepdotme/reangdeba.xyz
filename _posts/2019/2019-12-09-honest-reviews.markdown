@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "A survivor's guide to Electrical Engineering at IIT Kanpur...so far!"
+title: "Honest Course Reviews"
 author: Debashish Reang
 thumbnail: "/assets/images/ee.jpg"
-#last_updated: "2019-12-09"
-comments: true
+last_updated: "2019-01-01"
+#comments: true
 ---
 
 Sup, guys?
@@ -20,6 +20,7 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 **If you are a non-IITK student.** The course's instructor(s) can change from semester to semester. Also, not all the courses are have the same grading policy. Yeah, you guessed it -- grading policy is also very much professor dependent. You can read the gory details [here](https://iitk.ac.in/doaa/data/Course-Template-B.Tech-BS.pdf) and [here](https://www.iitk.ac.in/doaa/data/UG-Manual.pdf).
 
 ### Semester 1
+---
 **TA101A: ENGINEERING GRAPHICS** -- After the JoSAA counselling was over, I was offered "B.Tech in Electrical Engineering" at IIT Kanpur. I came here feeling happy about the prospect of learning new state-of-the-art methods and findings. I also thought back then that you got to learn what the name of the degree said i.e., I had this naive notion that I was going to learn about electronics and inner workings of gadgets in college. Little did I know engineering drawing was going to be one of the courses that I was expected to do. In other words, the course is an Institute Core (IC). You have no choice but to do it. I personally don't understand why we are made to do the course. It makes sense to teach it to students of the department where it is used later on -- like ME. But, teaching it to BS Physics students makes no sense. I guess it is just kept in the curriculum because it was taught in the beginning and they just decided, "hey! since the previous generation guys had to do it, why not keep it?" But whatever, the course felt like a waste of my academic fees. I got so frustrated at one point of time I contemplated dropping out of college. :grin: I got a B in the course. I don't even remember what was in the course except for the night I did not sleep before the end semester exam because I thought I'll fail the course. The only recollection of this course -- the kind and humble professor, and the memories of carrying around that drafter in that blue pouch like a retard. It's an easy course to get an A though if you completed the drawings on time and remember how to reproduce them in exams.
 
 **PHY101A: PHYSICS LABORATORY** -- This course was one of the best I'd say in terms of getting to try new stuff hands on. The lab experiments were designed and meaningful. Oh, that cycle wheel looks cool while rotating. The TAs can be a pain sometimes. In particular, I remember an instance where one wanted me to calculate results up to 5 decimal places for some strange reason. It is okay if you ask someone to do what they are required to do, but don't you think you could tell them that in the beginning of the experiment? Asking someone to repeat the work only because someone wrote 0.01, instead of 0.01232 makes no sense. Yeah, you must be like no, there are some things in this universe which requires precision. Well, no the experiment did not require that level of precision. Why? The guys on others days were let go even with one decimal place accuracy. Get some life man, whoever that TA was. :smile: Oh, I got a B in the course. I scored 17/20 in the end term. A grade was given at 18/20.
@@ -35,7 +36,8 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 **PE101A: MORNING EXERCISE** -- No comments on this one. My only suggestion would be that you should make it on time, even if it means staying up all night for attending the class. I got an S.
 
 ### Semester 2
-**PHY103A: PHYSICS-II** Again, not for the weak-hearted. It definitely wasn't for me. I did not have much of relationship with Physics even in school except that I studied what was important for tests. I did not take up BS in IISc Bangalore for this reason. But, more on that later. I got a D. The text book is nice. I got whatever marks I got in this course from reading the book. The instructors were particularly awesome. For the second time at IITK I appreciated the professors ways of teaching.
+---
+**PHY103A: PHYSICS-II** -- Again, not for the weak-hearted. It definitely wasn't for me. I did not have much of relationship with Physics even in school except that I studied what was important for tests. I did not take up BS in IISc Bangalore for this reason. But, more on that later. I got a D. The text book is nice. I got whatever marks I got in this course from reading the book. The instructors were particularly awesome. For the second time at IITK I appreciated the professors ways of teaching.
 
 **CHM102A: GENERAL CHEMISTRY** -- The course has very basic stuff, the ones that you mostly know from your JEE prep. I got a B. Yeah, I know right I screwed up. If there is one thing that I learnt at IITK, it is to not screw up the endterm examinations. You can have a really rough ride if you do so. The professors were cool.
 
@@ -48,6 +50,7 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 **MTH102A: MATHEMATICS-II** -- **Copy-paste MTH101A reviews here.**
 
 ### Semester 3
+---
 **EE200A: SIGNALS, SYSTEMS & NETWORKS** -- One of the best taught courses on campus. I got a C. Lecture notes won't be provided and hence you ideally gotta attend all the lectures. MIT OCW would be a life saver. OCW will have your back for most of the courses. Oppenheim is amazing, you will probably spend hours watching his lectures on OCW. The lectures sort of feel like vintage movie clips.
 
 **ESO213A: FUNDAMENTALS OF EARTH SCIENCES** -- I took this since I was 'ineligible' for ESO207A. I got an A. The curriculum was flexible enough me to opt for on 'option'. The professor taught the course well. He seemed enthusiastic about the course so much so that at one point he brought out rocks, limestones and magnifying glasses for the class to see. You should take the course if you don't have anything in particular against ES department.
@@ -63,6 +66,7 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 **TA201A: MANUFACTURING PROCESSES I** -- **Copy paste TA202A reviews here**. No difference at all.
 
 ### Semester 4
+---
 **BSE322A: BIOINFORMATICS & COMPUTATIONAL BIOLOGY** -- The professor is one of the best professors at IITK. The course was an easy one. I got an A. I think the professor won best teaching award this year. He emphasised well on the core material and explained until the students understood. If you have enough credits to take the course I's highly recommend the course. Nothing more to say here.
 
 **EE250A: CONTROL SYSTEMS ANALYSIS** -- I got a B. The course was an easy one. The professor used an iPad for writing lecture notes which was pretty impressive. He did put in effort from his end. The course had marks for 'EI' or as he likes to call it 'Extraordinary Insights'. But, I guess at the end the marks for 'EI' were given away based on attendance. You'll learn how to write in a small space after taking this course. 'Extra sheets people' are going to have a tough time.
@@ -76,11 +80,13 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 **TA202A: MANUFACTURING PROCESSES II** -- I don't understand why this is in the curriculum. I guess they just put it because the old machines were lying there unused. I got a B.
 
 ### Summer 2019
+---
 **MSO202A: COMPLEX VARIABLES** -- I got a C this time. I wasn't sick or anything. This is when I realised reasoning based math isn't for me. I tried my best to wrap my head around the concepts but it just seemed impossible. I'm happy that all the required math courses for graduation are met by this point.
 
 **PSY499A: PSYCHOLOGY OF LANGUAGE** -- I got an A. This is one of the best course I've taken on campus in terms of the content and the rigour of discussions. The professor went through each and every viewpoint and let the class have a meaningful discussion while not getting too much deviated from the main points. This is when I realised, I could write okay sort of thing. The professor told me that I had scored the highest in a written test and that it was one of the best writings in terms of the flow of thoughts and the arguments presented. I might probably end up doing an advanced version of the course.
 
 ### Semester 5
+---
 **EE320A: PRINCIPLES OF COMMUNICATION** -- Have you met a robot in real life? I did. I remember the first class -- walking into the class at 8 AM in the morning I was excited to learn about stuff, you know since I had done so badly in life so far. The professor just came in and started writing on the board. No introduction, no saying why we must be studying the course, nothing! Just bare mathematical equations. If you want to learn how to speak without opening your mouth you should take this course. Well, for EE guys it is compulsory to take the course. The course also used a thing called 'Acadly', god knows why! The quizzes were held on the app and you got 50% marks if you only ticked one option, regardless of whether you had any knowledge of the course. All you gotta do is tick one option before submitting. Also, if you use a low-end phone or your phone is unable to connect to the Wi-Fi then god save you. I remember this one time asking the instructor about the Wi-Fi connection problem, he just stared at the screen and gave it back! Stone cold, nothing. Robot in real life. I got a C. I did not even think I'll pass the course. But, whatever I'll just graduate by the 7th semester and get out of this place. The institute should retire such professors. I do understand that they might be excellent at research, so let them do research. I at least expect a decent teacher to teach me stuff I don't know. Is that too much to ask? Is this how you're gonna jump the rankings and be in the Top 10? Wow! Much, wow.
 
 **EE330A: POWER SYSTEMS** -- Pretty boring course, but since you are in EE you gotta do the course. I'd say it's largely my fault that I got a C in the course. I was not serious enough and was working on many things simultaneously. The course is an easy one. Not much material, you just gotta solve the problem sets. I am impressed by the instructor's efforts. He tried to really get his point across to the students and I respect that. The course is inherently boring, nothing much he could do about and nothing much I could do either. Hence, the phenomenal grade.
@@ -99,4 +105,4 @@ This article is an attempt to give honest reviews on courses that I've taken at 
 
 Good luck! Let me know your thoughts in the comments. Also, can we still stay friends now that you know everything? :smile:
 
-Inspired by [Chip's](https://huyenchip.com/2018/03/30/guide-to-Artificial-Intelligence-Stanford.html).
+*Inspired by [Chip's](https://huyenchip.com/2018/03/30/guide-to-Artificial-Intelligence-Stanford.html).*
