@@ -13,7 +13,7 @@ permalink: /bucket/
     <li>:x: Meet Prof. David J. Malan</li>
     <li>:x: Go camping</li>
     <li>:x: Visit Dubai</li>
-    <li>:x: Start a non-profit organization</li>
+    <li>:x: Start a non-profit organisation</li>
     <li>:x: Read 100 books in 2020</li>
     <li>:x: Write a book</li>
     <li>:x: Sing in front of an audience</li>
@@ -28,7 +28,7 @@ permalink: /bucket/
     <li>:x: <s>Meet Stephen Hawking.</s> He passed away in 2018. :cry:</li>
     <li>:heavy_check_mark: <s>Meet HC Verma</s></li>
     <li>:x: Learn to play the Guitar</li>
-    <li>:x: Visit Saint Petersburgh</li>
+    <li>:x: Visit Saint Petersburg</li>
     <li>:x: Visit Tehran</li>
     <li>:x: Visit Bhutan</li>
     <li>:x: Vacation in Maldives</li>
