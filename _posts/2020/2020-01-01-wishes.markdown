@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Into 2020"
+author: Debashish Reang
+thumbnail: "/assets/images/reang.jpg"
+---
+**Here are the 6 things that I wish to complete in 2020:**
+1. Write **8** (**4** technical + **4** Non-technical-Long) articles
+2. Start **2** Well Documented Open-Source Projects
+3. Read **15** Books
+4. Replicate **1** Machine Learning Paper
+5. Publish >= **1** papers
+6. **Complete** undergrad degree!
