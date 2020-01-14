@@ -3,6 +3,7 @@ layout: post
 title: "Into 2020"
 author: Debashish Reang
 thumbnail: "/assets/images/reang.jpg"
+draft: true
 ---
 **Here are the 6 things that I wish to complete in 2020:**
 1. Write **8** (**4** technical + **4** Non-technical-Long) articles
