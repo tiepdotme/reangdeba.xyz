@@ -20,6 +20,7 @@ html, body {
 body {
     font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: #fff;
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, name, .navbar-brand, .nav-link, .roboto {
@@ -86,7 +87,7 @@ a:hover {
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 55%;
+  max-width: 70%;
   padding: 0 30px;
   margin: 0 auto;
   zoom: 1;
@@ -574,7 +575,7 @@ pre code {
     float: none;
     clear: both;
   }
-   .wrap {max-width: 55%;
+   .wrap {max-width: 70%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -591,7 +592,7 @@ pre code {
 }
 
 @media screen and (max-width: 600px) {
-  .wrap {max-width: 55%;
+  .wrap {max-width: 70%;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -881,13 +882,13 @@ name {
 }
 
 /* .container {
-  max-width: 55%;;
+  max-width: 70%;;
 } */
 .lead {
   font-size: 21px;
 }
 
-@media (min-width:1100px) { .container { width: 55% !important;} }
+@media (min-width:1100px) { .container { width: 70% !important;} }
 
 .btn-ind {
   display: inline;
@@ -1105,7 +1106,7 @@ ul.listing > h4 {
 }
 
 .content .listing li {
-  /* font-size: 15px; */
+  font-size: 18px;
   list-style: none;
   padding: 5px 0px;
   margin: 0 0 10px 0;
