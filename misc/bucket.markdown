@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "✅ My Bucket list"
+title: "My Bucket list"
 comments: false
 permalink: /bucket/
 ---
@@ -42,7 +42,6 @@ permalink: /bucket/
     <li>:x: Go on a hike</li>
     <li>:x: Walk the Great Wall of China</li>
     <li>:x: Visit the pyramids of Giza</li>
-    <li>:x: Go on a overseas trip with my whole family</li>
     <li>:x: Take a hot air balloon ride</li>
     <li>:x: Go scuba diving</li>
     <li>:x: Fly an airplane</li>
