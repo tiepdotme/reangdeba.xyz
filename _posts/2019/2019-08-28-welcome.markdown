@@ -1,24 +1,24 @@
 ---
 layout: post
-comments: false
+comments: true
 title: "Welcome"
 excerpt: "The whys, hows etc. about the blog."
 author: Debashish Reang
 thumbnail: "/assets/images/welcome_thumbnail.png"
 ---
-**Hey! Thanks for stopping by.** 
+**Hey! Thanks for stopping by.**
 
-Writing a welcome post after two posts is rather hilarious and non-sensical. I want to answer three questions that you might have at this point. 
+Writing a welcome post after two posts is rather hilarious and non-sensical. I want to answer three questions that you might have at this point.
 
 * What's this blog about?
 * Why should you read the posts at all?
 * **Most importantly:** Why did I start writing in the first place?
 
-I am not sure if my words would totally convince you. But, I shall make an attempt nonetheless. I envision this blog to be mostly about machine learning: neural nets, relevant calculus, the algorithms that I came across etc. with a few comments on topics of general interest viz. how to do well in something, why something is broken if it's broken etc. 
+I am not sure if my words would totally convince you. But, I shall make an attempt nonetheless. I envision this blog to be mostly about machine learning: neural nets, relevant calculus, the algorithms that I came across etc. with a few comments on topics of general interest viz. how to do well in something, why something is broken if it's broken etc.
 
 I hope you get something out of my writings. Though most of the writing is meant for myself (sort of an online journal, *if you will*) if you get something out of it I would be really happy. As a learner I often find myself spending hours trying to understand a new concept or solve a really interesting problem, which seemed trivial to the Professor (so that he/she skips the concept saying it can be easily shown, proved etc.). These writings are sort of my version of the same concept or my proposed solution(s) to the problem. You can think of them as being the sort of explanation that I'd give if I were to teach the same to someone else. I had/shall tried/try my best to keep the explanations simple and accurate. However, the probability of typographical errors or conceptual misunderstaning is high and hence <red><b>you have been warned</b></red>! Please point out errors if you find any.
 
-I am also working on a series titled **"How I fail"** that will describe other people's hard times, and how they overcame it. More details coming soon. So, **stay tuned!**. 
+I am also working on a series titled **"How I fail"** that will describe other people's hard times, and how they overcame it. More details coming soon. So, **stay tuned!**.
 
 **S01E01** coming soon...
 

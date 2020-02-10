@@ -4,7 +4,7 @@ title: "Honest Course Reviews"
 author: Debashish Reang
 thumbnail: "/assets/images/ee.jpg"
 last_updated: "2019-01-01"
-#comments: true
+comments: true
 ---
 
 Sup, guys?
