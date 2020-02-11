@@ -2,6 +2,7 @@
 layout: post
 title: "Honest Reviews Part-II"
 author: Debashish Reang
+thumbnail: "/assets/images/puzzlehunt.jpeg"
 #draft: true
 comments: true
 ---
