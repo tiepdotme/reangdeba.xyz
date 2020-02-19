@@ -21,17 +21,6 @@ layout: default
       <p>If you are the GitHub type, you can <a href="https://github.com/reangdeba/reangdeba.github.io/edit/master/{{ page.path }}">improve this page on GitHub</a>.</p></blockquote>
   </article>
 
-  <!-- mathjax -->
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      extensions: ["tex2jax.js"],
-      jax: ["input/TeX", "output/SVG"],
-    });
-  </script>
-  {% if page.mathjax %}
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
-  {% endif %}
-
   {% if page.comments %}
   <div class="alert bg-light no_border">
     <div id="disqus_thread"></div>

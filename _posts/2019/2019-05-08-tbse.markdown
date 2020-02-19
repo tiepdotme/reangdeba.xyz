@@ -2,7 +2,6 @@
 layout: post
 comments: true
 title: "Hacking into the TBSE Class X Exam Results 2018"
-mathjax: true
 author: Debashish Reang
 thumbnail: "/assets/images/tbse_thumbnail.jpg"
 ---
@@ -12,7 +11,7 @@ This post summarizes our attempt to find tampering of marks in the final examina
 
 **Before you read on:** Reang appeared in the Madhyamik Examination in the year 2015, and hence it is possible that personal biases crept in while writing the post. So, feel free to point them out if you notice any. There is also a high probability of us rambling, you have been **warned!**.
 
-**The Examination:** Madhyamik exam is taken as the final exam during your Class X. In 2018, the exam was held from 6th March to 20th March, with the results published on 12th June. A total of $$45846$$ students ($$22225$$ Male & $$23621$$ Female) took the exam, which is a 7.15% decrease from that in 2017. **So far so good...**
+**The Examination:** Madhyamik exam is taken as the final exam during your Class X. In 2018, the exam was held from 6th March to 20th March, with the results published on 12th June. A total of $45846$ students ($22225$ Male & $23621$ Female) took the exam, which is a 7.15% decrease from that in 2017. **So far so good...**
 
 > If you wish, read up more on the summary of the exam and the statistics [here](http://tbse.in/new/Madhyamik2018Abstract.html).
 
@@ -23,7 +22,7 @@ This post summarizes our attempt to find tampering of marks in the final examina
 <div class="thecap">Overall - no. of students vs marks: take note of the overshoot</div>
 </div>
 
-This chart is funny to us. You can clearly see that the marks are not [normally distributed](https://en.wikipedia.org/wiki/Normal_distribution), as the marks of any standardised test should be. A Layman would probably straightaway tell you that there's a peak somewehere around $$250$$, and that number of students decreased towards the higher-mark spectrum. Now this is where things start to get interesting for us. Let us look at the district-wise breakdown.
+This chart is funny to us. You can clearly see that the marks are not [normally distributed](https://en.wikipedia.org/wiki/Normal_distribution), as the marks of any standardised test should be. A Layman would probably straightaway tell you that there's a peak somewehere around $250$, and that number of students decreased towards the higher-mark spectrum. Now this is where things start to get interesting for us. Let us look at the district-wise breakdown.
 
 <div class="row">
 <div class="col">
@@ -88,8 +87,8 @@ This chart is funny to us. You can clearly see that the marks are not [normally 
 </div>
 
 
-Assuming that you've looked at the charts, you see that odd peak somewhere midway between $$200$$ and $$300$$ in  every graph. If you are disappointed with it, well you are not alone. Not a single district follows the ideal distribution of marks. The graphs are nowhere close to normal distribution by any means.
-We tell you that the peak that you see is $$238$$. Yes! you read it right. $$844$$ students got $$238$$ marks. Now you may ask, "What's with $$238$$? Afterall it is a test score, so any number of students could have obtained it." That's where statistics disagree! $$238$$ coincidentally (really?) happens to be the pass mark (**read** *the mark which takes you to grade XI* ). 7 subjects, you need $$34$$ each in subject to pass. so $$ 7 * 34 = 238 $$
+Assuming that you've looked at the charts, you see that odd peak somewhere midway between $200$ and $300$ in  every graph. If you are disappointed with it, well you are not alone. Not a single district follows the ideal distribution of marks. The graphs are nowhere close to normal distribution by any means.
+We tell you that the peak that you see is $238$. Yes! you read it right. $844$ students got $238$ marks. Now you may ask, "What's with $238$? Afterall it is a test score, so any number of students could have obtained it." That's where statistics disagree! $238$ coincidentally (really?) happens to be the pass mark (**read** *the mark which takes you to grade XI* ). 7 subjects, you need $34$ each in subject to pass. so $ 7 * 34 = 238 $
 
 <div class="imgcap">
 <img src="/assets/images/overall.png">
@@ -97,13 +96,13 @@ We tell you that the peak that you see is $$238$$. Yes! you read it right. $$844
 </div>
 
 **A few observations and thoughts:**
-* You can clearly see that maximum number of students ended up getting $$238$$ marks. We are not claiming that it is not possible to obtaion $$238$$ marks, but a majority of those did not actually get that mark, rather they were given 'grace-marks (how graceful!)' and passed.
+* You can clearly see that maximum number of students ended up getting $238$ marks. We are not claiming that it is not possible to obtaion $238$ marks, but a majority of those did not actually get that mark, rather they were given 'grace-marks (how graceful!)' and passed.
 * If the board does not care about transparency then who should the students who really worked hard turn to? We as a society should value hardwork, rather than passing students for the sake of fame and winning trophies for high-literacy and what not!
 * It is often the case that the students who are just passed do not get admission anywhere else. Why not make them try another year rather than leaving them at the cross roads?
-* Had the students been not given grace marks, say none got $$238$$ marks, then overall pass percentage would have dropped by ~$$40$$%.
+* Had the students been not given grace marks, say none got $238$ marks, then overall pass percentage would have dropped by ~$40$%.
 
 **Summary and concluding remarks:**
-We saw the overall statistics of the exam result, then the district-wise break down of the marks distribution and how much they deviated from the ideal distribution. A whooping $$844$$ students got $$238$$ marks, the overall pass percentage would drop by ~$$40$$% if the passing marks was say $$240$$ marks. We hope that this scenario improves over the coming years, and the concept of 'grace-marks' be scraped.
+We saw the overall statistics of the exam result, then the district-wise break down of the marks distribution and how much they deviated from the ideal distribution. A whooping $844$ students got $238$ marks, the overall pass percentage would drop by ~$40$% if the passing marks was say $240$ marks. We hope that this scenario improves over the coming years, and the concept of 'grace-marks' be scraped.
 
 **Future work:**
 This year's results would probably be published in the first/second week of June. To interested people at IITK: Do let me know if you are working on a similar thing, if you will, we can work together over the summer. **Cheers!**
