@@ -18,13 +18,13 @@ html, body {
 }
 
 body {
-    font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Computer Modern Bright', -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
     background-color: #fff;
-    /* font-size: 18px; */
+    font-size: 18px;
 }
 
 h1, h2, h3, h4, name, .navbar-brand, .nav-link, .roboto {
-    font-family: -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-family: 'Computer Modern Bright', -apple-system,BlinkMacSystemFont, 'Segoe UI', Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;
     font-weight: 500 !important;
 }
 
@@ -1106,7 +1106,7 @@ ul.listing > h4 {
 }
 
 .content .listing li {
-  /* font-size: 18px; */
+  font-size: 18px;
   list-style: none;
   padding: 5px 0px;
   margin: 0 0 10px 0;
