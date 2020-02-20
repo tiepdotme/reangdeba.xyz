@@ -38,7 +38,7 @@ Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that 
 ### What I'm working on
 1. ⚡ Finishing my degree on time, duh!
 2. ✍️ I love writing. All of my writings are in [blog](/blog). I plan to populate this site with more technical and non-technical writings.
-3. 💻 Replicating results of two Computer Vision papers using PyTorch. I hope to release the code on GitHub. Stay tuned!
+3. 💻 Replicating results of two machine learning papers using PyTorch. I hope to release the code on GitHub. Stay tuned!
 
 **What's with the emojis?**<br>
 Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. What's your favourite emoji? Mine is 🍫.
