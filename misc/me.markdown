@@ -5,7 +5,8 @@ permalink: /bio/
 ---
 **Hi!** 🙆🏻‍
 <br>
-I am Debashish Reang. I also go by Deba and more commonly Reang. I am a third year undergraduate student at IIT Kanpur majoring in Electrical Engineering ⚡. I am broadly interested in Computer Vision and Biology. I would probably end up working in the intersection of these fields. Before coming to Kanpur, I was at NPS International School Guwahati where I titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!
+<p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/profile.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
+<p>I am Debashish Reang. I also go by Deba and more commonly Reang. I am a third year undergraduate student at IIT Kanpur majoring in Electrical Engineering ⚡. I am broadly interested in Computer Vision and Biology. I would probably end up working in the intersection of these fields. Before coming to Kanpur, I was at NPS International School Guwahati where I titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!</p>
 
 Even before that, I spent the first 16 years of my life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). I've mostly lived outside of Tripura ever since. Yes, I am Indian despite my appearance.^ If you compliment me with "your English is very good", you will get the response "thanks; so is yours."
 
