@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: false
-title: "College life so far and the road ahead"
+title: "Reflections"
 author: Debashish Reang
 thumbnail: "/assets/images/reang.jpg"
 last_updated: "2019-12-09"
@@ -32,13 +32,4 @@ Let me enumerate the list of things I got terribly wrong. I wish someone had tol
 Things that went right (at least according to me).
 * **Got to meet new, awesome people.** This probably is the only good thing that has happened in college, so far. I got to meet and be friends with one of the best minds of the country. It is highly probable that the bond we all share would last a lifetime. Even though everyone has a different career trajectory, people here are generally nice and helpful. All you need to do is ask and someone or the other will help you out. I have also managed to pitch my research proposal to three professors and none of them actually turned down my proposal. And I am in a dilemma about what to do with the workload now. God! Please don't be like me.
 
-**That's it!**
-
-**In conclusion.** My academic life is pretty bad at this point. I wish to stabilise it by the end of my degree. I am what many would call "an average student" or "below average". That is okay! :cry: I can graduate with a decent 7+ CPI if I work hard the next year. I wish to be a professor one day and no matter what comes in life that will not change. Hence, I want to do as much as I can towards that. I'm sure at least one university will take me for PhD. To be honest, getting into a direct PhD program seems rather impossible at this point. Read on to know more about my 'killer' plan. :smile:
-
-**The road ahead:** I hope to get back the control of my life. I've realised numbers do matter in my case. You can read more about the "numbers game" [here](http://www.pgbovine.net/grades.htm). Here are some numbers just for perspective and record-keeping. The grades for 5th semester <s>did not</s> have come in. I have a CPI of 6.9 as of this semester. By the time I graduate I can have a CPI of 7.9 in the best case. I shall strive to get that number, but who knows what the final number would be.
-
-Realising that I'm not very good at multitasking, I'll drop everything else starting January 1, 2020 and focus solely on academics. I will complete the project under Prof. Nitin Gupta as soon as possible. I will drop the project with Prof. Vipul Arora since I have come to realise that we are not a good match. Even though the problem statement sounded interesting after working on it I realised that it isn't for me. As for the project under Prof. Malakar, I will try to get as much work done as possible this month but I'll ask her for a break the upcoming semester. I really need those grades. I will restart working with her during the summers. I'll probably credit the work as an undergraduate project (UGP-3). As for my degree, I am completing it one semester ahead of schedule i.e., by December of 2020.
-
-I'll apply to Oxford M.Sc in Computer Science program by January 1, 2021 and prepare for IISc admission in parallel. That's the longish term goal, in the short term I plan on getting A's in every course I do after this point. I just hope that everything go as planned. We'll see what is what. Who knows what will happen. Peace. :v:
 **That's it for now. Thanks for reading, I appreciate it.**
