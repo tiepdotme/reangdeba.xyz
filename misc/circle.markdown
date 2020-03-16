@@ -1,15 +1,15 @@
 ---
 layout: page
 title: "Circle"
-subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, podcasts, blog posts, and videos."
+subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, podcasts, blog posts, and videos in no particular order."
 permalink: /circle/
 ---
 
 #### Music
-* ME!
+* ME! - Taylor Swift ft. Brendon Urie
+* Seeing Blind - Niall Horan, Marren Morris
 
 #### Movies
 
-* War
 * The Fault in Our Stars
 * The Pursuit of Happyness

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="{{ site.description }}">
+
+
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#30525b">
+        <meta name="msapplication-TileColor" content="#603cba">
+        <meta name="theme-color" content="#ffffff">
+
+        {%- seo -%}
+
+        {%- feed_meta -%}
+        {% include google-analytics.html %}
+
+        <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Custom CSS Thanks to Andrej Karpathy!-->
+        <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css">
+
+        <!-- <script src="https://kit.fontawesome.com/560b2c2c41.js"></script> -->
+        <!-- Place this tag in your head or just before your close body tag. -->
+        <!-- <script async defer src="/assets/js/buttons.js"></script> -->
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+        <!-- The loading of KaTeX is deferred to speed up page rendering -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
+
+        <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            macros: {
+              "\\quot": "\\raisebox{0.25em}{\\text{$#1$}}\\!\\diagup\\! \\raisebox{-0.25em}{\\text{$#2$}}"
+            },
+            delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false}
+            ]
+          });
+
+          // github pages forces mathjax: https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll#configuring-jekyll-in-your-github-pages-site
+          // so replace
+          document.querySelectorAll("script[type='math/tex']").forEach(function(el) {
+            console.log(el);
+            el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+          });
+          document.querySelectorAll("script[type='math/tex; mode=display']").forEach(function(el) {
+            console.log(el);
+            el.outerHTML = katex.renderToString(el.textContent.replace(/%.*/g, ''), { displayMode: true });
+          });
+        });
+        </script>
+
+    </head>
+
+    <body>
+
+        <header class="site-header-blog">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-right">
+                <div class="container">
+                  <a class="navbar-brand" href="/isitcanceledyet">
+                    Is It Cancelled Yet?
+                  </a>
+            </nav>
+        </header>
+
+
+    <div class="page-content">
+      <div class="container">
+        <br>
+        <br>
+        <h1>{{ page.title }}</h1>
+        {% if page.subtitle %}
+          <p>{{ page.subtitle }}</p>
+        {% endif %}
+      {{ content }}
+      </div>
+
+      <p class="text-center">By <a href="https://twitter.com/reangdeba">@reangdeba</a>. Visit the <a href="/">homepage</a>.</p>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -898,6 +898,17 @@ reddot {
   color: red;
 }
 
+red {
+  color: red;
+}
+
+yellow {
+  color: orange;
+}
+
+green {
+  color: green;
+}
 .logo img {
   /* font-size: 20px; */
   /* letter-spacing: -1px; */
@@ -1029,7 +1040,7 @@ white {
     margin-left: 2em;
 }
 
-h1, .rainbow {
+/* h1, .rainbow {
   display: inline-block;
   background-image: linear-gradient(90deg, #F79533 0%, #F37055 15%, #EF4E7B 30%, #A166AB 44%, #5073B8 58%, #1098AD 72%, #07B39B 86%, #6DBA82 100%);
   background-size: cover;
@@ -1037,7 +1048,7 @@ h1, .rainbow {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
-}
+} */
 
 ul.listing > h4 {
   color: black;

@@ -12,7 +12,6 @@ This list includes books that I wish to read, books that I'm currently reading, 
 * Hit Refresh - Satya Nadella
 * Travelling to Infinity: My Life with Stephen - Jane Hawking
 * Who Will Cry When You Die? - Robin Sharma
-* Brown Girl Dreaming - Jacqueline Woodson
 * 21 Lessons for the 21st Century - Yuval Noah Harari
 * The Moment of Lift - Melinda Gates
 * The Sun Is Also a Star - Nicola Yoon
@@ -20,16 +19,18 @@ This list includes books that I wish to read, books that I'm currently reading, 
 * Milk and Honey - Rupi Kaur
 * The Language Instinct: How the Mind Creates Language - Steven Pinker
 * A Brief History of Time - Stephen Hawking
+* Poor Economics: Rethinking poverty & the ways to end it - Abhijit V. Banerjee & Esther Duflo
 
 ### Books I've Read
 #### 2020
 ---
 * Quichotte - Salman Rushdie :green_book:
+* Brown Girl Dreaming - Jacqueline Woodson [Review](/brown-girl-dreaming)
 
 #### 2019 and earlier
 ---
 * The Fault in our Stars - John Green
-> tfios would always be close to my heart.
+> tfios would always be close to my heart. 💜
 
 * Looking for Alaska - John Green
 * The Girl in Room 105 - Chetan Bhagat
