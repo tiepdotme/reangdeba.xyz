@@ -51,3 +51,5 @@ For more information regarding the crisis, refer to [here](https://www.mohfw.gov
 <h1 class="display-3" style="color:red">extended</h1><br>
 <h1 class="display-4">hostels</h1><br>
 <h1 class="display-3" style="color:red">vacate(d)</h1><br>
+<h1 class="display-4">CCD, EShop</h1><br>
+<h1 class="display-3" style="color:green">no</h1><br>
