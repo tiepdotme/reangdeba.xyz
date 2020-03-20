@@ -2,7 +2,7 @@
 layout: page
 title: "Reflections"
 permalink: /reflections/
-#comments: true
+comments: true
 ---
 **Hi!** 🙆🏻‍
 <br>
