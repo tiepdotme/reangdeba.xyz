@@ -26,19 +26,19 @@ Even before that, I spent the first 16 years of my life living in a small state 
 <br>
 \* I love reading and the smell of new books. No matter how much anyone tells me about the upside of getting an eBook, I get paperbacks when possible. You can find my readings [here](/reads/). 📚
 
-At times I dance to 'Sadi Gali' and 'London Thumakda'.💃 And I love everything that contains the word chocolate in it. 🍫
+At times I dance to 'Sadi Gali' and 'London Thumakda'.💃 And I love everything that has the word 'chocolate' in it. 🍫
 
 ^ I mention this because:
 <br>
-a) I've been asked a few times if I was from China or Nepal or Bhutan. I'm glad that you're curious. Happy to let you know.
+a) I've been asked a few times if I was from China or Nepal or Bhutan. I'm glad that you're curious.
 <br>
 b) This helps me appreciate the diverse world we live in. I'm grateful. :smile:
 
-Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. Please consider reading [communication](/communication/) for getting in touch. Thanks! <span style="color: red">Let's have coffee?</span>
+Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. I'm best reached by email. Please consider reading [communication](/communication/). <span style="color: red">Let's have coffee?</span>
 
 ### What I'm working on
 1. ⚡ Finishing my degree on time, duh!
 2. ✍️ I love writing. All of my writings are in [blog](/blog). I plan to populate this site with more technical and non-technical writings.
 
 **What's with the emojis?**<br>
-Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. What's your favourite emoji? Mine is 🍫.
+Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. You'll find lots of 'em on this site. What's your favourite emoji? Mine is 🍫.

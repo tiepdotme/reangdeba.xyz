@@ -3,7 +3,7 @@ layout: page
 title: "Bookshelf"
 permalink: /reads/
 ---
-This list includes books that I wish to read, books that I'm currently reading, and the books I've read. I'm sure I've read many other books but the ones I loved are here. From 2020 I'll list every book I read here.
+This list includes books that I wish to read, books that I'm currently reading, and the books I've read.
 
 :green_book: -- <i>Currently Reading</i>
 
@@ -25,7 +25,8 @@ This list includes books that I wish to read, books that I'm currently reading, 
 #### 2020
 ---
 * Quichotte - Salman Rushdie :green_book:
-* Brown Girl Dreaming - Jacqueline Woodson [Review](/brown-girl-dreaming)
+* Brown Girl Dreaming - Jacqueline Woodson
+* Ikigai: The Japanese Secret to a Long and Happy Life - Albert Liebermann and Hector Garcia
 
 #### 2019 and earlier
 ---
