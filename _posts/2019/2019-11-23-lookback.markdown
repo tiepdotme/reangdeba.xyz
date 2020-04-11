@@ -2,6 +2,7 @@
 layout: post
 comments: false
 title: "Reflections"
+description: "A short, depressing but honest, late night reflection on college life thus far."
 author: Debashish Reang
 thumbnail: "/assets/images/reang.jpg"
 last_updated: "2019-12-09"

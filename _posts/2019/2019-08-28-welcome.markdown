@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Welcome"
-excerpt: "The whys, hows etc. about the blog."
+description: "The whys, hows etc. about the blog."
 author: Debashish Reang
 thumbnail: "/assets/images/welcome_thumbnail.png"
 ---

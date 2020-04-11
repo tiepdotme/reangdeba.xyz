@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Honest Course Reviews"
+description: "A brutally honest review of every course that I credited at IIT Kanpur as a part of my undergrad curriculum. Imperfect, hilarious, and full of mistakes."
 author: Debashish Reang
 thumbnail: "/assets/images/ee.jpg"
 last_updated: "2020-02-24"

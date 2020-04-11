@@ -2,7 +2,7 @@
 layout: page
 title: "Advice on contacting me"
 permalink: /communication/
-comments: true
+comments: false
 ---
 
 I was told by a very nice professor in one of the courses that Language is imperfect and can never be perfect. I subscribe to that school of thought. Communication is hard, and people have different expectations from "conversations". I am blunt, and do not know what to infer from cues or expressions. Sorry!
@@ -23,6 +23,7 @@ Like most kids my age, I am on social media. But these days, I've significantly 
 * 👍 Facebook: I check Facebook 2-3 times a week just to catch up with on-campus events, or have a look at Subtle Curry Traits memes. Feel free to say "hi!" if you wish to, but if you are not a friend your text might land up in a different folder that I don't usually check. My username is [@reangdeba](https://www.facebook.com/reangdeba).
 * 📸 Instagram: I am on Instagram as [@reangdeba_](https://www.instagram.com/reangdeba_/). I don't usually message people on Instagram, so I might not reply to your texts as well. But, feel free to follow if you like my posts. :stuck_out_tongue_winking_eye:
 * LinkedIn: I do read LinkedIn ([@reangdeba](https://www.linkedin.com/in/reangdeba/)) messages, but very rarely. How rare? umm, about once a month.
+* ✍️ Quora: I occasionally write on Quora. I'm on Quora as [Debashish Reang](https://www.quora.com/profile/Debashish-Reang). Feel free to text.
 
 **tl;dr**: Follow me on social media but email is best for reaching me.:stuck_out_tongue_winking_eye:
 
@@ -34,6 +35,6 @@ Like most kids my age, I am on social media. But these days, I've significantly 
 * <reddot>If you still don't find me I'm probably dead.</reddot>
 
 ### Calling
-I don't usually talk to people over phone. Still, if you think you need to call me let me know over email first if you're not a family member or my girlfriend. My phone is always on silent and if I miss your call chances are I won't call back. I think to myself okay, I call back after doing blah and blah but I almost always forget to do that. When I am not in class or procrastinating I work on projects that are of interest to me. That leaves me with very little free time for small talks. Sorry!
+I don't usually talk to people over phone. Still, if you think you need to call me let me know over email first if you're not a family member. My phone is always on silent and if I miss your call chances are I won't call back. I think to myself okay, I call back after doing blah and blah but I almost always forget to do that. When I am not in class or procrastinating I work on projects that are of interest to me. That leaves me with very little free time for small talks. Sorry!
 
 **In conclusion** don't be mad at me if I don't get back to you. I would love to have more friends in my life. If you think you are as crazy as I am we can certainly be friends. Just shoot an email, and if I act like a freak feel free to remind me that.

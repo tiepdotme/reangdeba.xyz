@@ -2,6 +2,7 @@
 layout: post
 comments: false
 title: "On Mental health and growing up"
+description: "My immature thoughts on 'Mental Health' after many bright-minded friends chose to stop living because they could not withstand the societal expectations, and two cents on what I think about the whole situation."
 author: Debashish Reang
 thumbnail: "/assets/images/mental_health.jpg"
 comments: true
