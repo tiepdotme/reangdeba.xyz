@@ -11,6 +11,7 @@ author: Debashish Reang
 # Build settings
 markdown: kramdown
 permalink: pretty
+future: true
 
 # disqus and google_analytics
 google_analytics: UA-141493078-1

@@ -6,6 +6,7 @@ subtitle: "A campaign to help the most vulnerable families during these trying t
 author: Debashish Reang
 thumbnail: "/assets/images/Silver_Plate_Logo.png"
 comments: true
+published: true
 ---
 Hi, friend!
 
