@@ -11,10 +11,10 @@
 /* @import url('https://fonts.googleapis.com/css?family=Inconsolata&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Quicksand:700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lusitana&display=swap'); */
-@font-face {
+/* @font-face {
   font-family: Palatino;
   src: url("../assets/fonts/Palatino.ttf");
-}
+} */
 
 * {
     margin: 0;
@@ -1247,4 +1247,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 7px;
+}
+.footer-subscription {
+    float: right;
 }
