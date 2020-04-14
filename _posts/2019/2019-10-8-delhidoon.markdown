@@ -6,8 +6,8 @@ author: Debashish Reang
 thumbnail: "/assets/images/delhidoon_thumbnail.png"
 #comments: true
 ---
-I recently went on my first ever solo trip, which included the first-ever train and overnight bus journey. I thought a few people would be curious about the trip, or at least I’ll get to show a few good photos that I shot. :wink:
-The original plan was to write it along the way. But, many things came my way, and I couldn’t find the time to write it. The midterm recess has just begun, and so I thought now might be the best time to write it before my memory of the trip starts to fade.  I’ve tried to organize things chronologically, but the truth can be whatever I wish to. :stuck_out_tongue_closed_eyes:
+I recently went on my first ever solo trip, which included the first-ever train and overnight bus journey. I thought a few people would be curious about the trip, or at least I’ll get to show a few good photos that I shot. 😉
+The original plan was to write it along the way. But, many things came my way, and I couldn’t find the time to write it. The midterm recess has just begun, and so I thought now might be the best time to write it before my memory of the trip starts to fade.  I’ve tried to organize things chronologically, but the truth can be whatever I wish to. 😜
 #### Why?
 I always wanted to see new places. I also keep a [bucket list](/bucket), and traveling is a big part of it. So, I thought to myself, why not start now. The summer term had just ended, and I had nothing to do except watching movies or wondering about stupid things and getting depressed.
 
@@ -20,7 +20,7 @@ The original plan was to travel to New Delhi and stay there for a week. However,
 * Nehru Park
 * Lotus Temple
 * Qutab Minar
-* The Walls of Red Fort (it was closed. :cry:)
+* The Walls of Red Fort (it was closed. 😔)
 * Delhi Metro
 * Streets of New Delhi (I love walking the streets!)
 * Humayun's Tomb
@@ -54,7 +54,7 @@ I had never travelled by train (*read: I've never been inside a train compartmen
 
 I reached New Delhi on time. My friends Jalpana and Rakesh were kind enough to let me stay at their place. They even came to pick me up from NDLS train station. The solo trip ended up being not so solo when they joined me on my way to Mussoorie. We spent the next few days together. Thanks for everything!
 
-They showed me around the city and we went to India Gate and Nehru Park which is about 8 km from India Gate. India Gate always reminds me of the time I got a mark less than the full marks in one GK exam because I incorrectly wrote "Gateway of India" instead of "India Gate". In my defense, "India Gate" sounds so wrong grammatically while "Gateway of India" sounded perfect in every sense. :dancer:
+They showed me around the city and we went to India Gate and Nehru Park which is about 8 km from India Gate. India Gate always reminds me of the time I got a mark less than the full marks in one GK exam because I incorrectly wrote "Gateway of India" instead of "India Gate". In my defence, "India Gate" sounds so wrong grammatically while "Gateway of India" sounded perfect in every sense. 💃
 
 <div class="row">
 <div class="col">
@@ -90,7 +90,7 @@ They showed me around the city and we went to India Gate and Nehru Park which is
 
 ### New Delhi to Uttarakhand
 
-I decided on the same day that we'll be traveling to Dehradun. I don't know what I did but I managed to convince them somehow and hence began the first ever overnight bus journey. They were surprised by my ethusiasm (*IITK folks read: **enthu**, it's not legal for you all to read otherwise*).
+I decided on the same day that we'll be traveling to Dehradun. I don't know what I did but I managed to convince them somehow and hence began the first ever overnight bus journey. They were surprised by my ethusiasm (*IITK folks read: **enthu**, it's illegal for y'all to read otherwise*).
 
 <div class="row">
 <div class="col">
@@ -178,7 +178,7 @@ You can call this the second leg if you will. I went back to Delhi and spent two
 </div>
 
 #### What next?
-I don't really know. But, thank you to everyone who helped me on this trip. I guess this experience will help in future trips. I plan on ticking off all the things on my [bucket list](/bucket) (*with a few exceptions :cry:*).
+I don't really know. But, thank you to everyone who helped me on this trip. I guess this experience will help in future trips. I plan on ticking off all the things on my [bucket list](/bucket) (*with a few exceptions 🤒*).
 
 ***Inspired by** [Tania Rascia's](https://www.taniarascia.com/europe/) Whirlwind Tour of Europe.*
 
