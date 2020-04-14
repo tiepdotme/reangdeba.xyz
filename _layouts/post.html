@@ -40,7 +40,6 @@ layout: default
                     <p>If you are the GitHub type, you can <a href="https://github.com/reangdeba/reangdeba.github.io/edit/master/{{ page.path }}">improve this page on GitHub</a>.</p>
                 </blockquote>
             </article>
-            {% if jekyll.environment == "production" %}
             {% if page.comments %}
             <div class="alert bg-light no_border">
                 <div id="disqus_thread"></div>
@@ -59,7 +58,6 @@ layout: default
                 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by
                         Disqus.</a></noscript>
             </div>
-            {% endif %}
             {% endif %}
         </div>
     </div>
