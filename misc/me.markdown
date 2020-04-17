@@ -35,7 +35,7 @@ a) I've been asked a few times if I am from China or Nepal or Bhutan. I'm glad t
 <br>
 b) This helps me appreciate the diverse world we live in. I'm grateful. :smile:
 
-Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. <span style="color: red">Let's have coffee?</span>☕
+Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
 
 **What's with the emojis?**<br>
