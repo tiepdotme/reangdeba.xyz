@@ -11,6 +11,8 @@ permalink: /bio/
 
 Even before that, I spent the first 16 years of my life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). Yes, I've chased chickens as a kid. I've mostly lived outside of Tripura ever since. I am Indian despite my appearance.^ If you compliment me with "your English is very good", you will get the response "thanks; so is yours."
 
+> "you give and give till they pull everything out of you and leave you empty."<br> - Rupi Kaur
+
 **Here are some other things of interest, in no particular:**
 <br>
 \* You'll (almost) always find me in black jeans and solid black t-shirt. There is no particular reason for it, I just like it. When I really feel like switching, I switch to blue t-shirt and black jeans. 👘
@@ -33,7 +35,7 @@ At times I dance to 'Sadi Gali' and 'London Thumakda'.💃 And I love everything
 <br>
 a) I've been asked a few times if I am from China or Nepal or Bhutan. I'm glad that you're curious.
 <br>
-b) This helps me appreciate the diverse world we live in. I'm grateful. :smile:
+b) This helps me appreciate the diverse world we live in. I'm grateful. 😃
 
 Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
