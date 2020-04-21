@@ -9,21 +9,31 @@ layout: default
                 <div class="text-center">
                     <h1>{{ page.title }}</h1>
                     <p class="post-subtitle">{{ page.subtitle }}</p>
-                    <p class="meta roboto" style="text-transform:uppercase;">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>{% capture words %}
+                    <p class="meta roboto" style="text-transform:uppercase; font-size:80%;">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>{% capture words %}
                             {{ page.content | number_of_words | minus: 250 }}
                             {% endcapture %}
                             {% unless words contains "-" %}
                             {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
                             {% endunless %}</reddot> {% if page.last_updated %}• <b>Last updated on</b>: {{ page.last_updated | date: "%B %-d, %Y" }}{% endif %}</p>
 
-                    <div class="share-panel center">
-                        <span class="roboto">SHARE ON</span>
-                        <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" class="share-button"><i class="fab fa-twitter"></a>
-                        <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" class="share-button"><i class="fab fa-facebook"></a>
+                    <div class="share-panel mac">
+                        <div class="row">
+                            <div class="col-sm-7 text-left">
+                                {% for tag in page.tags %}
+                                <span class="roboto tag align-bottom">{{ tag }}</span>
+                                {% endfor %}
+                            </div>
+                            <div class="col-sm-5 text-right">
+                                <span class="roboto">SHARE ON</span>
 
+                                <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" class="share-button"><i class="fab fa-twitter"></a>
 
-                        <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.url }}" target="_blank" class="share-button"><i
-                                class="fab fa-linkedin"></a>
+                                <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" class="share-button"><i class="fab fa-facebook"></a>
+
+                                <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.url }}" target="_blank" class="share-button"><i
+                                        class="fab fa-linkedin"></a>
+                            </div>
+                        </div>
                     </div>
                     <hr>
                 </div>
@@ -35,6 +45,27 @@ layout: default
             <article class="post-content blogpost">
                 {{ content }}
 
+
+                <div class="share-panel mac">
+                    <div class="row">
+                        <div class="col-sm-7 text-left align-bottom">
+                            {% for tag in page.tags %}
+                            <span class="roboto tag">{{ tag }}</span>
+                            {% endfor %}
+                        </div>
+                        <div class="col-sm-5 text-right align-bottom">
+                            <span class="roboto">SHARE ON</span>
+
+                            <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}&text={{ page.title }}" target="_blank" class="share-button"><i class="fab fa-twitter"></a>
+
+                            <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank" class="share-button"><i class="fab fa-facebook"></a>
+
+                            <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}&summary={{ page.description }}&source={{ site.url }}" target="_blank" class="share-button"><i
+                                    class="fab fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <hr>
                 <blockquote>
                     For comments, corrections etc. please send me an <a href="mailto:reang.bade@gmail.com">email</a>, or reach out on <a href="https://twitter.com/reangdeba">Twitter</a>.<br>
                     If you are the GitHub type, you can <a href="https://github.com/reangdeba/reangdeba.github.io/edit/master/{{ page.path }}">improve this page on GitHub</a>.<br>

@@ -6,6 +6,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/ee.jpg"
 last_updated: "2020-02-24"
 comments: true
+tags: [life, academics, reviews]
 ---
 
 Sup, guys?

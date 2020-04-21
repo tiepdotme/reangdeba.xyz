@@ -7,4 +7,5 @@ author: "Debashish Reang"
 thumbnail: "/assets/images/Anti-Resume_Square.png"
 #comments: true
 draft: true
+tags: [anti-résumé, human, life]
 ---

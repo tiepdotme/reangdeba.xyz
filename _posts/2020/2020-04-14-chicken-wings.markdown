@@ -7,6 +7,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/CW_thumb.jpg"
 comments: true
 published: true
+tags: [illustrations, procreate, instagram]
 ---
 <img src="/assets/images/CW-1.jpg">
 

@@ -7,6 +7,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/Silver_Plate_Logo.png"
 comments: true
 published: true
+tags: [covid-19, fundraiser]
 ---
 Hi, friend!
 

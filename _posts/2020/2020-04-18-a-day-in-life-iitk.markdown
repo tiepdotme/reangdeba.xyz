@@ -6,6 +6,7 @@ subtitle: "I love my <code>life</code> at IIT Kanpur"
 author: "Debashish Reang"
 thumbnail: "/assets/images/night_profile_photo.jpeg"
 comments: true
+tags: [life, iitk]
 ---
 
 A day in my life at IIT Kanpur is pretty hectic but rewarding and fun at the same time! I would go to the extent of saying that it’s pretty darn awesome as well.

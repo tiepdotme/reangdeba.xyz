@@ -6,6 +6,7 @@ subtitle: "Insanely honest opinion regarding course feedback forms"
 author: Debashish Reang
 thumbnail: "/assets/images/puzzlehunt.jpeg"
 comments: true
+tags: [feedback, professors]
 ---
 Are you well too familiar with the feedback forms that you get to fill at the end of the semester? I filled one of those towards the end of the semester for a course some time ago. A few days ago the class received an email from the Professor concerned. This post will hopefully exponentially reduce the amount of regret I felt after seeing the message from him. I am sure you can relate to it as well.
 

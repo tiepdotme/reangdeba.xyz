@@ -5,6 +5,7 @@ title: "Aakansha: The story of a dreamer"
 description: "Your daily dose of inspiration. This short post attempts to highlight what girls can achieve if given the right opportunities and coaching. I also rant about how the system needs a revamp."
 author: Debashish Reang
 thumbnail: "/assets/images/aakansha_thumbnail.png"
+tags: [volunteering, true story]
 ---
 
 <div class="imgcap">

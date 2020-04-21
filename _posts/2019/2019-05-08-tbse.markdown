@@ -5,6 +5,7 @@ title: "Hacking into the TBSE Class X Exam Results 2018"
 description: "This post summarizes our attempt to find tampering of marks in the final examination results published by the Tripura Board of Secondary Education. We find that the system is deeply flawed and marks have been and are indeed tampered every year."
 author: Debashish Reang
 thumbnail: "/assets/images/tbse_thumbnail.jpg"
+tags: [data analysis, tbse]
 ---
 
 
