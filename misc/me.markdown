@@ -11,7 +11,7 @@ permalink: /bio/
 
 Even before that, I spent the first 16 years of my life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). Yes, I've chased chickens as a kid. I've mostly lived outside of Tripura ever since. I am Indian despite my appearance.^ If you compliment me with "your English is very good", you will get the response "thanks; so is yours."
 
-> "you give and give till they pull everything out of you and leave you empty."<br> - Rupi Kaur
+> "you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur
 
 **Here are some other things of interest, in no particular:**
 <br>

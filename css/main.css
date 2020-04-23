@@ -1416,9 +1416,9 @@ margin: 0 20px 50px 250px;
     font-size: 16px;
 }
 
-.content li {
-    margin-bottom: 10px;
-    margin-left: 10px;
+li {
+    /* margin-bottom: 10px; */
+    margin-left: 20px;
 }
 
 /* .content img:not(.emoji) {
@@ -1518,13 +1518,47 @@ margin: 0 20px 50px 250px;
 }
 
 .share-panel {
-    margin-bottom: -15px;
+    margin-bottom: -10px;
 }
 
-.share-button {
-    font-size: 25px;
+.share-button img {
+    /* font-size: 25px; */
+    display: inline;
     color: inherit;
     padding-left: 20px;
+}
+
+.share-button-facebook {
+    color: inherit;
+    padding-left: 20px;
+}
+
+.share-button-facebook img:hover {
+    color: #1877F2;
+}
+
+.twitter-button {
+  fill: #1DA1F2;
+}
+
+.twitter-button:hover {
+  fill: #ac4142;
+}
+
+.facebook-button {
+  fill: #1877F2;
+}
+
+.facebook-button:hover {
+  fill: #ac4142;
+}
+
+.linkedin-button {
+  fill:  #0077B5;
+}
+
+.linkedin-button:hover {
+  fill: #ac4142;
 }
 
 h3, h4 {
