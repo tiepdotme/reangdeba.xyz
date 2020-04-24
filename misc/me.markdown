@@ -37,8 +37,21 @@ a) I've been asked a few times if I am from China or Nepal or Bhutan. I'm glad t
 <br>
 b) This helps me appreciate the diverse world we live in. I'm grateful. 😃
 
-Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur. I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
+Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur.
 
+<p style="color:#ac4142;"><b>Follow me on social media 🍿</b></p>
+<div class="row">
+    <div class="col-sm-4">
+        <a href="https://github.com/reangdeba"><i class="fab fa-github"></i></a>
+        <a href="https://facebook.com/reangdeba"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/reangdeba"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
+        <a href="https://quora.com/profile/Debashish-Reang"><i class="fab fa-quora"></i></a>
+    </div>
+</div>
+
+I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
 **What's with the emojis?**<br>
 Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. You'll find lots of 'em on this site. What's your favourite emoji? Mine is 🍫.
