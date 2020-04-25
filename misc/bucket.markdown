@@ -1,22 +1,16 @@
 ---
 layout: page
-title: "My Bucket list"
+title: "My (Impossible) Bucket List"
 comments: true
 permalink: /bucket/
 ---
-> Things I wish to do, and places I want to travel to before I die. Please let me know if you have any recommendations.
+
+> Things I wish to do, and places I want to visit before I die. Please let me know if you have any recommendations.
 
 ### Life
 
-1. Learn a Foreign Language
-2. Live in another country
-3. Meet Prof. David J. Malan
-4. Go camping
-5. Start a non-profit organisation
-6. Read 20 books in 2020
-7. Write a book
-8. Sing in front of an audience
-9. Start a company
+4.  Go camping
+9.  Start a company
 10. <s>Take my first train journey</s>
 11. :cry: <s>Meet Stephen Hawking. He passed away in 2018.</s>
 12. <s>Meet HC Verma</s>
@@ -32,24 +26,44 @@ permalink: /bucket/
 22. Fly an airplane
 23. Meet Hasan Minhaj
 24. <s>Perform at an open mic</s>
+25. Build a school
+26. Read 2000 books
+27. Graduate from college
+28. Get a PhD
+29. Learn a Foreign Language
+30. Live in another country
+31. Meet Prof. David J. Malan
+32. Start a not-for-profit organisation
+33. Sing in front of an audience
+34. Start a company
+35. Write a self-published book (> 295 pages)
+36. Teach an online course
+37. Get 100,000 blog visits (all-time)
+38. Read 25 pages outside of studies for 90 days
+39. Study for 3 hours daily until graduation
+40. Skydive
+41. Christmas in New York
+42. Move to Seoul
+43. Speak at a college convocation
+44. M.Tech in AI at IISc
 
 ### Travel
 
-1. Dubai
-2. Bhutan
-3. Tehran
-4. Saint Petersburg
-5. Kashmir
-6. Singapore
-7. African Safari
-8. Tomorrowland
-9. New York
+1.  Dubai
+2.  Bhutan
+3.  Tehran
+4.  Saint Petersburg
+5.  Kashmir
+6.  Singapore
+7.  African Safari
+8.  Tomorrowland
+9.  New York
 10. Maldives
 11. Madrid
 12. Old Trafford
 13. China
 14. Egypt
-
+15. New Zealand
 
 <blockquote>For suggestions please send me an <a href="mailto:reang.bade@gmail.com">email</a>, or reach out on <a
         href="https://twitter.com/reangdeba">Twitter</a>.<br>
