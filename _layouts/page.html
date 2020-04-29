@@ -10,6 +10,7 @@ layout: default
             {% if page.subtitle %}
             <p>{{ page.subtitle }}</p>
             {% endif %}
+            <p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
         </header>
         <!-- </section> -->
         <article class="post-content">

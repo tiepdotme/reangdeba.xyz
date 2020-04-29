@@ -14,7 +14,7 @@ layout: default
                             {% endcapture %}
                             {% unless words contains "-" %}
                             {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
-                            {% endunless %}</reddot> {% if page.last_updated %}• <b>Last updated on</b>: {{ page.last_updated | date: "%B %-d, %Y" }}{% endif %}</p>
+                            {% endunless %}</reddot> • Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
 
                             <div class="share-panel mac">
                                 <div class="row">

@@ -27,3 +27,4 @@ kramdown:
 plugins:
   - jemoji
   - jekyll-feed
+  - jekyll-last-modified-at
