@@ -4,6 +4,10 @@ title: "Bookshelf"
 permalink: /reads/
 comments: true
 ---
+I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal goal for 2020 is to <mark>read 100 books</mark>. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
+
+[Here](https://www.goodreads.com/user/show/53163185-debashish-reang) is the link to my Goodreads profile.
+
 :green_book: -- <i>Currently Reading</i><br>
 :closed_book: -- Paperback<br>
 :floppy_disk: -- eBook<br>
@@ -16,7 +20,6 @@ comments: true
 * Travelling to Infinity: My Life with Stephen - Jane Hawking
 * Who Will Cry When You Die? - Robin Sharma
 * 21 Lessons for the 21st Century - Yuval Noah Harari
-* Sapiens - Yuval Noah Harari
 * The Moment of Lift - Melinda Gates
 * The Sun Is Also a Star - Nicola Yoon
 * The Language Instinct: How the Mind Creates Language - Steven Pinker
@@ -25,6 +28,7 @@ comments: true
 ### Books I've Read
 #### 2020
 
+* Sapiens - Yuval Noah Harari :closed_book: :green_book:
 * Milk and Honey - Rupi Kaur :floppy_disk: :green_book:
 * To Kill a Mockingbird :floppy_disk: :green_book:
 * Quichotte - Salman Rushdie :closed_book: :green_book:
