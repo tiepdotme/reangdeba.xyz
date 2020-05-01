@@ -24,7 +24,8 @@ Includes songs that I've listened on repeat at least 10 times or more.
 * The Pursuit of Happyness
 
 #### Interesting Academic Papers
-This collection of papers represents some of the countless academic papers that I found "cool".
+Collection of a few academic papers that I found "cool".
+
 * [Super-resolving the Ising model with convolutional neural networks](https://arxiv.org/abs/1810.02372). The authors of this paper tried to extend convolutional neural nets or more popularly known as CNNs, to  condensed matter physics. In particular, they tried to model physical lattices using neural nets for 1D and 2D lattices, and show that the predictions are pretty close to those obtained by Monte-Carlo simulations.
 
 #### Blogs
