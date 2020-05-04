@@ -1432,7 +1432,7 @@ li {
 .content hr {
     background-color: #7BE4D5;
     border: 0px;
-    margin: 50px auto;
+    /* margin: 50px auto; */
     width: 50%;
     height: 5px;
     border-radius: 5px;
@@ -1607,4 +1607,8 @@ h3, h4 {
     font-size: 30px;
     margin-right: 10px;
     color: black;
+}
+
+hr {
+    margin-top: -7px;
 }
