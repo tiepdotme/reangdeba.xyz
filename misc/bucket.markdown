@@ -4,6 +4,7 @@ title: "My (Impossible) Bucket List"
 comments: true
 permalink: /bucket/
 ---
+<p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
 
 > Things I wish to do, and places I want to visit before I die. Please let me know if you have any recommendations.
 

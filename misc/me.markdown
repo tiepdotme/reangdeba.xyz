@@ -7,39 +7,59 @@ permalink: /bio/
 <br>
 <p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/duckduck.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
 
-<p>I also go by Deba and more commonly Reang. Before coming to Kanpur, I was at NPS International School Guwahati where I titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!</p>
+<p>He is known more commonly as Reang. Before coming to Kanpur, he was at NPS International School Guwahati where he titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!</p>
 
-Even before that, I spent the first 16 years of my life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). Yes, I've chased chickens as a kid. I've mostly lived outside of Tripura ever since. I am Indian despite my appearance.^ If you compliment me with "your English is very good", you will get the response "thanks; so is yours."
+Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
 > "you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur
 
+## Reang:
+* 👨🏻‍🎓 is a full-time student
+* 🇮🇳 can speak Bengali, English, and Hindi
+* ✍🏻 writes 10 answers on [Quora](https://www.quora.com/profile/Debashish-Reang) every week
+* 💻 also publishes one article on his [blog](/blog) every week
+* ☕ loves coffee
+* 📚 also loves [books](/reads)
+* 🐈 dies for Taylor Swift
+
+## Currently using:
+* **Computer:** 13" MacBook Air 2017
+* **Hosting:** [Netlify](https://netlify.com)
+* **Editor:** [Atom](https://atom.io)
+* **Static site generator:** [Jekyll](https://jekyllrb.com/)
+* **Syntax highlighting:** [PrismJS](https://prismjs.com/)
+* **Tablet:** iPad Air 3rd Generation
+* **Phone:** OnePlus 7
+
+
+
 **Here are some other things of interest, in no particular:**
 <br>
-\* You'll (almost) always find me in black jeans and solid black t-shirt. There is no particular reason for it, I just like it. When I really feel like switching, I switch to blue t-shirt and black jeans. 👘
+\* You'll (almost) always find him in black jeans and solid black t-shirt. There is no particular reason for it, he just likes it. When he really feels like switching, he switches to blue t-shirt and black jeans. 👘
 <br>
-\* I can sing a few songs, but you probably won't hear me singing around. 🎼
+\* He can sing a few songs, but you probably won't hear him singing around. 🎼
 <br>
-\* I love open mics and stand up comedy. Hasan Minhaj is my favourite comedian. 🎭
+\* He loves open mics and stand up comedy. Hasan Minhaj is his favourite comedian. 🎭
 <br>
-\* I love Taylor Swift's music. She is the queen, no arguments on that! 🎼
+\* He loves Taylor Swift's music. She is the queen, no arguments on that! 🎼
 <br>
-\* When not working on serious stuff, I prefer scribbling my thoughts on my iPad, writing on this blog, eat chocolates or watch a really romantic movie. 🍿
+\* When not working on serious stuff, he prefers scribbling his thoughts on his iPad, writing on this blog, eat chocolates or watch a really romantic movie. 🍿
 <br>
-\* I love bicycle rides. It's the best thing in the world to do. We can go for a ride if you happen to be around, and I happen to be free. 🚴
+\* He loves bicycle rides. It's the best thing in the world to do. 🚴
 <br>
-\* I love reading and the smell of new books. No matter how much anyone tells me about the upside of getting an eBook, I get paperbacks when possible. You can find my readings [here](/reads/). 📚
+\* He loves the smell of new books. No matter how much anyone tells him about the upside of getting an eBook, he tries to get paperbacks whenever possible. You can find his readings [here](/reads/). 📚
 
-At times I dance to 'Sadi Gali' and 'London Thumakda'.💃 And I love everything that has the word 'chocolate' in it. 🍫
+At times, he dances weirdly to 'Sadi Gali' and 'London Thumakda'.💃 And he loves everything that has the word 'chocolate' in it. 🍫
 
-^ I mention this because:
+^ This because:
 <br>
-a) I've been asked a few times if I am from China or Nepal or Bhutan. I'm glad that you're curious.
+a) He'd been asked a few times if he's from China or Nepal or Bhutan.
 <br>
-b) This helps me appreciate the diverse world we live in. I'm grateful. 😃
+b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
 
-Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that I took at IIT Kanpur.
+Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
-<p style="color:#ac4142;"><b>Follow me on social media 🍿</b></p>
+<p style="color:#ac4142;"><b>Follow him on social media 🍿</b></p>
 <div class="row">
     <div class="col-sm-4">
         <a href="https://github.com/reangdeba"><i class="fab fa-github"></i></a>
@@ -51,7 +71,9 @@ Here is my [bucket](/bucket/) list. [Here](/courses/) is a list of courses that 
     </div>
 </div>
 
-I'm best reached by email. Please consider reading [communication](/communication/). I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
+He's best reached by email. Please consider reading [communication](/communication/). **Now in first-person.**
+
+I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
 **What's with the emojis?**<br>
 Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. You'll find lots of 'em on this site. What's your favourite emoji? Mine is 🍫.

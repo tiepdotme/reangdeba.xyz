@@ -4,6 +4,8 @@ title: "Circle"
 subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, blog posts, and videos in no particular order."
 permalink: /circle/
 ---
+<p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
+
 > I try to update this list bi-monthly.
 
 #### Music

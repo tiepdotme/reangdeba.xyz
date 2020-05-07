@@ -5,7 +5,7 @@ permalink: /isitcanceledyet/
 ---
 This page lists events that have been canceled to prevent the spread of #COVID19.
 
-Very much inspired by: *[is it canceled yet?](https://www.isitcanceledyet.com/)*. **Last Updated:** March 16, 2020. 21:59 IST
+Very much inspired by: *[is it canceled yet?](https://www.isitcanceledyet.com/)*. <p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
 
 Feel free to shoot an email to reang.bade@gmail.com for contributions! It'll be great if we can include all-India events.
 
