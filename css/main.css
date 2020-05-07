@@ -12,6 +12,11 @@
   font-family: 'CircularStd-Medium';
   src: url("/assets/fonts/CircularStd-Medium.ttf");
 }
+
+@font-face {
+  font-family: 'CircularStd';
+  src: url("/assets/fonts/CircularStd-Book.ttf");
+}
 * {
     margin: 0;
     padding: 0;
@@ -883,6 +888,7 @@ pre code {
 
     .container {
         max-width: 90%;
+        margin-top: 2em;
     }
 
     .footer-col-1 {
@@ -1619,6 +1625,12 @@ h3, h4 {
     color: black;
 }
 
-hr {
-    margin-top: -7px;
+
+.cv-font {
+    font-family: CircularStd;
+    font-weight: 100;
+}
+
+.cv-font-Bold {
+    font-family: CircularStd-Bold;
 }
