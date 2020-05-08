@@ -17,8 +17,8 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * 👨🏻‍🎓 is a full-time student
 * 🇮🇳 can speak Bengali, English, and Hindi
 * ✍🏻 writes 10 answers on [Quora](https://www.quora.com/profile/Debashish-Reang) every week
-* 💻 also publishes one article on his [blog](/blog) every week
-* ☕ loves coffee
+* 💻 also publishes one article on his [blog](/blog) every alternate Sunday
+* ☕ loves coffee. [buy him a coffee](https://buymeacoffee.com/reangdeba)
 * 📚 also loves [books](/reads)
 * 🐈 dies for Taylor Swift
 
