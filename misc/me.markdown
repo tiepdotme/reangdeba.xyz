@@ -68,6 +68,9 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
         <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
         <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
         <a href="https://quora.com/profile/Debashish-Reang"><i class="fab fa-quora"></i></a>
+        <a href="https://dev.to/reangdeba">
+  <i class="fab fa-dev" title="reangdeba's DEV Profile"></i>
+</a>
     </div>
 </div>
 
