@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Introducing my homepage"
+description: "This site: under the hood."
+subtitle: "Jekyll is beautiful!"
+author: "Debashish Reang"
+thumbnail: "/assets/images/dp_alt.jpg"
+tags: [jekyll, css, html, webdev]
+---
+
+I started considering seriously about having a personal website during my freshman year in college. The first version of my home on the internet was hosted on GitHub Pages using the beautiful [Hyde](https://hyde.getpoole.com/) theme by [@mdo](https://twitter.com/mdo). I had used the theme almost as it is, except making a few changes like the username and email. As dramatic as it sounds, I stayed up all night one night in the middle of my end term examinations and completed deploying the site. The current version of the homepage has come a long way from humble beginnings.
+
+Over the next year, I stayed up nights after nights trying to customize the layout and add more content to the site. Even though [GitHub pages](https://pages.github.com/) is great as a service, setting up custom domain was rather a pain. Hence, I decided to use [Netlify](https://netlify.com) to build and host the site. Setting up a custom domain on Netlify is just a matter of pointing to the right DNS server. It handles the rest flawlessly. The best part is that it does it for free.
+
+I had several options to choose from &mdash; [Hugo](https://gohugo.io/), [WordPress](https://wordpress.com/), [Squarespace](https://www.squarespace.com/), [Jekyll](https://jekyllrb.com/), and countless others. I settled for Jekyll using [Bootstrap](https://getbootstrap.com/) for beautifying the site. It's easy to get started and has a huge list of themes to choose from. I started with the `minima` theme. That's what Jekyll spits out by default. The current version of the site is hugely inspired by that of [Karpathy's](https://karpathy.github.io), [Chip's](https://huyenchip.com), and [Tania's](https://taniarascia.com).
+
+I decided not to use WordPress and other drag-and-drop services because it was too trivial and insulting to my geeky engineering self. This [post](http://karpathy.github.io/2014/07/01/switching-to-jekyll/) by the amazing [Andrej Karpathy](https://cs.stanford.edu/people/karpathy/) added to my conviction of coding up something on my own.
+
+Go poking around the site and have a look. You can also head to [this](https://github.com/reangdeba/reangdeba.xyz) GitHub repository afterwards, and have a look at the code. Still better &mdash; feel free to clone the repo, and make necessary changes according to your needs.
+
+I'll really appreciate it if you can spare a minute to have a look at the site and give your valuable suggestions. You can send a message on [Twitter](https://twitter.com/reangdeba).
+
+**Thanks!**
+
+Oh, you can [buy me a coffee](https://buymeacoffee.com/reangdeba) if you wish to. 😉
