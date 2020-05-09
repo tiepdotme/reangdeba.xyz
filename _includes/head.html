@@ -43,9 +43,10 @@
     {%- seo -%}
 
     {%- feed_meta -%}
+    {% if jekyll.environment == 'production' %}
     {% include google-analytics.html %}
+    {% endif %}
 
-    <link href="/assets/css/prism.css" rel="stylesheet" />
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link href="/assets/fa/css/all.css" rel="stylesheet">
