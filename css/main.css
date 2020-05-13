@@ -440,19 +440,6 @@ cite {
   font-size: 20px;
   letter-spacing: -1px;
 } */
-.post-content blockquote {
-    /* border-left: 3px solid #ac4142; */
-    border-left: 3px solid gray;
-    padding-left: 20px;
-    font-size: 115%;
-    opacity: .6;
-    /* letter-spacing: -1px; */
-    font-style: italic;
-    margin: 30px 0;
-    line-height: 1.5;
-    height: auto;
-    font-family: 'EB Garamond', serif;
-}
 
 .post-content ul,
 .post-content ol {
@@ -1786,4 +1773,35 @@ pre[class*="language-"] {
     bottom: 20px;
     right: 20px;
     display:none;
+}
+
+blockquote p::before {
+    content: '\201C';
+    color: #ea4335;
+}
+
+blockquote p::after {
+    content: '\201D';
+    color: #ea4335;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+.post-content blockquote {
+    /* border-left: 3px solid #ac4142; */
+    /* position: relative; */
+    /* border-left: 3px solid gray; */
+    /* padding-left: 20px; */
+    /* font-size: 115%; */
+    /* opacity: .6; */
+    /* letter-spacing: -1px; */
+    /* font-style: italic; */
+    /* margin: 30px 0; */
+    line-height: 1.5;
+    height: auto;
+    font-family: CircularStd-Bold;
 }
