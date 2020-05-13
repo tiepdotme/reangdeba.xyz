@@ -14,7 +14,7 @@ layout: default
                             {{ page.content | number_of_words | minus: 250 }}
                             {% endcapture %}
                             {% unless words contains "-" %}
-                            {{ words | plus: 250 | divided_by: 180 | append: " minute read" }}
+                            {{ words | plus: 250 | divided_by: 150 | append: " minute read" }}
                             {% endunless %}</reddot> • Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
                     <hr>
                 </div>
@@ -73,7 +73,6 @@ layout: default
                                 bullshit</b>. If you enjoy what I write, please consider supporting what I do!</p>
                         <a href="https://www.buymeacoffee.com/reangdeba" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"
                                 style="height: 41px !important;width: 174px !important;"></a>
-                                <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fas fa-chevron-up"></span></a>
                     </div>
 
                 </div>
@@ -84,25 +83,3 @@ layout: default
         </div>
     </div>
 </div>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            if ($(this).scrollTop() > 30) {
-                $('#back-to-top').fadeIn();
-            } else {
-                $('#back-to-top').fadeOut();
-            }
-        });
-        // scroll body to 0px on click
-        $('#back-to-top').click(function() {
-            $('#back-to-top').tooltip('hide');
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
-
-        $('#back-to-top').tooltip('show');
-
-    });
-</script>

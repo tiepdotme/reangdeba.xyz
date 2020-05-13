@@ -5,7 +5,7 @@ permalink: /communication/
 comments: false
 ---
 
-I was told by a very nice professor in one of the courses that Language is imperfect and can never be perfect. I subscribe to that school of thought. Communication is hard, and people have different expectations from "conversations". I am blunt, and do not know what to infer from cues or expressions. Sorry!
+I was told by a very nice professor in one of the courses that Language is imperfect. I subscribe to that school of thought. Communication is hard, and people have different expectations from "conversations". I am blunt, and do not know what to infer from cues or expressions. Sorry!
 
 Hence, I think it is better to let you know how to get in touch in case you are at all interested. In short:
 * I am blunt, and hence you should be as straightforward as possible when trying to tell/ask me something.
@@ -22,7 +22,7 @@ Like most kids my age, I am on social media. But these days, I've significantly 
 * 🐦 Twitter: I open Twitter ([@reangdeba](https://twitter.com/reangdeba)) only to check Elon's tweets, and find people doing interesting stuff with Machine Learning.
 * 👍 Facebook: I check Facebook 2-3 times a week just to catch up with on-campus events, or have a look at Subtle Curry Traits memes. Feel free to say "hi!" if you wish to, but if you are not a friend your text might land up in a different folder that I don't usually check. My username is [@reangdeba](https://www.facebook.com/reangdeba).
 * 📸 Instagram: I am on Instagram as [@reangdeba_](https://www.instagram.com/reangdeba_/). I don't usually message people on Instagram, so I might not reply to your texts as well. But, feel free to follow if you like my posts. :stuck_out_tongue_winking_eye:
-* LinkedIn: I do read LinkedIn ([@reangdeba](https://www.linkedin.com/in/reangdeba/)) messages, but very rarely. How rare? umm, about once a month.
+* 💼 LinkedIn: I do read LinkedIn ([@reangdeba](https://www.linkedin.com/in/reangdeba/)) messages, but very rarely. How rare? umm, about once a month.
 * ✍️ Quora: I occasionally write on Quora. I'm on Quora as [Debashish Reang](https://www.quora.com/profile/Debashish-Reang). Feel free to text.
 
 **tl;dr**: Follow me on social media but email is best for reaching me.:stuck_out_tongue_winking_eye:
