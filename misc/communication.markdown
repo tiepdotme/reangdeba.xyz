@@ -13,7 +13,7 @@ Hence, I think it is better to let you know how to get in touch in case you are 
 * I believe your time is valuable, so is mine. Hence, if we do not know each other very well I would prefer to-the-point conversation. Thanks!
 
 ### Email
-I think this is the best way to get in touch if we've not met before. I check my inbox everyday and try to respond to all emails. There are however, a few exceptions:
+**Email:** <code>{surname}{dot}bade{at}gmail{dot}com</code>. I think this is the best way to get in touch if we've not met before. I check my inbox everyday and try to respond to all emails. There are however, a few exceptions:
 * I cannot help you get into IITs or any college for that matter. So, please do not ask about stuff that are beyond my capabilities. I am as clueless as you are. :smile:
 * Anything else that I deem not worth responding to.
 

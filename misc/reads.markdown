@@ -4,7 +4,7 @@ title: "Bookshelf"
 permalink: /reads/
 comments: true
 ---
-I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal goal for 2020 is to <mark>read 100 books</mark>. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
+I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal [goal](https://www.goodreads.com/user_challenges/21227074) for 2020 is to <mark>read 50 books</mark>. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
 
 [Here](https://www.goodreads.com/user/show/53163185-debashish-reang) is the link to my Goodreads profile.
 
@@ -36,7 +36,7 @@ I read about 150 words per minute (wpm) as per this [website](https://www.myread
 * Becoming - Michelle Obama :loudspeaker:
 * Brief Answers to the Big Questions - Stephen Hawking :floppy_disk:
 * Brown Girl Dreaming - Jacqueline Woodson :floppy_disk:
-* Ikigai: The Japanese Secret to a Long and Happy Life - Hector Garcia Puigcerver :floppy_disk:
+* [Ikigai: The Japanese Secret to a Long and Happy Life](https://amzn.to/2Z0BPaS) - Hector Garcia Puigcerver :floppy_disk:
 * The 7 Habits of Highly Effective People - Stephen Covey :watch:
 
 
@@ -54,10 +54,11 @@ I read about 150 words per minute (wpm) as per this [website](https://www.myread
 * What Young India Wants? - Chetan Bhagat
 * Revolution 2020 - Chetan Bhagat
 * Can Love Happen Twice? - Ravinder Singh
-* The Monk Who Sold His Ferrari - Robin Sharma
+* [The Monk Who Sold His Ferrari](https://amzn.to/2LqgcsA) - Robin Sharma
 * Shoe Dog - Phil Knight, Nike
 * Rage of Angels - Sidney Sheldon
 * The Da Vinci Code - Dan Brown
+* [The Alchemist](https://amzn.to/3fLXSYD) - Paulo Coelho
 * Memories of Midnight - Sidney Sheldon
 * Maze Runner: The Death Cure - James Dashner
 * Maze Runner: The Scorch Trials - James Dashner

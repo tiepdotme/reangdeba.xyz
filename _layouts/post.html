@@ -7,7 +7,7 @@ layout: default
         <div class="post-container">
             <header class="post-header">
                 <div class="text-center">
-                    <h1>{{ page.title }}</h1>
+                    <h2>{{ page.title }}</h2>
                     <p class="post-subtitle">{{ page.subtitle }}</p>
                     <p class="meta roboto" style="text-transform:uppercase; font-size:80%;">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
                             {% capture words %}
@@ -69,12 +69,40 @@ layout: default
                     <div class="card-body">
                         <a class="mac" href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/dp_alt.jpg" style="float: left; max-width: 19%; margin: 1em 1em 1em 2em; border-radius: 50%"></a>
                         <h3>Author</h3>
-                        <p style="color:white;">Hey, I'm Reang, a full-time <b>Electrical Engineering</b> student. I write what I know about Machine Learning, the web, and life to help viewers like you. My site has <b>no ads, pop ups, or other bullshit</b>. If you enjoy what I write, please consider supporting what I do!</p>
-                        <a href="https://www.buymeacoffee.com/reangdeba" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
+                        <p style="color:white;">Hey, I'm Reang, a full-time <b>Electrical Engineering</b> student. I write what I know about Machine Learning, the web, and life to help viewers like you. My site has <b>no ads, pop ups, or other
+                                bullshit</b>. If you enjoy what I write, please consider supporting what I do!</p>
+                        <a href="https://www.buymeacoffee.com/reangdeba" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee"
+                                style="height: 41px !important;width: 174px !important;"></a>
+                                <a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left"><span class="fas fa-chevron-up"></span></a>
                     </div>
+
                 </div>
+
+
 
             </article>
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 30) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function() {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+
+        $('#back-to-top').tooltip('show');
+
+    });
+</script>

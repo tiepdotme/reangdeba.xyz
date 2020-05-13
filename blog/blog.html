@@ -4,26 +4,22 @@ permalink: /blog/
 title: Blog
 ---
 <section class="content">
-    <div class="container-fluid">
-        <div class="posts-container">
+    <div class="container">
+        <div class="post-container blogpost">
             <ul class="listing">
                 {% for post in site.posts %}
                 {% unless post.draft %}
                 {% capture currentdate %}{{post.date | date: "%Y"}}{% endcapture %}
                 {% if currentdate != thedate %}
-                <h3 class="rainbow footer-brand">{{ currentdate }}</h3>
+                <h1 class="rainbow footer-brand" style="color:#ac4142;">{{ currentdate }}</h1>
                 {% capture thedate %}{{currentdate}}{% endcapture %}
                 {% endif %}
                 <li>
-                    <!-- <span class="mac">{{ post.date | date: "%B %e, %Y" }}</span> -->
                     <div class="row">
-                        <div class="col col-md-5">
+                        <div class="col-sm-12">
+                            <small class="date">{{ post.date | date: "%B %-d, %Y" }}</small><br>
                             <a href="{{ post.url }}" class="post-title">{{ post.title }}</a>
-                            <p class="posts-list-date">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-                        </div>
-                        <div class="col col-md-7 mac">
-                            <p>{{ post.description }}</p>
-                            <a href="{{ post.url }}">Read {{ post.title }} &rarr;</a>
+                            <p class="mac" style="margin-bottom: 0px;">{{ post.description }}</p>
                         </div>
                     </div>
                 </li>

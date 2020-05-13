@@ -5,10 +5,10 @@ description: "Silver Plate is a fundraiser to help the most vulnerable families 
 subtitle: "A campaign to help the most vulnerable families during these trying times."
 author: Debashish Reang
 thumbnail: "/assets/images/Silver_Plate_Logo.png"
-comments: true
-published: true
 tags: [covid-19, fundraiser]
 ---
+<p class="alert alert-danger">The project is now known as Karuna Go 2020. You can still donate. Your donations will go to the needy. To know more go to the dedicated website <a href="https://karunago.xyz" target="_blank">here</a>.</p>
+
 Hi, friend!
 
 I hope you are safe. Before getting into anything else -- Wash your hand, try to stay at home, and take care of the elderly.
@@ -26,4 +26,4 @@ I urge you to donate a small sum so that no family has to go to bed hungry. I wi
 
 In case of any queries please feel free to reach out to me. I appreciate your time and love. Thank you!
 
-Further updates including a summary of expenses would be updated on the Instagram page within the next few days. The page is [@silverplate_](https://instagram.com/silverplate_). Please share the posts as much as you can and follow the page for future updates.
+**Further updates including a summary of expenses would be updated on the website.**

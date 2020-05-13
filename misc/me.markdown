@@ -17,19 +17,19 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * 👨🏻‍🎓 is a full-time student
 * 🇮🇳 can speak Bengali, English, and Hindi
 * ✍🏻 writes 10 answers on [Quora](https://www.quora.com/profile/Debashish-Reang) every week
-* 💻 also publishes one article on his [blog](/blog) every alternate Sunday
+* 💻 also publishes one article on his [blog](/blog) every month
 * ☕ loves coffee. [buy him a coffee](https://buymeacoffee.com/reangdeba)
 * 📚 also loves [books](/reads)
 * 🐈 dies for Taylor Swift
 
 ## Currently using:
-* **Computer:** 13" MacBook Air 2017
+* **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
 * **Hosting:** [Netlify](https://netlify.com)
 * **Editor:** [Atom](https://atom.io)
 * **Static site generator:** [Jekyll](https://jekyllrb.com/)
 * **Syntax highlighting:** [PrismJS](https://prismjs.com/)
-* **Tablet:** iPad Air 3rd Generation
-* **Phone:** OnePlus 7
+* **Tablet:** [iPad Air 3rd Generation](https://amzn.to/2LoXu4y)
+* **Phone:** [OnePlus 7](https://amzn.to/2SYM3oi)
 
 
 
