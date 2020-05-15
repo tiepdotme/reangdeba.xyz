@@ -4,7 +4,7 @@ permalink: "/resume"
 title: "Résumé"
 ---
 <div class="container">
-    <div class="post-container cv-font">
+    <div class="posts-container cv-font">
         <div class="text-center">
             <h1>Debashish Reang</h1>
             Résumé &mdash; {{ page.last_modified_at | date: "%B, %Y" }}<br>
@@ -13,118 +13,82 @@ title: "Résumé"
         </div>
 
         <hr>
-        <p class="text-center"><i>Come back later!</i></p>
         <div class="row">
-            <!-- Interests -->
-            <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <p><b>INTERESTS</b></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>Computer Vision, Computational Biology</p>
-                    </div>
-                </div>
-            </div>
+            <div class="col">
+                <b style="color: #ac4142;">INTERESTS</b>
+                <p>Computer Vision, Computational Biology</p>
 
-            <!-- Education -->
-            <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <b>EDUCATION</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;">2017-2021 (expected)</i><br>
-                            B.Tech., Electrical Engineering
-                        </p>
-                    </div>
-                </div>
-            </div>
+                <b style="color: #ac4142;">EDUCATION</b>
+                <p>
+                    <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;" class="mac">2017 - 2021 (expected)</i><br>
+                    B.Tech., Electrical Engineering<br>
+                    <span class="mac"><i>Relevant Coursework:</i> Machine Learning, Data Structures & Algorithms*, Bioinformatics & Computational Biology, Probability & Statistics, Linear Algebra, Digital Electronics, Complex Variables <i style="float:right;">* - Ongoing</i></span>
+                </p>
+                <p>
+                    <span class="cv-font-Bold">NPS International School Guwahati</span> <i style="float:right;" class="mac">June 2015 - June 2017</i><br>
+                    All India Senior School Certificate Examination (AISSCE)
+                </p>
+                <p>
+                    <span class="cv-font-Bold">Saint Arnold's School</span> <i style="float:right;" class="mac">Jan 2010 - June 2015</i><br>
+                    Madhyamik Pariksha (TBSE)
+                </p>
 
-            <!-- Current projects -->
-            <!-- <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <b>OPEN SOURCE</b>
-                    </div>
-                </div>
+                <b style="color: #ac4142;">SCHOLASTIC ACHIEVEMENTS</b>
+                <br>
+                    <span class="cv-font-Bold">National Scholarship for Higher Education</span> <i style="float:right;" class="mac">2018, 2019</i>
+                <br>
+                    <span class="cv-font-Bold">Merit-cum-Means Scholarship IIT Kanpur</span> <i style="float:right;" class="mac">2017</i>
+                <br>
+                    <p><span class="cv-font-Bold">Dr. B.R Ambedkar Merit Award</span> <i style="float:right;" class="mac">2015</i></p>
+                <b style="color: #ac4142;">EXPERIENCE</b>
+                <p>
+                    <span class="cv-font-Bold">Parallel Computing Lab</span> <i style="float:right;" class="mac">May 2019 - Dec 2019</i><br>
+                    <i>Undergraduate Researcher &middot; Advisor: Prof. Preeti Malakar</i><br>
+                    <span class="mac">
+                    &middot; Studied the Weather Research Forecast Model (WRF) for weather simulation and attempted to visualize it<br>
+                    &middot; Refactored VisIt source code to efficiently visualize the WRF output data. VisIt is a popular software for visualizing weather data, developed by the Lawrence Livermore National Laboratory, USA
+                    </span>
+                </p>
+                <p>
+                    <span class="cv-font-Bold">Laboratory of Neural Systems</span> <i style="float:right;" class="mac">Dec 2019</i><br>
+                    <i>Software Developer</i><br>
+                    <span class="mac">
+                    &middot; Wrote scripts to suggest similar posts on treadwill.org, a platform to help people with anxiety, depression<br>
+                    &middot; Used tf-idf and Support Vector Machine (SVM) classifier to suggest similar posts based on content and title
+                    </span>
+                </p>
+                <b style="color: #ac4142;">PROJECTS</b>
+                <p>
+                    <span class="cv-font-Bold">Galaxy Puzzle Hunt 2020</span> <i style="float:right;" class="mac">Feb 2020</i><br>
+                    <i>Independent Project</i><br>
+                    <span class="mac">
+                    &middot; Wrote & self-hosted the first online Puzzle Hunt during the annual cultural competition Galaxy 2020<br>
+                    &middot; More than 100 students from 5 different undergraduate hostels stayed up all night solving the puzzles<br>
+                    &middot; Used Flask as the framework, PostgreSQL for the database, and self-hosted using Nginx on Ubuntu 18.04
+                    </span>
+                </p>
+                <p>
+                    <span class="cv-font-Bold">Machine Learning for Lattice Generation for Physics</span> <i style="float:right;" class="mac">Jul 2019 - Nov 2019</i><br>
+                    <i>EE392A: Undergraduate Project &middot; Advisor: Prof. Vipul Arora</i><br>
+                    <span class="mac">
+                    &middot; Generated new lattices using Convolutional Neural Nets that corresponded to the thermodynamic trends as observed in lattices generated using standard Monte Carlo simulation at lower temperatures<br>
+                    &middot; Generated the train and test datasets & used PyTorch extensively for implementing the neural nets
+                    </span>
+                </p>
+                <b style="color: #ac4142;">TECHNICAL SKILLS</b>
+                <br>
+                    <span class="cv-font-Bold">Languages:</span> Python, C, Octave
+                    <p><span class="cv-font-Bold">Frameworks:</span> PyTorch, TensorFlow, NumPy, SciPy, Flask</p>
+                <b style="color: #ac4142;">COMMUNITY SERVICE & LEADERSHIP</b>
+                <br>
+                    <span class="cv-font-Bold">Coordinator, Quiz Club IIT Kanpur</span> <i style="float:right;" class="mac">Apr 2019 - Apr 2020</i>
+                <!-- </p> -->
+                <!-- <p> -->
+                <br>
+                    <span class="cv-font-Bold">Core Group Member, Vox Populi IIT Kanpur</span> <i style="float:right;" class="mac">Apr 2019 - Apr 2020</i>
+                    <br>
+                    <span class="cv-font-Bold">Academic Mentor & Student Guide, Counselling Service IIT Kanpur</span> <i style="float:right;" class="mac">2018 - 2019</i>
             </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;">2017-2021 (expected)</i><br>
-                            B.Tech., Electrical Engineering
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Companies -->
-            <!-- <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <b>COMPANIES</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;">2017-2021 (expected)</i><br>
-                            B.Tech., Electrical Engineering
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Research -->
-            <!-- <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <b>RESEARCH</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;">2017-2021 (expected)</i><br>
-                            B.Tech., Electrical Engineering
-                        </p>
-                    </div>
-                </div>
-            </div> -->
-
-            <!-- Awards -->
-            <!-- <div class="col-sm-3">
-                <div class="row">
-                    <div class="col">
-                        <b>AWARDS</b>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-9">
-                <div class="row">
-                    <div class="col">
-                        <p>
-                            <span class="cv-font-Bold">Indian Institute of Technology Kanpur</span> <i style="float:right;">2017-2021 (expected)</i><br>
-                            B.Tech., Electrical Engineering
-                        </p>
-                    </div>
-                </div>
-            </div> -->
         </div>
     </div>
 </div>
