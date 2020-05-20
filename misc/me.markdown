@@ -11,12 +11,11 @@ permalink: /bio/
 
 Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
-> "you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur
+*"you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur*
 
 ## Reang:
 * 👨🏻‍🎓 is a full-time student
 * 🇮🇳 can speak Bengali, English, and Hindi
-* ✍🏻 writes 10 answers on [Quora](https://www.quora.com/profile/Debashish-Reang) every week
 * 💻 also publishes one article on his [blog](/blog) every month
 * ☕ loves coffee. [buy him a coffee](https://buymeacoffee.com/reangdeba)
 * 📚 also loves [books](/reads)
@@ -67,7 +66,6 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
         <a href="https://twitter.com/reangdeba"><i class="fab fa-twitter"></i></a>
         <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
         <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
-        <a href="https://quora.com/profile/Debashish-Reang"><i class="fab fa-quora"></i></a>
         <a href="https://dev.to/reangdeba">
   <i class="fab fa-dev" title="reangdeba's DEV Profile"></i>
 </a>
@@ -80,3 +78,5 @@ I'm always open to interesting conversation and collaboration. If you are at IIT
 
 **What's with the emojis?**<br>
 Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. You'll find lots of 'em on this site. What's your favourite emoji? Mine is 🍫.
+
+You can provide an anonymous feedback [here](https://forms.gle/k95pq3vrWCSjwEtJA).

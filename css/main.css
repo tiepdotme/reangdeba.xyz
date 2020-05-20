@@ -1805,3 +1805,11 @@ blockquote p {
     height: auto;
     font-family: CircularStd-Bold;
 }
+
+::-moz-selection { /* Code for Firefox */
+  background: yellow;
+}
+
+::selection {
+  background: yellow;
+}
