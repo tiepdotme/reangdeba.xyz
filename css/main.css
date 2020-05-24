@@ -1,5 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,700&display=swap');
 
@@ -382,17 +382,20 @@ cite {
     margin: 10px 0 10px;
 }
 
-.post-header h1 {
-    font-size: 50px;
+.post-header h2 {
+/*     font-size: 50px; */
     /* letter-spacing: -1.75px; */
-    line-height: 1;
-    font-weight: 700 !important;
+/*     line-height: 1; */
+/*     font-weight: 700 !important; */
     font-family: 'CircularStd-Bold';
 }
+
+
 
 .post-subtitle {
     font-size: 20px;
     font-family: 'CircularStd-Medium';
+    display: none;
 }
 
 .post header {
@@ -400,10 +403,11 @@ cite {
 }
 
 .post-header .meta {
-    font-size: 16px;
-    opacity: 0.6;
+    font-size: 10px;
+    /*     opacity: 0.6; */
     /* color: red; */
     margin-top: 5px;
+    text-transform: uppercase;
     /* font-weight: bold; */
 }
 
@@ -1778,17 +1782,23 @@ pre[class*="language-"] {
 blockquote p::before {
     content: '\201C';
     color: #ea4335;
+    font-size: 125%;
 }
 
 blockquote p::after {
     content: '\201D';
     color: #ea4335;
+    font-size: 125%;
 }
 
 blockquote p {
-    padding: 15px;
-    background: #eee;
-    border-radius: 5px;
+    padding: 10px;
+    border-left: 4px solid #8bb5da;
+    font-style: italic;
+    font-size: 115%;
+    font-family: "EB Garamond";
+/*     background: #eee; */
+/*     border-radius: 5px; */
 }
 
 .post-content blockquote {
@@ -1797,13 +1807,13 @@ blockquote p {
     /* border-left: 3px solid gray; */
     /* padding-left: 20px; */
     /* font-size: 115%; */
-    /* opacity: .6; */
+/*     opacity: .6; */
     /* letter-spacing: -1px; */
     /* font-style: italic; */
     /* margin: 30px 0; */
-    line-height: 1.5;
-    height: auto;
-    font-family: CircularStd-Bold;
+/*     line-height: 1.5; */
+/*     height: auto; */
+    /* font-family: "Segoe UI"; */
 }
 
 ::-moz-selection { /* Code for Firefox */

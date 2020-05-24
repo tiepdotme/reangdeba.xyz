@@ -6,7 +6,7 @@ layout: default
     <div class="container">
         <div class="post-container">
             <header class="post-header">
-                <div class="text-center">
+                <div>
                     <h2>{{ page.title }}</h2>
                     <p class="post-subtitle">{{ page.subtitle }}</p>
                     <p class="meta roboto" style="text-transform:uppercase; font-size:80%;">{{ page.date | date: "%B %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
@@ -15,7 +15,7 @@ layout: default
                             {% endcapture %}
                             {% unless words contains "-" %}
                             {{ words | plus: 250 | divided_by: 150 | append: " minute read" }}
-                            {% endunless %}</reddot> • Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
+                            {% endunless %}</reddot> • Last modified on: {{ page.last_modified_at | date: "%B %-d, %Y" }}</p>
                     <hr>
                 </div>
 
