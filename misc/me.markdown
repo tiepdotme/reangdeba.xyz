@@ -58,11 +58,11 @@ b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
 
 Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
-<p style="color:#ac4142;"><b>Follow him on social media 🍿</b></p>
+<p style="color:#ac4142;"><b>Follow him elsewhere 🍿</b></p>
 <div class="row">
     <div class="col-sm-4">
         <a href="https://github.com/reangdeba"><i class="fab fa-github"></i></a>
-        <a href="https://facebook.com/reangdeba"><i class="fab fa-facebook"></i></a>
+        <a href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ"><i class="fab fa-youtube"></i></a>
         <a href="https://twitter.com/reangdeba"><i class="fab fa-twitter"></i></a>
         <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
         <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
