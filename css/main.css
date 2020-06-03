@@ -1793,10 +1793,11 @@ blockquote p::after {
 
 blockquote p {
     padding: 10px;
-    border-left: 4px solid #8bb5da;
+    border-left: 7px solid #ac4142;
     font-style: italic;
-    font-size: 115%;
+    font-size: 110%;
     font-family: "EB Garamond";
+    line-height: normal;
 /*     background: #eee; */
 /*     border-radius: 5px; */
 }
