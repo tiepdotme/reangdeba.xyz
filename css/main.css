@@ -1400,8 +1400,8 @@ ul.listing>h4 {
 
 /* .content {
   /* max-width: 700px; */
-margin: 0 20px 50px 250px;
-}
+/* margin: 0 20px 50px 250px;
+} */
 
 */ .content .byline {
     margin-top: 5px;
@@ -1465,7 +1465,7 @@ li {
     /* color: #000; */
 }
 
-.content .listing li span.talk-title {}
+/* .content .listing li span.talk-title {} */
 
 .content .listing li span:not(.talk-title) {
     font-size: 13px;
@@ -1808,20 +1808,6 @@ blockquote p {
 /*     border-radius: 5px; */
 }
 
-.post-content blockquote {
-    /* border-left: 3px solid #ac4142; */
-    /* position: relative; */
-    /* border-left: 3px solid gray; */
-    /* padding-left: 20px; */
-    /* font-size: 115%; */
-/*     opacity: .6; */
-    /* letter-spacing: -1px; */
-    /* font-style: italic; */
-    /* margin: 30px 0; */
-/*     line-height: 1.5; */
-/*     height: auto; */
-    /* font-family: "Segoe UI"; */
-}
 
 ::-moz-selection { /* Code for Firefox */
   background: yellow;
