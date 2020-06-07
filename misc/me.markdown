@@ -14,21 +14,25 @@ Even before that, he spent the first 16 years of his life living in a small stat
 *"you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur*
 
 ## Reang:
-* 👨🏻‍🎓 is a full-time student
+* 👨🏻‍🎓 studies Electrical Engineering
+* 👨🏻‍🎓 teaches on [YouTube](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ)
 * 🇮🇳 can speak Bengali, English, and Hindi
-* 💻 also publishes one article on his [blog](/blog) every month
-* ☕ loves coffee. [buy him a coffee](https://buymeacoffee.com/reangdeba)
+* 💻 also publishes at least one article on his [blog](/blog) every month
+* ☕ loves coffee. You can [buy him a coffee](https://buymeacoffee.com/reangdeba)
 * 📚 also loves [books](/reads)
 * 🐈 dies for Taylor Swift
 
 ## Currently using:
 * **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
 * **Hosting:** [Netlify](https://netlify.com)
-* **Editor:** [Atom](https://atom.io)
+* **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 * **Static site generator:** [Jekyll](https://jekyllrb.com/)
 * **Syntax highlighting:** [PrismJS](https://prismjs.com/)
 * **Tablet:** [iPad Air 3rd Generation](https://amzn.to/2LoXu4y)
 * **Phone:** [OnePlus 7](https://amzn.to/2SYM3oi)
+* **Headphone:** [Sony XM3](https://amzn.to/3czldu7)
+* **Graphic Tablet:** [Wacom One](https://amzn.to/3cFd8Eg)
+* **e-Reader:** [Kindle Paperwhite](https://amzn.to/2Y0rj1b)
 
 
 
