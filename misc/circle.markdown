@@ -17,6 +17,11 @@ Includes songs that I've listened on repeat at least 10 times or more.
 * 2002 - Anne Marie
 * Fight Song - Rachel Platten
 * Takeaway ft. Lennon Stella - The Chainsmokers, ILLENIUM
+* Solo (feat. Demi Lovato) - Clean Bandit
+* ocean eyes - Billie Eilish
+* Put A Little Love On Me - Niall Horan
+
+Feel free to checkout this [playlist](https://open.spotify.com/playlist/1PP6YFymuDrsXQkuudD0Vb?si=xtkWclj3Ts6KYmOCNMJ9hA) on Spotify.
 
 #### Movies
 * To All the Boys: P.S. I Still Love You
@@ -24,11 +29,7 @@ Includes songs that I've listened on repeat at least 10 times or more.
 * Titanic
 * The Fault in Our Stars
 * The Pursuit of Happyness
-
-#### Interesting Academic Papers
-Collection of a few academic papers that I found "cool".
-
-* [Super-resolving the Ising model with convolutional neural networks](https://arxiv.org/abs/1810.02372). The authors of this paper tried to extend convolutional neural nets or more popularly known as CNNs, to  condensed matter physics. In particular, they tried to model physical lattices using neural nets for 1D and 2D lattices, and show that the predictions are pretty close to those obtained by Monte-Carlo simulations.
+* Chintu Ka Birthday
 
 #### Blogs
 * [Andrej Karpathy](https://karpathy.github.io)
@@ -37,4 +38,4 @@ Collection of a few academic papers that I found "cool".
 * [Laura Gao](https://www.lauragao.com/hey)
 * [Deedy's](http://debarghyadas.com/writes/)
 
-Do you have any suggestions? Feel free to shoot an email to <a href="mailto:reang.bade@gmail.com">reang.bade@gmail.com</a>. You can also get in touch via social media.
+Do you have any suggestions? Feel free to shoot an email to <a href="mailto:hi@reangdeba.xyz">hi@reangdeba.xyz</a>. You can also get in touch via social media.

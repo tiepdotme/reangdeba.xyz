@@ -1,7 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,700&display=swap');
 
 @font-face {
   font-family: 'CircularStd-Bold';
@@ -27,21 +27,16 @@ html, body {
 }
 
 body {
-    /* font-family: 'Source Serif Pro', serif; */
-    font-family: "EB Garamond";
+    font-family: 'Source Serif Pro', serif;
     background-color: #fff;
-    font-size: 21px;
+    font-size: 110%;
 }
-
 
 h1, h2, h3, h4, name, .navbar-brand, .nav-link, .roboto, .site-footer {
     font-family: 'CircularStd-Bold', 'IBM Plex Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 500 !important;
 }
 
-.nav-link {
-    font-size: 17.6px;
-}
 a {
     color: #0787E3;
     /* transition: color .3s ease-in-out; */
@@ -1458,7 +1453,7 @@ li {
 }
 
 .content .listing li {
-    font-size: 21px;
+    font-size: 18px;
     list-style: none;
     padding: 5px 0px;
     margin: 0 0 10px 0;
@@ -1595,7 +1590,6 @@ h3, h4 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 7px;
-    font-size: 21px;
 }
 
 .footer-subscription {
@@ -1645,7 +1639,7 @@ pre[class*="language-"] {
 	background: none;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
 	font-family: Monaco, Consolas, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 16px;
+	font-size: 95%;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -1801,13 +1795,27 @@ blockquote p {
     padding: 10px;
     border-left: 7px solid #ac4142;
     font-style: italic;
-    font-size: 21px;
+    font-size: 110%;
     font-family: "EB Garamond";
     line-height: normal;
 /*     background: #eee; */
 /*     border-radius: 5px; */
 }
 
+/* .post-content blockquote { */
+    /* border-left: 3px solid #ac4142; */
+    /* position: relative; */
+    /* border-left: 3px solid gray; */
+    /* padding-left: 20px; */
+    /* font-size: 115%; */
+/*     opacity: .6; */
+    /* letter-spacing: -1px; */
+    /* font-style: italic; */
+    /* margin: 30px 0; */
+/*     line-height: 1.5; */
+/*     height: auto; */
+    /* font-family: "Segoe UI"; */
+/* } */
 
 ::-moz-selection { /* Code for Firefox */
   background: yellow;
@@ -1816,4 +1824,3 @@ blockquote p {
 ::selection {
   background: yellow;
 }
-

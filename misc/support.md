@@ -15,7 +15,7 @@ Thanks again. Let's educate India, one lesson at a time.
 
 ### One time contribution
 
-Here is my [paypal](https://paypal.me/reangdeba?locale.x=en_GB). If you wish to use UPI, please send me an email, so that I can give you the address.
+Here is my [paypal](https://paypal.me/reangdeba?locale.x=en_GB). If you wish to use UPI, you can contribute via `reang.bade@oksbi`. Thanks!
 
 ### Supporters
 * *None as of now*
