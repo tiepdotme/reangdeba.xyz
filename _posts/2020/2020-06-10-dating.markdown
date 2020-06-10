@@ -1,0 +1,39 @@
+---
+layout: post
+title: "Picodate"
+description: "Dating: De-mystified!"
+subtitle: "Coding kar le!"
+author: "Debashish Reang"
+thumbnail: "/assets/images/dating.jpg"
+comments: true
+tags: [tinder, dating]
+---
+
+***Abstract:** Picodates are essentially kilomorts, but for romance instead of death. They provide an end-to-end framework to think about questions from "What should I have for dinner?" to "When is the best time to break up with my partner?" **Keywords:** humor, romance, dating, decision analysis*
+
+### 1. What is a picodate, exactly?
+A picodate (n.) is a $1$ in a $10^{12}$ chance that your actions will lead you to going on a date. Note that some actions such as you getting an **F** grade in a course or you dying for real have better chances. It is a combination of two words -- pico- ($10^{-12}$) and -date. Most people would agree to this definition, however certain ignorant souls would disagree. These people probably live in a bubble or may be they are just outliers, like exceptions in O-Chem! Considering that the world is going through a pandemic, the chances might be slightly better or worse, but it remains on that order.
+
+### 2. Are there alternatives for romantic success?
+Yes! Experts suggest that the preferred term for short-term romance is microhookup. Microhookups involve sitting down for mundane tasks like awkwardly sipping coffee while sitting in front of a person, or at times they can also include weird silent killer-stares.
+
+Critics of this method noted that the use of the term 'hookup' is unjustified and that the odds against you are much higher. Whether the terminology is justified or not, the fact remains that microhookups are much more effective than picodates in the long run.
+
+### 3. Should I go for picodates or microhookups?
+As noted in the previous section, microhookups are sustainable in the long run. However, picodates have their own pros and cons. Let me give you some numbers -- an average IITK person is exposed to about $0.2 \times 10^{3}$ to $0.4 \times 10^{3}$ microhookups per year. With careful effort, and analysis you can increase your exposure and in turn your chances! Why not both? Come on, you won't be reading this article then!
+
+The first step is to estimate the typical conversion rate for hours and rupees to microhookups available to you. Then, when considering actions in the future, you can ask whether they are competitive with your other options such as working on a problem set or going out with friends. 
+
+### 4. I heard Tinder helps?
+Even when you are doing everything absolutely right, romance is a highly stochastic process. The problem is intractable in a general setting, there are just too many variables which are in most cases working against you. There are a lot of events that don't lead to dates, and when you're with someone, there are a lot of things that can reset the process all over. This will require you to start solving the problem from scratch. It all can be pretty disheartening!
+
+But, don't worry! Microhookups can help you solve for one constraint at a time. Even, if you don't end up in a picodate you can feel happy about the microhookup, that's adding to your life savings. This helps you acquire more and more microhookups and hopefully find a picodate.
+
+Tinder might or might not help, depending on your location. In general people are there for digital marketing; redirect you from Tinder to Instagram to increase follower count or go around asking for sex. In most, cases it's one of these two. Again, microhookups! Stuff will pretty much not result in a picodate. Still, you can try your luck afterall, the world is a huge place.
+
+### 5. Are you serious?
+No. I'm 99% joking. I do think the general funda works. And you'll most certainly agree with the numbers. If you don't believe me just ask to go on a picodate next time you talk to somebody.
+
+**Looking for some microhookups or picodates yourself?** I'm on most social media platforms. You can also send me an email :')
+
+If you don't trust what I say, you can go [here](https://www.google.com/search?q=mat+maan+meme&tbm=isch&source=iu&ictx=1&fir=KaX8JDRFz3svvM%253A%252CTfypUpG-px3TDM%252C_&vet=1&usg=AI4_-kQw2eYOnNHY-kGH1YrcpfBJnhSfmA&sa=X&ved=2ahUKEwiKhcaq6_fpAhUpILcAHW-MDMEQ9QEwAnoECAoQFQ#imgrc=KaX8JDRFz3svvM) to be more convinced.
