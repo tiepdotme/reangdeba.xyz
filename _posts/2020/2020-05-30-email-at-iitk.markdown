@@ -4,6 +4,7 @@ title: "How to email at IIT Kanpur"
 description: "A definitive guide for effectively sending emails to people, organizations, and if you're unlucky, bots."
 subtitle: "Do your emails right!"
 author: Debashish Reang
+comments: true
 thumbnail: "/assets/images/email.jpg"
 tags: [iitk, emailing-guide]
 ---
