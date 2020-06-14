@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to email at IIT Kanpur"
-description: "A definitive guide for effectively sending emails to people, organizations, and if you're unlucky, bots."
+description: "A definitive guide to emailing like a Pro."
 subtitle: "Do your emails right!"
 author: Debashish Reang
 comments: true

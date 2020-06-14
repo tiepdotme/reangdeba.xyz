@@ -5,6 +5,7 @@ description: "Silver Plate is a fundraiser to help the most vulnerable families 
 subtitle: "A campaign to help the most vulnerable families during these trying times."
 author: Debashish Reang
 thumbnail: "/assets/images/Silver_Plate_Logo.png"
+published: false
 tags: [covid-19, fundraiser]
 ---
 <p class="alert alert-danger">The project is now known as Karuna Go 2020. You can still donate. Your donations will go to the needy. To know more go to the dedicated website <a href="https://karunago.xyz" target="_blank">here</a>.</p>

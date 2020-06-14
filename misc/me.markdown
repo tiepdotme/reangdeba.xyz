@@ -13,6 +13,8 @@ Even before that, he spent the first 16 years of his life living in a small stat
 
 *"you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur*
 
+<iframe src="https://reangdeba.substack.com/embed" width="300" height="70" frameborder="0" scrolling="no"></iframe>
+
 ## Reang:
 * 👨🏻‍🎓 studies Electrical Engineering
 * 👨🏻‍🎓 teaches on [YouTube](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ)

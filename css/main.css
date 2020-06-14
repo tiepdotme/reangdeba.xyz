@@ -2,6 +2,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400;700&display=swap'); */
 
 @font-face {
   font-family: 'CircularStd-Bold';
@@ -28,6 +29,7 @@ html, body {
 
 body {
     font-family: 'Source Serif Pro', serif;
+    /* font-family: 'Encode Sans', sans-serif; */
     background-color: #fff;
     font-size: 110%;
 }
@@ -1779,27 +1781,14 @@ pre[class*="language-"] {
     display:none;
 }
 
-blockquote p::before {
-    content: '\201C';
-    color: #ea4335;
-    font-size: 125%;
-}
-
-blockquote p::after {
-    content: '\201D';
-    color: #ea4335;
-    font-size: 125%;
+blockquote {
+    display: block;
+    padding-left: 30px;
 }
 
 blockquote p {
     padding: 10px;
-    border-left: 7px solid #ac4142;
-    font-style: italic;
-    font-size: 110%;
-    font-family: "EB Garamond";
-    line-height: normal;
-/*     background: #eee; */
-/*     border-radius: 5px; */
+    border-left: solid 4px #b4c6c7;
 }
 
 /* .post-content blockquote { */
@@ -1824,3 +1813,4 @@ blockquote p {
 ::selection {
   background: yellow;
 }
+

@@ -7,6 +7,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/reang.jpg"
 last_updated: "2019-12-09"
 comments: true
+published: false
 tags: [life, reflections]
 ---
 I started college in July 2017 as an ambitious and wide-eyed young freshman or as a few would say, 'baccha'. My priorities after getting into college were very clear: I wanted to learn as much as I could and have a fun life -- only I did not know what I had signed up for and what the future had in store for me. I used to think that if I read one book every week, by the end of my degree I will have acquired enough knowledge to get into the best of graduate schools and be ahead of my peers. Now that I think about it, it is actually hilarious. Nothing could be further from the truth. My parents never graduated from high school. But, that did not stop them from giving me the best education and opportunities that they could. I can never be grateful enough for what they have done for me.

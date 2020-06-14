@@ -6,6 +6,7 @@ subtitle: "The pandemic lockdown has also made me a lot far away from many peopl
 author: "Debashish Reang's Sister :stuck_out_tongue_closed_eyes:"
 thumbnail: "/assets/images/lockdown.jpg"
 comments: true
+published: false
 tags: [lockdown, sister, life]
 ---
 > "This essay was written by my sister as an entry to an essay writing competition. The words are kept the same as was submitted. I must say I'm proud of her xD. She's in grade 6."
