@@ -5,6 +5,7 @@ description: "I'll introduce a simple ML algorithm, commonly used as a baseline,
 subtitle: "Let's find them Neighbours!"
 author: Debashish Reang
 thumbnail: "/assets/images/Silver_Plate_Logo.png"
+draft: true
 tags: [knn, ml, algorithms, python, numpy]
 ---
 **Code**. For the full code that appears on this page, [visit my GitHub repository](https://github.com/reangdeba/blog-code/tree/master/knn).
