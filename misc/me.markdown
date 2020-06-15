@@ -3,7 +3,7 @@ layout: page
 title: "About me"
 permalink: /bio/
 ---
-**Hi, again!** 🙆🏻‍
+**Hi, again!** 🤷‍♂️
 <br>
 <p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/duckduck.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
 
@@ -11,9 +11,10 @@ permalink: /bio/
 
 Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
-*"you give and give till they pull everything out of you and leave you empty."<br> - rupi kaur*
+<reddot><i>"When life itself is lunatic, who knows where the madness lies?"</i></reddot>
 
 <iframe src="https://reangdeba.substack.com/embed" width="300" height="70" frameborder="0" scrolling="no"></iframe>
+👆 To receive weekly update on Fridays, sign up for his newsletter. Let's have a good life!
 
 ## Reang:
 * 👨🏻‍🎓 studies Electrical Engineering
@@ -78,7 +79,7 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
     </div>
 </div>
 
-He's best reached by email. Please consider reading [communication](/communication/). **Now in first-person.**
+He's best reached by email. His email address is `hi@reangdeba.xyz` Please consider reading [communication](/communication/). **Now in first-person.**
 
 I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
