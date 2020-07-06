@@ -1788,7 +1788,10 @@ blockquote {
 
 blockquote p {
     padding: 10px;
-    border-left: solid 4px #b4c6c7;
+    border-left: solid 4px #72c2bf;
+    font-style: italic;
+    font-family: 'EB Garamond';
+    font-size: 110%;
 }
 
 /* .post-content blockquote { */
