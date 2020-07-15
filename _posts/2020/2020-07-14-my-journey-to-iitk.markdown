@@ -1,12 +1,13 @@
 ---
 layout: post
 title: "My Journey to IIT Kanpur"
-description: "IIT Kanpur is awesome. I won't trade the experience I've had for anything else. I should've chosen my major wisely though!"
+description: "IIT Kanpur is awesome. I won't trade the experience I've had for anything else."
 author: Debashish Reang
 thumbnail: "/assets/images/iitk_journey_3.jpg"
 comments: true
-tags: [Life]
+tags: [Campus life]
 ---
+
 <div class="row">
 
     <div class="col-sm-6">
