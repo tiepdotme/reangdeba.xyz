@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About me"
-permalink: /bio/
+permalink: /me/
 ---
 **Hi, again!** 🤷‍♂️
 <br>
@@ -11,12 +11,10 @@ permalink: /bio/
 
 Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
-<reddot><i>"When life itself is lunatic, who knows where the madness lies?"</i></reddot>
-
-<iframe src="https://reangdeba.substack.com/embed" width="300" height="70" frameborder="0" scrolling="no"></iframe>
-👆 To receive weekly update on Fridays, sign up for his newsletter. Let's have a good life!
+> "When life itself is lunatic, who knows where the madness lies?"
 
 ## Reang:
+
 * 👨🏻‍🎓 studies Electrical Engineering
 * 👨🏻‍🎓 teaches on [YouTube](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ)
 * 🇮🇳 can speak Bengali, English, and Hindi
@@ -26,6 +24,7 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * 🐈 dies for Taylor Swift
 
 ## Currently using:
+
 * **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
 * **Hosting:** [Netlify](https://netlify.com)
 * **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
@@ -36,8 +35,6 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * **Headphone:** [Sony XM3](https://amzn.to/3czldu7)
 * **Graphic Tablet:** [Wacom One](https://amzn.to/3cFd8Eg)
 * **e-Reader:** [Kindle Paperwhite](https://amzn.to/2Y0rj1b)
-
-
 
 **Here are some other things of interest, in no particular:**
 <br>
@@ -65,8 +62,9 @@ b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
 
 Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
-<p style="color:#ac4142;"><b>Follow him elsewhere 🍿</b></p>
+<p style="color:#ac4142; "><b>Follow him elsewhere 🍿</b></p>
 <div class="row">
+
     <div class="col-sm-4">
         <a href="https://github.com/reangdeba"><i class="fab fa-github"></i></a>
         <a href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ"><i class="fab fa-youtube"></i></a>
@@ -74,9 +72,12 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
         <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
         <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
         <a href="https://dev.to/reangdeba">
+
   <i class="fab fa-dev" title="reangdeba's DEV Profile"></i>
 </a>
+
     </div>
+
 </div>
 
 He's best reached by email. His email address is `hi@reangdeba.xyz` Please consider reading [communication](/communication/). **Now in first-person.**
@@ -86,4 +87,4 @@ I'm always open to interesting conversation and collaboration. If you are at IIT
 **What's with the emojis?**<br>
 Umm, I love emojis. I think they are beautiful and can cheer people up. They also help in getting your point across better as compared to using only words to communicate. You'll find lots of 'em on this site. What's your favourite emoji? Mine is 🍫.
 
-You can provide an anonymous feedback [here](https://forms.gle/k95pq3vrWCSjwEtJA).
+You can leave an anonymous feedback [here](https://forms.gle/k95pq3vrWCSjwEtJA).

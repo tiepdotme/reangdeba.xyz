@@ -12,8 +12,9 @@ layout: default
                     <p class="meta roboto" style="text-transform:uppercase; font-size:80%;">
                         {% capture postime %}{{ page.date | date: "%B %-d, %Y" }}{% endcapture %}
                         {% capture modtime %}{{ page.last_modified_at | date: "%B %-d, %Y" }}{% endcapture %}
-                        {{ page.date | date: "%B %-d, %Y" }}{% if page.author %}{% if postime != modtime %} • <reddot><i>modified on:
-                        {{ page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</i></reddot> •
+                        {{ page.date | date: "%B %-d, %Y" }}{% if page.author %}{% if postime != modtime %} • <reddot>
+                            <i>modified on:
+                                {{ page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</i></reddot> •
                         {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
                             {% capture words %}
                             {{ page.content | number_of_words | minus: 250 }}
@@ -27,17 +28,18 @@ layout: default
             </header>
 
             <article class="post-content blogpost">
-                <div id="toc"></div>
                 {{ content }}
-
 
                 <div>
                     <p>If you enjoy reading my work, you can subscribe by email:</p>
                     <iframe src="https://reangdeba.substack.com/embed" width="300" height="70" frameborder="0"
                         scrolling="no"></iframe>
                 </div>
-                
-                <div class="share-panel mac">
+
+                <p>You can leave an anonymous feedback <a href="https://forms.gle/k95pq3vrWCSjwEtJA"
+                        target="_blank">here</a>.</p>
+
+                <!-- <div class="share-panel mac">
                     <div class="row">
                         <div class="col-sm-7 text-left align-bottom">
                             {% for tag in page.tags %}
@@ -72,8 +74,8 @@ layout: default
                             </span>
                         </div>
                     </div>
-                </div>
-                
+                </div> -->
+
                 <hr>
                 <blockquote>
                     <p>For comments, corrections etc. please send me an <a href="mailto:hi@reangdeba.xyz">email</a>, or
@@ -90,8 +92,10 @@ layout: default
                                 src="/assets/images/dp_alt.jpg"
                                 style="float: left; max-width: 19%; margin: 1em 1em 1em 2em; border-radius: 50%"></a>
                         <h3>Author</h3>
-                        <p style="color:white;">Hey, I'm Reang, a full-time <b>Electrical Engineering</b> student. I write what I know about life, the web and machine learning. My site has <b>no ads, pop ups, or other
-                                bullshit</b>. If you enjoy my work, please consider <a href="/support">supporting</a>
+                        <p style="color:white;">Hey, I'm Reang, a full-time <b>Electrical Engineering</b> student. I
+                            write what I know about life, the web and machine learning. My site has <b>no ads, pop ups,
+                                or other
+                                bullshit</b>. If you enjoy my work, please consider <a href="/thanks">supporting</a>
                             what I do!</p>
                         <a href="https://www.buymeacoffee.com/reangdeba" target="_blank"><img
                                 src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png"
@@ -104,7 +108,7 @@ layout: default
 
             </article>
 
-            <!-- disqus comments -->
+            <!-- disqus comments
             {% if page.comments and jekyll.environment == 'production' %}
             <div id="disqus_thread"></div>
             <script>
@@ -126,7 +130,7 @@ layout: default
             </script>
             <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered
                     by Disqus.</a></noscript>
-            {% endif %}
+            {% endif %} -->
 
         </div>
     </div>

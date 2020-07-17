@@ -9,7 +9,10 @@ permalink: /circle/
 > I try to update this list bi-monthly.
 
 #### Music
+
 Includes songs that I've listened on repeat at least 10 times or more.
+
+* Kiss and Make Up - Dua Lipa, BLACKPINK
 * The Man - Taylor Swift
 * Seeing Blind - Niall Horan, Marren Morris
 * Heartbreak Weather - Niall Horan
@@ -24,14 +27,17 @@ Includes songs that I've listened on repeat at least 10 times or more.
 Feel free to checkout this [playlist](https://open.spotify.com/playlist/1PP6YFymuDrsXQkuudD0Vb?si=xtkWclj3Ts6KYmOCNMJ9hA) on Spotify.
 
 #### Movies
-* To All the Boys: P.S. I Still Love You
+
+* To All the Boys: P. S. I Still Love You
 * The Shawshank Redemption
 * Titanic
 * The Fault in Our Stars
 * The Pursuit of Happyness
 * Chintu Ka Birthday
 
-#### Blogs
+#### Blogroll
+
+* [Alexey Guzey](https://guzey.com/)
 * [Andrej Karpathy](https://karpathy.github.io)
 * [Philip Guo](http://pgbovine.net/intro.htm)
 * [Chip Huyen](https://huyenchip.com/blog/)
