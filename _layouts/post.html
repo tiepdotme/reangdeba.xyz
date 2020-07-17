@@ -13,8 +13,8 @@ layout: default
                         {% capture postime %}{{ page.date | date: "%B %-d, %Y" }}{% endcapture %}
                         {% capture modtime %}{{ page.last_modified_at | date: "%B %-d, %Y" }}{% endcapture %}
                         {{ page.date | date: "%B %-d, %Y" }}{% if page.author %}{% if postime != modtime %} • <reddot><i>modified on:
-                        {{ page.last_modified_at | date: "%B %-d, %Y" }}{% endif %} •
-                        {{ page.author }}{% endif %}</i></reddot>{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
+                        {{ page.last_modified_at | date: "%B %-d, %Y" }}{% endif %}</i></reddot> •
+                        {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
                             {% capture words %}
                             {{ page.content | number_of_words | minus: 250 }}
                             {% endcapture %}
