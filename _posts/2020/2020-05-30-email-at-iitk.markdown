@@ -14,9 +14,10 @@ Sadly, that’s not the case. For many of us, writing emails can be a dreadful, 
 
 It is surprising how students are expected to learn the art of emailing on their own. I did okay with the emailing thing. This article is an attempt to help other people navigate. If you found the guide useful, you might consider buying me a coffee. Or even if you did not find it helpful, you can still buy me a coffee. Lol, thanks!
 
-**tl;dr.** Google! Whenever you have doubts about anything before you make a fool of yourself.
+**tl; dr.** <span style="color: #4885ed; ">G</span><span style="color: #db3236; ">o</span><span style="color: #f4c20d; ">o</span><span style="color: #4885ed; ">g</span><span style="color: #3cba54; ">l</span><span style="color: #db3236; ">e</span>! Whenever you have doubts about anything before you make a fool of yourself.
 
 ## Table of contents
+
 * [How to compose and send effective emails](#composing)
 * [How to respond to emails](#replying)
 * [A general guide on communication](#communication)
@@ -26,12 +27,14 @@ It is surprising how students are expected to learn the art of emailing on their
 ## How to compose and send effective emails
 
 ### 1. To Professors
+
 You might want to send an email to professors for several reasons. The most prominent ones are asking about a course that you’re enrolled in or wish to enrol in, asking for a project(s), seeking life advice etc. I’ll write about inquiring about courses and asking for work opportunities.
 
 **Asking about a course.** Sometimes you might want to email the professor, seeking details about certain things like grades, attendance, office hours, prereqs etc. The following template should do the job for you.
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Template</h5>
     <p class="card-text">
     <b>Subject:</b> [Short, to the point subject]<br>
@@ -45,11 +48,13 @@ You might want to send an email to professors for several reasons. The most prom
     Debashish Reang<br>
     170228, BT-EE
     </p>
+
   </div>
 </div>
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Sample: Scheduling an office hour</h5>
     <p class="card-text">
     <b>Subject:</b> Request for office hours this Friday.<br>
@@ -63,13 +68,15 @@ You might want to send an email to professors for several reasons. The most prom
     Human Cat<br>
     170228, BT-EE
     </p>
+
   </div>
 </div>
 
 **Asking for a project to work on.** This one might be a little tricky and varies from professor to professor. However, the general template should work in most cases. Of course, mere copying and pasting the template given here might not help.
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Template</h5>
     <p class="card-text">
     <b>Subject:</b> [Short, but catchy subject line]<br>
@@ -83,11 +90,13 @@ You might want to send an email to professors for several reasons. The most prom
     Debashish Reang<br>
     170228, BT-EE
     </p>
+
   </div>
 </div>
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Sample: Asking for work opportunities</h5>
     <p class="card-text">
     <b>Subject:</b> Undergraduate research opportunities in your group.<br>
@@ -104,6 +113,7 @@ You might want to send an email to professors for several reasons. The most prom
     170228, BT-EE
     </p>
     </p>
+
   </div>
 </div>
 
@@ -111,8 +121,9 @@ You might want to send an email to professors for several reasons. The most prom
 
 **Sending emails to administrative staff.** There is a formal procedure for most things. Still, exceptional circumstances may arise, or it is possible that you just aren’t aware of the process. In most cases, writing an email and then following the instructions that you receive in reply to your email should work. As a pro tip, **smiling almost always helps**. Concretely, I applied for a scholarship sometime back and really screwed up a few entries while filling up the form. The guy in the office seemed like he did not have a great day either. However, I went up to him and smiled broadly for some reason, explaining to him what I’d done right and what I messed up. He corrected the mistakes and approved my application within 10 minutes or so. So, smile!
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Template</h5>
     <p class="card-text">
     <b>Subject:</b> [Really short to the point subject]<br>
@@ -126,11 +137,13 @@ You might want to send an email to professors for several reasons. The most prom
     Debashish Reang<br>
     170228, BT-EE
     </p>
+
   </div>
 </div>
 
-<div class="card">
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Sample: Asking for a bonafide certificate</h5>
     <p class="card-text">
     <b>Subject:</b> Bonafide certificate for taking part in a competition.
@@ -141,12 +154,15 @@ You might want to send an email to professors for several reasons. The most prom
     Human Cat<br>
     BT-EE, 170228</p>
     </p>
+
   </div>
 </div>
 
 ### 3. To alumni and strangers
-<div class="card">
+
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Sample: Asking for the template of that nice resume that you just saw</h5>
     <p class="card-text">
     <b>Subject:</b> Inquiry about CV LaTeX source code.
@@ -157,35 +173,39 @@ You might want to send an email to professors for several reasons. The most prom
     Human Cat
     </p>
     </p>
+
   </div>
 </div>
 
 **Before you send the email.** Make sure you check the following and verify that those are correct.
+
 * **Check that you have a subject.** Subject-less emails look irritating, and the receiver may not even bother reading them. Some spam filters might also classify your email as spam.
 
 * **Check that the salutation is correct.** You don’t want to get this one wrong. For example, if you write, Dear Debasis, instead of Dear Debashish, you have just ruined my day. Also, you don’t want to get the titles wrong. For example, addressing a woman as Sir might disqualify you from a lot of things. I learnt this the hard way. I once emailed a woman IAS officer in my district as Dear Sir. **Spoiler.** No, I was not detained for doing that. But, you get the idea!
 
-* **Check the receiver's email address.** This one is absolutely important. You don’t want the whole class to read your *baby-crying* to the professor about how if you had attended just that one lecture, you’d have been above the cutoff. So, instead of emailing to `XYZ69A@iitk.ac.in`, you should send emails to `profwhoteachesxyz69a@iitk.ac.in`. I’m surprised by how many people get this wrong!
+* **Check the receiver's email address.** This one is absolutely important. You don’t want the whole class to read your *baby-crying* to the professor about how if you had attended just that one lecture, you’d have been above the cutoff. So, instead of emailing to `XYZ69A@iitk.ac.in` , you should send emails to `profwhoteachesxyz69a@iitk.ac.in` . I’m surprised by how many people get this wrong!
 
 <a name="replying"></a>
 
 ## How to respond to emails
 
-* **If the email asks for a reply.** For example, `profwhoteachesxyz69a@iitk.ac.in` might ask you to reply to the email that was sent to `XYZ69A@iitk.ac.in` asking your marks in midsems. Listen here, you not-paying-attention little brat, you should choose `reply` instead of `reply to all` when replying to this sort of emails. If you respond to all your response will be sent to the whole class. I don’t care if you got 0 or 100% in midsems! Instead, if you want to just reply to `profwhoteachesxyz69a@iitk.ac.in`, you should choose to `reply`.
+* **If the email asks for a reply.** For example, `profwhoteachesxyz69a@iitk.ac.in` might ask you to reply to the email that was sent to `XYZ69A@iitk.ac.in` asking your marks in midsems. Listen here, you not-paying-attention little brat, you should choose `reply` instead of `reply to all` when replying to this sort of emails. If you respond to all your response will be sent to the whole class. I don’t care if you got 0 or 100% in midsems! Instead, if you want to just reply to `profwhoteachesxyz69a@iitk.ac.in` , you should choose to `reply` .
 
 * **Thank the person.** Whether the reply you received in response to your email is positive or negative, start the answer by thanking the person for their time. Then, you can craft a friendly reply.
 
-**Rule of thumb.** You will probably never need to `reply to all`. If you do that, the Computer Center might even block your email address, for spamming!
+**Rule of thumb.** You will probably never need to `reply to all` . If you do that, the Computer Center might even block your email address, for spamming!
 
 <a name="communication"></a>
 
 ## A general guide on communication
+
 I am in no way an expert on communicating effectively. In fact, there have been times when people left the dinner table because of something I said or something I expressed incorrectly. Communication is hard. Period. There would be a lot of rejections. But, your chances of getting rejected reduces when you write and communicate effectively. It is worth the effort, trust me, when you get a positive reply or a piece of advice or the information that you have been seeking &mdash; it is liberating!
 
-
 ### Bonus
-<div class="card">
+
+<div class="card bg-dark">
   <div class="card-body">
+
     <h5 class="card-title">Real email: Asking about hitchhiking across Europe</h5>
     <p class="card-text">
     <b>Subject:</b> Comments about "Whirlwind Tour of Europe".
@@ -196,11 +216,12 @@ I am in no way an expert on communicating effectively. In fact, there have been 
     <p>x<br>
     Debashish Reang</p>
     </p>
-    <h5 class="card-title">Reply</h5>
+    <h4 class="card-title">Reply</h4>
     <p>Hi,<br>
     I probably spent 5-6,000 dollars in three months.
     </p>
     </p>
+
   </div>
 </div>
 

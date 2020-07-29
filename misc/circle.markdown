@@ -4,14 +4,12 @@ title: "Circle"
 subtitle: "A non-exhaustive list of my fairly widespread non-academic interests including music, blog posts, and videos in no particular order."
 permalink: /circle/
 ---
-<p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
+<p>This page was last modified on: <i>{{ page.last_modified_at | date: "%B %-d, %Y" }}</i>.</p>
 
-> I try to update this list bi-monthly.
 
-#### Music
+### Music
 
-Includes songs that I've listened on repeat at least 10 times or more.
-
+* I'm a Mess - Bebe Rexha
 * Kiss and Make Up - Dua Lipa, BLACKPINK
 * The Man - Taylor Swift
 * Seeing Blind - Niall Horan, Marren Morris
@@ -26,7 +24,7 @@ Includes songs that I've listened on repeat at least 10 times or more.
 
 Feel free to checkout this [playlist](https://open.spotify.com/playlist/1PP6YFymuDrsXQkuudD0Vb?si=xtkWclj3Ts6KYmOCNMJ9hA) on Spotify.
 
-#### Movies
+### Movies
 
 * To All the Boys: P. S. I Still Love You
 * The Shawshank Redemption
@@ -35,7 +33,7 @@ Feel free to checkout this [playlist](https://open.spotify.com/playlist/1PP6YFym
 * The Pursuit of Happyness
 * Chintu Ka Birthday
 
-#### Blogroll
+### Blogroll
 
 * [Alexey Guzey](https://guzey.com/)
 * [Andrej Karpathy](https://karpathy.github.io)

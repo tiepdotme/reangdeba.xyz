@@ -1,33 +1,43 @@
 ---
 layout: page
-title: "Bookshelf"
+title: "Wall of Books"
 permalink: /reads/
 comments: true
 ---
-I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal [goal](https://www.goodreads.com/user_challenges/21227074) for 2020 is to <mark>read 50 books</mark>. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
+I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal [goal](https://www.goodreads.com/user_challenges/21227074) for 2020 is to read **50** books. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
 
 [Here](https://www.goodreads.com/user/show/53163185-debashish-reang) is the link to my Goodreads profile. The Goodreads profile is updated more frequently than this page.
 
+Nowadays, I mostly read on my Kindle. I love it. However, I have no problems in collecting paperbacks. 
+
 ### Wishlist
+
+If you buy me these books, you're a hero!
+
+* 21 Lessons for the 21st Century - Yuval Noah Harari
+* A Brief History of Time - Stephen Hawking
+
+### Queue
+
 * A Thousand Splendid Suns - Khaled Hosseini
 * Hit Refresh - Satya Nadella
 * Travelling to Infinity: My Life with Stephen - Jane Hawking
 * Who Will Cry When You Die? - Robin Sharma
-* 21 Lessons for the 21st Century - Yuval Noah Harari
 * The Moment of Lift - Melinda Gates
 * The Sun Is Also a Star - Nicola Yoon
 * The Language Instinct: How the Mind Creates Language - Steven Pinker
-* A Brief History of Time - Stephen Hawking
 
 ### Books I've Read
+
 #### 2020
 
+* [Sapiens](https://amzn.to/3dZ1EwC) - Yuval Noah Harari *(Reading)*
+* [Quichotte](https://amzn.to/30vLOE6) - Salman Rushdie
 * [Educated](https://amzn.to/2MYosAL) - Tara Westover
 * [A Man Called Ove](https://www.amazon.in/gp/product/1444775812/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=1444775812&linkId=16193c194451faf47cba41c9818b178b) - Fredrik Backman
 * [Inglorious Empire](https://www.amazon.in/gp/product/1947534300/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=1947534300&linkId=76bbfd889c539417b3eff27f065826c7) - Shashi Tharoor
 * [Elon Musk](https://www.amazon.in/gp/product/0753555638/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=0753555638&linkId=58f025eeba7561788e05cef75bf953af) - Ashlee Vance
 * [The Fault in Our Stars](https://amzn.to/2Y0e1Tw) - John Green
-* [Sapiens](https://amzn.to/3dZ1EwC) - Yuval Noah Harari 
 * [Permanent Record](https://www.amazon.in/gp/product/152903566X/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=152903566X&linkId=ad6d1b5939fe8edb17fdb7b503c03dca) - Edward Snowden
 * [Becoming](https://www.amazon.in/gp/product/0241334144/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=0241334144&linkId=57b5249959141e40f9fbb3c8c747be46) - Michelle Obama
 * [Brief Answers to the Big Questions](https://www.amazon.in/gp/product/1473695988/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=1473695988&linkId=2a4130eeb942c6dd65c7719ded684257) - Stephen Hawking
@@ -35,10 +45,10 @@ I read about 150 words per minute (wpm) as per this [website](https://www.myread
 * [Ikigai: The Japanese Secret to a Long and Happy Life](https://amzn.to/2Z0BPaS) - Hector Garcia Puigcerver
 * [The 7 Habits of Highly Effective People](https://www.amazon.in/gp/product/1471131823/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=1471131823&linkId=6a1369c3549d7dd8d76738327d9823c9) - Stephen Covey
 
-
 #### 2019 and earlier
 
 * [The Fault in our Stars](https://www.amazon.in/gp/product/0141355077/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=0141355077&linkId=d89444e56791a6c9503471e122ef0cd1) - John Green
+
 > tfios would always be close to my heart. 💜
 
 * [Looking for Alaska](https://www.amazon.in/gp/product/0007523521/ref=as_li_tl?ie=UTF8&tag=reangdeba-21&camp=3638&creative=24630&linkCode=as2&creativeASIN=0007523521&linkId=7c4e94f6cfdb50183ed9dd778d961a44) - John Green

@@ -3,25 +3,23 @@ layout: page
 title: "About me"
 permalink: /me/
 ---
-**Hi, again!** 🤷‍♂️
-<br>
 <p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/duckduck.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
 
 <p>He is known more commonly as Reang. Before coming to Kanpur, he was at NPS International School Guwahati where he titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!</p>
 
 Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
-> "When life itself is lunatic, who knows where the madness lies?"
+> "When life itself is lunatic, who knows where the madness lies?" <br> &mdash; Tara Westover
 
 ## Reang:
 
 * 👨🏻‍🎓 studies Electrical Engineering
 * 👨🏻‍🎓 teaches on [YouTube](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ)
 * 🇮🇳 can speak Bengali, English, and Hindi
-* 💻 also publishes at least one article on his [blog](/blog) every month
-* ☕ loves coffee. You can [buy him a coffee](https://buymeacoffee.com/reangdeba)
+* 💻 also publishes articles on his [blog](/blog)
+* ☕ loves coffee. You can [buy him a coffee](/thanks)
 * 📚 also loves [books](/reads)
-* 🐈 dies for Taylor Swift
+* 🐈 unconditionally loves Taylor Swift
 
 ## Currently using:
 

@@ -4,16 +4,16 @@ title: "My (Impossible) Bucket List"
 comments: true
 permalink: /bucket/
 ---
-<p>Last modified on: <mark>{{ page.last_modified_at | date: "%B %-d, %Y" }}</mark></p>
+<p>This list was last modified on: <i>{{ page.last_modified_at | date: "%B %-d, %Y" }}</i>.</p>
 
-> Things I wish to do, and places I want to visit before I die. Please let me know if you have any recommendations.
+> Things I wish to do, and places I want to visit before I die.
 
 ### Life
 
 4.  Go camping
 9.  Start a company
-10. <s>Take my first train journey</s>
-11. :cry: <s>Meet Stephen Hawking. He passed away in 2018.</s>
+10. <s>Take a train journey</s>
+11. <s>Meet Stephen Hawking.</s>
 12. <s>Meet HC Verma</s>
 13. Learn to play the Guitar
 14. Visit Disneyland
@@ -27,7 +27,7 @@ permalink: /bucket/
 22. Fly an airplane
 23. Meet Hasan Minhaj
 24. <s>Perform at an open mic</s>
-25. Build a school
+25. Start a school
 26. Read 2000 books
 27. Graduate from college
 28. Get a PhD
@@ -39,14 +39,13 @@ permalink: /bucket/
 34. Start a company
 35. Write a self-published book (> 295 pages)
 36. Teach an online course
-37. Get 100,000 blog visits (all-time)
 38. Read 25 pages outside of studies for 90 days
 39. Study for 3 hours daily until graduation
 40. Skydive
 41. Christmas in New York
 42. Move to Seoul
-43. Speak at a college convocation
-44. M.Tech in AI at IISc
+43. Be a commencement speaker
+44. Masters degree in CS
 
 ### Travel
 
@@ -66,6 +65,5 @@ permalink: /bucket/
 14. Egypt
 15. New Zealand
 
-<blockquote>For suggestions please send me an <a href="mailto:reang.bade@gmail.com">email</a>, or reach out on <a
-        href="https://twitter.com/reangdeba">Twitter</a>.<br>
-      If you are the GitHub type, you can <a href="https://github.com/reangdeba/reangdeba.github.io/edit/master/{{ page.path }}">directly suggest on GitHub</a>.</blockquote>
+<blockquote><p>For suggestions please send me an <a href="mailto:hi@reangdeba.xyz">email</a>, or reach out on <a
+        href="https://twitter.com/reangdeba">Twitter</a>.</p></blockquote>
