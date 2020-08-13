@@ -1,0 +1,28 @@
+---
+layout: post
+title: "Dear IITK 🙏"
+description: "A collection of midnight thoughts aimed towards the admins at IIT Kanpur. Please, you can do better!"
+author: Debashish Reang
+thumbnail: "/assets/images/folded_hands.jpg"
+comments: true
+tags: [thoughts]
+---
+*Disclaimer:* I love you IIT Kanpur. If you were a person, I'd have asked mom dad to send a marriage proposal your way as soon as I graduate. However, of late you've been taking things for granted. I mean love must be both-ways, not a one-way thing. If you keep this up, I don't think you're going to hear many good things. So, please get yourself together!
+
+* Dear IITK, wouldn't it be great if you renamed 'Mess Establishment Fees' to something else? I have a few suggestions -- 'Hostel Goods and Services Charge' or just 'Service Tax' or 'Hostel GST'. All these years and jubilees later, you still could not manage to finally establish a mess? Come on!
+
+* Dear IITK, can you also consider renaming 'Open Electives' as 'Restricted Open Electives'? While in theory anyone could opt for OEs, for many OEs are just out of reach for a large section of the student population. This one is an interesting problem to solve, if you think about it. You first throw compulsory courses at the students, many of which are terrible, let me tell you that. You made me cut iron bars using hacksaw blade, I still love you but that wasn;t what I signed up for. And then you use the grades obtained in those courses as a mesure to accept/reject a student from a course that they request enthusiastically. I really don't know what's the optimal solution to this, but hey I'm not the one in-charge.
+
+* Dear IITK, can you please inform the students about the significant changes to policies that you make? As a concrete example, during the pre-registration, previously courses got auto-accepted after a certain time period, if there was no response from the instructor's end. Now, instead it gets auto-rejected. You could have at least sent out a short email about that.
+
+* Ah! Speaking of pre-registration, let me get to the elephant in the room - Pingala. Dear IITK, how did you manage to build such a messy, crashy and overall a D-grade-eligible system? Sure, it's better compared to OARS and gets the job done, but seriously? You're going to benchmark systems against OARS now? We have world-class faculty, who are renowned in their respective fields. The institute infrastructure is one of the best in the country. Is it too much to ask for a system that could handle some 6000 odd students' requests at the same time? You started the first CSE department in the country, and some sixty-years later Pingala is what you could come up with, smh!
+
+* Now that we're here, let me talk a little about OARS itself. Why can't you still move over Internet Explorer? Even Microsoft got over it and released Edge. There's got to be some special bonding going on there. Come on, take note of the Sign of The Times and Just Dump It. Or would it require NIRF to include the automation system of an institute as a criteria to be used for ranking?
+
+* Dear IITK, will it be so hard to let the professors set a few criteria for acceptance on Pingala during (pre)-registration? The system can automatically accept/reject students based on the criteria set out by the professor. This would save us from having to wait for the request to be accepted/rejected. If need be, let a few outliers email the professor but a large majority's problems could be solved if the system automated a few more things. In some cases, you wait for days and get rejected on the last day. I waited for ten months for my ex-girlfriend only to get dumped two months later. Trust me, it doesn't feel great. If the system decides that we aren't a good fit for a course, the rejection should come instantaneously, so that we can try for other courses. Some of us are only trying to graduate on time and continue with our miserable lives.
+
+* Lastly, can you please put in some effort to re-design the institute website so that it looks like we're in the 21st century? For reference, may I suggest you to look at websites of The University of Auckland, Harvard or MIT? If that's so hard to do, at least ensure that most links on the websites work than otherwise. 
+
+**Endnote:** Thanks for reading up to this point. Let me know what else don't you like about IIT Kanpur. Also, let me re-iterate that I absolutely love IITK. But, the points above needs to be addressed at some point! I'll update/add more bullet points as and when they come to me, and when I don't feel lazy. Stay safe! See you before you die.
+
+All the best for the first ever fully-online semester. It's scary to imagine what it'll be like. Although, anything we get should be better after the Pingala experience. Godspeed! 🙏
