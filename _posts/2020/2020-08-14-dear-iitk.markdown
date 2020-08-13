@@ -5,7 +5,7 @@ description: "A collection of midnight thoughts aimed towards the admins at IIT 
 author: Debashish Reang
 thumbnail: "/assets/images/folded_hands.jpg"
 comments: true
-tags: [thoughts]
+tags: [thoughts, iitk]
 ---
 *Disclaimer:* I love you, IIT Kanpur. If you were a person, I’d have asked mom dad to send a marriage proposal your way as soon as I graduate. However, of late, you’ve been taking things for granted. I mean love must be both-ways, not a one-way thing. If you keep this up, I don’t think you’re going to hear many good things. So, please get yourself together!
 
