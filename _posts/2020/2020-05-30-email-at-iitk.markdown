@@ -20,6 +20,7 @@ It is surprising how students are expected to learn the art of emailing on their
 
 * [How to compose and send effective emails](#composing)
 * [How to respond to emails](#replying)
+* [The art of saying no](#saying-no)
 * [A general guide on communication](#communication)
 
 <a name="composing"></a>
@@ -194,6 +195,33 @@ You might want to send an email to professors for several reasons. The most prom
 * **Thank the person.** Whether the reply you received in response to your email is positive or negative, start the answer by thanking the person for their time. Then, you can craft a friendly reply.
 
 **Rule of thumb.** You will probably never need to `reply to all` . If you do that, the Computer Center might even block your email address, for spamming!
+
+
+<a name="saying-no"></a>
+
+## The art of saying no
+
+This section was added after a junior asked me about how to write emails informing the professor about one's will to discontinue working on a project. While it should be easy for most people, I'm putting it out here so that someone might benefit from it. In general, you can follow the template below.
+
+<div class="card bg-dark">
+  <div class="card-body">
+
+    <h5 class="card-title">Sample: Informing the professor about one's will to discontinue working on a project.</h5>
+    <p class="card-text">
+    <b>Subject:</b> Regarding Project.
+    <p>Dear Professor,<br>  
+    I wish to let you know that I shall not be able to continue working on the project. I have signed up for 6 courses for the upcoming semester. The experience of doing 6 courses along with a project in the last semester was not a good one. Hence, I wish to solely focus on my courses for the upcoming semester.</p>
+    
+    <p>I am grateful to you for letting me work on the project, and I wish to thank you for that.</p>
+
+    <p>Yours sincerely,<br>
+    Human Cat
+    </p>
+    </p>
+
+  </div>
+</div>
+
 
 <a name="communication"></a>
 
