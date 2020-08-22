@@ -58,7 +58,7 @@ a) He'd been asked a few times if he's from China or Nepal or Bhutan.
 <br>
 b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
 
-Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
+Here is his [bucket](/list-69/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
 <p style="color:#ac4142; "><b>Follow him elsewhere 🍿</b></p>
 <div class="row">

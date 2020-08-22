@@ -2,17 +2,17 @@
 layout: page
 title: "Wall of Books"
 permalink: /reads/
-comments: true
+comments: false
 ---
 I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal [goal](https://www.goodreads.com/user_challenges/21227074) for 2020 is to read **50** books. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
 
 [Here](https://www.goodreads.com/user/show/53163185-debashish-reang) is the link to my Goodreads profile. The Goodreads profile is updated more frequently than this page.
 
-Nowadays, I mostly read on my Kindle. I love it. However, I have no problems in collecting paperbacks. 
+Nowadays, I mostly read on my Kindle. I love it.
 
 ### Wishlist
 
-If you buy me these books, you're a hero!
+If you wish to gift something, you can buy me these books. Thanks!
 
 * 21 Lessons for the 21st Century - Yuval Noah Harari
 * A Brief History of Time - Stephen Hawking
