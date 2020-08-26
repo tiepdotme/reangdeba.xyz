@@ -1486,18 +1486,6 @@ li {
   border-radius: 5px;
 } */
 
-.content hr {
-    background-color: #7BE4D5;
-    border: 0px;
-    /* margin: 50px auto; */
-    width: 50%;
-    height: 5px;
-    border-radius: 5px;
-    max-width: 430px;
-    color: #7ccdea;
-    clear: both;
-}
-
 .content .listing {
     margin: 0 0 0 0;
     padding: 0;
