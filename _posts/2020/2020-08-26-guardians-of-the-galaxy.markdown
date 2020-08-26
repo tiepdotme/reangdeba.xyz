@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Guardians of the Galaxy - IITK Edition"
-description: "A friendly article commending the time and efforts put in by the members of Students' Senate to scrape the results of Galaxy 2020. I hope results of future editions (if any takes place) gets scraped as well."
+description: "A friendly article commending the time and efforts put in by the members of Students' Senate to scrap the results of Galaxy 2020. I hope results of future editions (if any takes place) gets scrapped as well."
 author: Debashish Reang
 thumbnail: "/assets/images/gog.jpg"
 comments: true
