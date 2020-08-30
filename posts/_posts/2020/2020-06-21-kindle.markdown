@@ -1,0 +1,10 @@
+---
+layout: post
+title: "You should get a Kindle"
+description: "The case for why you should get yourself a Kindle. You can gift it to others as well!"
+author: Debashish Reang
+thumbnail: "/assets/images/dp_alt.jpg"
+comments: true
+tags: [Kindle, Reading]
+draft: true
+---

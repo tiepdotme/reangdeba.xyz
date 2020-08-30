@@ -17,10 +17,10 @@ title: "Debashish Reang"
         </p>
         <p>I aspire to be a writer, computer scientist, comic artist and many more things. Although, I think I'll end up
             pursuing a PhD in one of the branches of CS.</p>
-        <p>I also upload video lessons on YouTube. Check out the lessons <a href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ"
-                target="_blank">here</a>.</p>
+        <p>I also upload video lessons on YouTube. Check out the lessons <a
+                href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ" target="_blank">here</a>.</p>
         <p>In my free time, I <a href="/reads">read</a>, <a href="/blog">write</a> and <a href="/list-69">long to travel
-                the world</a>. Here is my <a href="/resume">resume</a>.</p>
+                the world</a>.</p>
         <p>I aim to create a beautiful corner of the web devoid of ads, sponsored products, annoying popups, and other
             annoying stuff that has become so common on the internet these days. If you love my work, please consider <a
                 href="/thanks">supporting</a> me.</p>
@@ -29,7 +29,8 @@ title: "Debashish Reang"
         </p>
         <div class="row">
             <div class="col-sm-7">
-                <p>To know a little more about the human side of me <a href="/me">go here</a>. You might wish to <a href="/circle">check out this list</a>.</p>
+                <p>To know a little more about the human side of me <a href="/me">go here</a>. You might wish to <a
+                        href="/circle">check out this list</a>.</p>
                 <p>To receive a weekly (on Fridays) update from me, <a href="https://reangdeba.substack.com/subscribe"
                         target="_blank">sign up</a> for my newsletter.</p>
             </div>
@@ -38,6 +39,22 @@ title: "Debashish Reang"
                     scrolling="no"></iframe>
             </div> -->
         </div>
+
+        <div>
+            {% for post in site.categories.notes limit: 1 %}
+            {% unless post.draft %}
+                <div class="note" id="date-{{ post.date | date: "%Y-%M-%D" }}">
+                    <h2 class="note-heading">
+                        <small>LATEST NOTE # {{ post.date | date: "%b %-d, %Y" }}</small>
+                    </h2>
+                    <p>{{ post.content }}</p>
+                </div>
+            {% endunless %}
+            {% endfor %}
+        </div>
+
+        <p>Read more notes <a href="/notes">here</a>.</p>
+
 
         <h3>Affiliations</h3>
         <ul>
@@ -81,5 +98,6 @@ title: "Debashish Reang"
                 </ul>
             </li>
         </ol>
+
     </div>
 </div>

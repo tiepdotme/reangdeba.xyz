@@ -1,0 +1,32 @@
+---
+layout: default
+permalink: /notes/
+title: Notes
+thumbnail: "/assets/images/dp_alt.jpg"
+---
+<section class="content">
+    <div class="container">
+        <div class="post-container blogpost">
+
+            <h2>Notes</h2>
+            <a href="/"><code>$ cd ~</code></a>
+            <br>
+            <br>
+            <p style="font-family: 'Consolas', monospace; font-size: 75%;">A collection of mostly-random thoughts. Mostly meant to serve as a journal for myself, and at times recount my experieces as a human-being.</p>
+            <ul class="listing">
+                {% for post in site.categories.notes %}
+                {% unless post.draft %}
+                <li>
+                    <div class="note" id="date-{{ post.date | date: "%Y-%M-%D" }}">
+                        <h2 class="note-heading">
+                          <small>{{ post.date | date: "%b %-d, %Y" }} #</small>
+                        </h2>
+                        <p>{{ post.content }}</p>
+                      </div>
+                </li>
+                {% endunless %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

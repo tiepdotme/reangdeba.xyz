@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Goibibo sucks"
+description: "Third party travel companies sucks. Period. It is much better to book directly with your service provider."
+author: Debashish Reang
+thumbnail: "/assets/images/travel_companies_suck.jpg"
+comments: true
+tags: [Life]
+draft: true
+---
+I booked a round-trip ticket on Goibibo.com for my mid semester holidays from LKO-IXA (Lucknow to Agartala, and back) for what will be the last time. It takes a special level of incompetence to screw up on a whole new level.
+
+I won't hold it back -- I think third party booking companies are a scam. They should not exist in my opinion. You'll see whay I say this by the end of the article.
+
+### A great start
+Goibibo did a pretty good job of convincing me that their service is superior than the competitors and
