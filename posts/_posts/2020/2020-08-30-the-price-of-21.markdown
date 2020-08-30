@@ -6,6 +6,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/21_sucks.jpg"
 comments: true
 tags: [thoughts]
+draft: true
 ---
 Being 21 sucks. I've seen more since I turned 20, than I've ever seen before. And the worst part is that I'm not sure if this is all. None knows if the future is any brighter. This is probably the last article I'm going to write as an enrolled student at IIT Kanpur. I'm not sure what the future have in store for me, I have no idea.
 
