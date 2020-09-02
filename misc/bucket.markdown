@@ -1,14 +1,27 @@
 ---
 layout: page
-title: "List 69"
+title: "Bucket list"
 comments: false
-permalink: /list-69/
+permalink: /bucket/
 ---
 <p>This list was last modified on: <i>{{ page.last_modified_at | date: "%B %-d, %Y" }}</i>.</p>
 
-> 69 things I wish to do, and places I want to visit before I die.
-
 ### Life
+
+<div class="container">
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="lifeprogressbar"></div>
+</div>
+</div>
+
+> Things I wish to do before I die.
+
+### Progress
+<div class="container">
+<div class="progress">
+  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" id="theprogressbar"></div>
+</div>
+</div>
 
 4.  Go camping
 9.  Start a company
@@ -29,7 +42,7 @@ permalink: /list-69/
 24. <s>Perform at an open mic</s>
 27. Graduate from college
 28. Get a PhD
-29. Learn a Foreign Language
+29. Learn Korean
 31. Meet Prof. David J. Malan
 32. Start a not-for-profit organisation
 33. Sing in front of an audience
@@ -43,9 +56,7 @@ permalink: /list-69/
 3. Eat local food in Tehran
 4. Take a train to Saint Petersburg
 5. Travel through Kashmir
-26. Read 500 books
-27. Read 690 books
-28. Read 1000 books
+28. Read 100 books
 6. Live in Singapore
 7. Go on a African Safari
 8. Attend Tomorrowland
@@ -57,6 +68,25 @@ permalink: /list-69/
 15. Post sunset pictures of Auckland, New Zealand
 17. Never get "high"
 18. Donate 10% of my income each year
+19. Publish before finishing undergraduate degree
 
 <blockquote><p>For suggestions please send me an <a href="mailto:hi@reangdeba.xyz">email</a>, or reach out on <a
         target="_blank" href="https://twitter.com/reangdeba">Twitter</a>.</p></blockquote>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+<script>
+        var newprogress = Math.round(4/46*100);
+$('#theprogressbar').attr('aria-valuenow', newprogress).css('width', newprogress+'%');
+
+$('#theprogressbar').text(newprogress + '%');
+</script>
+
+<script>
+        var progress = Math.round(21/92*100);
+$('#lifeprogressbar').attr('aria-valuenow', progress).css('width', progress+'%');
+
+$('#lifeprogressbar').text(progress + '%');
+</script>

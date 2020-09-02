@@ -5,9 +5,6 @@ permalink: /me/
 ---
 <p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/duckduck.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
 
-<p>He is known more commonly as Reang. Before coming to Kanpur, he was at NPS International School Guwahati where he titrated chemicals, multiplied lots of matrices, and wrote the JEE Advanced exam!</p>
-
-Even before that, he spent the first 16 years of his life living in a small state known as [Tripura](https://en.wikipedia.org/wiki/Tripura), in the North Eastern part of India (look it up!). He'd chased chickens as a kid. He'd mostly lived outside of Tripura ever since. He is Indian despite his appearance.^ If you compliment him with "your English is very good", you will get the response "thanks; so is yours."
 
 > "When life itself is lunatic, who knows where the madness lies?" <br> &mdash; Tara Westover
 
@@ -21,7 +18,7 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * 📚 also loves [books](/reads)
 * 🐈 unconditionally loves Taylor Swift
 
-## Currently using:
+<!-- ## Currently using:
 
 * **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
 * **Hosting:** [Netlify](https://netlify.com)
@@ -32,7 +29,7 @@ Even before that, he spent the first 16 years of his life living in a small stat
 * **Phone:** [OnePlus 7](https://amzn.to/2SYM3oi)
 * **Headphone:** [Sony XM3](https://amzn.to/3czldu7)
 * **Graphic Tablet:** [Wacom One](https://amzn.to/3cFd8Eg)
-* **e-Reader:** [Kindle Paperwhite](https://amzn.to/2Y0rj1b)
+* **e-Reader:** [Kindle Paperwhite](https://amzn.to/2Y0rj1b) -->
 
 **Here are some other things of interest, in no particular:**
 <br>
@@ -58,7 +55,7 @@ a) He'd been asked a few times if he's from China or Nepal or Bhutan.
 <br>
 b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
 
-Here is his [bucket](/list-69/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
+Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
 <p style="color:#ac4142; "><b>Follow him elsewhere 🍿</b></p>
 <div class="row">
