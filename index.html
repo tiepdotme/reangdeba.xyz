@@ -9,42 +9,50 @@ title: "Debashish Reang"
 
         <p>
             <a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/dp_alt.jpg"
-                    style="float: right; max-width: 30%; margin: 0 0 1em 4em; border-radius: 50%"></a>
+                    style="float: right; max-width: 30%; margin: 0 0 2em 4em; border-radius: 50%"></a>
         </p>
         <p>I'm Debashish Reang, a final-year undergrad at the Indian Institute of Technology Kanpur studying Electrical
             Engineering. I grew up chasing
             chickens in a small village in India, and playing cricket on paddy fields.
         </p>
-        <p>I'm currently working with <a href="https://hamimzafar.wixsite.com/home">Prof. Hamim Zafar</a> on Computational Biology, alongside completing my degree on time.</p>
+        <p>I'm currently working with <a href="https://hamimzafar.wixsite.com/home">Prof. Hamim Zafar</a> on
+            Computational Biology, alongside completing my degree on time.</p>
 
-        <p>Previously, I worked with <a href="https://www.cse.iitk.ac.in/users/pmalakar/">Prof. Preeti Malakar</a> in the Parallel Computing Lab on High Performance Computing, did an undergraduate project with <a href="http://home.iitk.ac.in/~vipular/">Prof. Vipul Arora</a> on Machine Learning for Physics. I also had a short stint as a software developer, working on <a href="https://www.treadwill.org/landing">treadwill.org</a>'s post recommendation system with <a href="https://www.iitk.ac.in/bsbe/nitin-gupta">Prof. Nitin Gupta</a>.</p>
+        <p>Previously, I worked with <a href="https://www.cse.iitk.ac.in/users/pmalakar/">Prof. Preeti Malakar</a> in
+            the Parallel Computing Lab on High Performance Computing, did an undergraduate project with <a
+                href="http://home.iitk.ac.in/~vipular/">Prof. Vipul Arora</a> on Machine Learning for Physics. I also
+            had a short stint as a software developer, working on <a
+                href="https://www.treadwill.org/landing">treadwill.org</a>'s post recommendation system with <a
+                href="https://www.iitk.ac.in/bsbe/nitin-gupta">Prof. Nitin Gupta</a>.</p>
 
-        <p>In my free time, I <a href="/reads">read</a>, <a href="/blog">write</a> and <a href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ" target="_blank">teach on YouTube</a>.
-        I aim to create a beautiful corner of the web devoid of ads, sponsored products, annoying popups, and other
+        <p>In my free time, I <a href="/reads">read</a>, <a href="/blog">write</a> and <a
+                href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ" target="_blank">teach on YouTube</a>.
+            I aim to create a beautiful corner of the web devoid of ads, sponsored products, annoying popups, and other
             annoying stuff that has become so common on the internet these days. If you love my work, please consider <a
                 href="/thanks">supporting</a> me.</p>
         <p>I'm best reached by <a href="/communication">email</a>. I love meeting new people, and am always open to
             collaboration.
         </p>
-                <p>To know a little more about the human side of me <a href="/me">go here</a>. You might wish to <a
-                        href="/circle">check out this list</a>.</p>
-                <p>To receive occasional updates from me, <a href="https://reangdeba.substack.com/subscribe"
-                        target="_blank">sign up</a> for my newsletter.</p>
+        <p>To know a little more about the human side of me <a href="/me">go here</a>. You might wish to <a
+                href="/circle">check out this list</a>.</p>
+        <p>To receive occasional updates from me, <a href="https://reangdeba.substack.com/subscribe"
+                target="_blank">sign up</a> for my newsletter.</p>
 
         <div>
+            <br>
+            <p>Read more notes <a href="/notes">here</a>.</p>
             {% for post in site.categories.notes limit: 1 %}
             {% unless post.draft %}
-                <div class="note" id="date-{{ post.date | date: "%Y-%M-%D" }}">
-                    <h2 class="note-heading">
-                        <small>LATEST NOTE # {{ post.date | date: "%b %-d, %Y" }}</small>
-                    </h2>
-                    <p>{{ post.content }}</p>
-                </div>
+            <div class="note" id="date-{{ post.date | date: "%Y-%M-%D" }}">
+                <h2 class="note-heading">
+                    <small>LATEST NOTE # {{ post.date | date: "%b %-d, %Y" }}</small>
+                </h2>
+                <p>{{ post.content }}</p>
+                <br>
+            </div>
             {% endunless %}
             {% endfor %}
         </div>
-
-        <p>Read more notes <a href="/notes">here</a>.</p>
 
 
         <!-- <h3>What I'm working on</h3>
