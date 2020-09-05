@@ -41,6 +41,7 @@ title: "Debashish Reang"
         <div>
             <br>
             <p>Read more notes <a href="/notes">here</a>.</p>
+            <br>
             {% for post in site.categories.notes limit: 1 %}
             {% unless post.draft %}
             <div class="note" id="date-{{ post.date | date: "%Y-%M-%D" }}">
