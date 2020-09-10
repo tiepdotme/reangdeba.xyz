@@ -6,15 +6,15 @@ author: Debashish Reang
 thumbnail: "/assets/images/future.jpg"
 tags: [thoughts]
 ---
-
+<div class="mac">
 <div class="fb-post" data-href="https://www.facebook.com/dhruv.mi.fb/posts/3256829007765779" data-show-text="true" data-width=""><blockquote cite="https://www.facebook.com/dhruv.mi.fb/posts/3256829007765779" class="fb-xfbml-parse-ignore"><p>For my junior friends. Don’t stress yourself out too much. 
-[Not an OC]</p>Posted by <a href="https://www.facebook.com/dhruv.mi.fb">Dhruv Mittal</a> on&nbsp;<a href="https://www.facebook.com/dhruv.mi.fb/posts/3256829007765779">Sunday, 6 September 2020</a></blockquote></div>
+[Not an OC]</p>Posted by <a href="https://www.facebook.com/dhruv.mi.fb">Dhruv Mittal</a> on&nbsp;<a href="https://www.facebook.com/dhruv.mi.fb/posts/3256829007765779">Sunday, 6 September 2020</a></blockquote></div></div>
 
 Today was the first day of (online) classes and I have to say, it felt a lot different than I'm used to. The reality hit me hard, and frankly I had a moment of realization about how much I miss campus. I miss the library, falling asleep in KD, the cafe where I got most of my work done and in general being around people. I miss the cheap coffee as well, trust me I tried making coffee at home but it doesn't have the same feeling. There's just a different sort of feeling involved in sipping coffee as fast as I can burning my tongue while rushing to the lab or lecture hall. If allowed, I'll prefer to be a student all my life. Of course, what is going on around the globe is beyond my control and there's nothing much I can do about it except practice social-distancing, take precautions when going out and save a few dozen lives. With everything going on around me, this is probably not the best time to be alive but 👁️ 👄 👁️
 
 With the final year kickstarting, there's the eternal question that every final-year student asks themselves, and finds the answer only a lifetime later -- "Where to next?" I found myself asking the same question over and over the last few weeks. While I don't have any clear answer and I don't know if things will work out for me, I think I'm going to take a call. This article is going to be exactly about that -- a set of rambly arguments for and against a few thoughts that came to my mind. Basically, my thought process and how I reasoned to myself. I know it probably doesn't interest you much, but the fact that you're reading this right now must mean something.
 
-The above post by Dhruv means something. First, it's cool. Second, it makes a lot of sense if you think about it. Take it easy. The post had some impact on me but it's not the driving factor. You'll get to know what I mean as you read along.
+<div class="mac">The above post by Dhruv means something. First, it's cool. Second, it makes a lot of sense if you think about it. Take it easy. The post had some impact on me but it's not the driving factor. You'll get to know what I mean as you read along.</div>
 
 Okay, now the important bits. I am sure that I don't want to work in a cubicle (not at least right after my bachelors). So, I'm sure about getting an masters degree. I'll think about what to do after that, but I don't see myself working in a cubicle, not at least for the next two years. Naturally, the question arises, "What next, then?" I think the abstract answer is, "I want to explore the world." That's well and good. However, I don't have the financial means to do just that. This either means work-and-travel or study-and-travel. Since, I already ruled out the working part, I'm left with the study-and-travel part. There are many to do this. But, on a top-level it involves getting into a graduate school and travel when I'm not working.
 
