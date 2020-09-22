@@ -15,15 +15,15 @@ body {
     font-family: 'Source Serif Pro', serif;
     /* font-family: 'Poppins', sans-serif; */
     /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif; */
-    background-color: #111;
+    background-color: white;
     font-size: 100%;
-    color: #bbb;
+    color: black;
 }
 
-h1, h2, h3, h4, name, .navbar-brand, .nav-link, .site-footer {
+h1, h2, h3, h4, name, .navbar-brand, .nav-link {
     font-family: 'Alata', 'IBM Plex Sans', 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
     font-weight: 700 !important;
-    color: #ac4142 !important;
+    color: #1da1f2 !important;
 }
 
 a {
@@ -37,7 +37,7 @@ a:hover {
     /* -webkit-animation: zomg 3s infinite; */
     /* -moz-animation: zomg 3s infinite; */
     /* animation: zomg 3s infinite; */
-    color: #ac4142;
+    color: #1da1f2;
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@ a:hover {
         color: #2ECC40;
     }
     48% {
-        color: #ac4142;
+        color: #1da1f2;
     }
     64% {
         color: #B10DC9;
@@ -73,7 +73,7 @@ a:hover {
         color: #2ECC40;
     }
     48% {
-        color: #ac4142;
+        color: #1da1f2;
     }
     64% {
         color: #B10DC9;
@@ -148,9 +148,9 @@ cite {
   border-bottom: 1px solid #e8e8e8;
 } */
 
-hr {
-    border-top: 0.5px solid #ac4142;
-  }
+/* hr {
+    border-top: 0.5px solid #1da1f2;
+  } */
 
 .header {
     border-top: 4px solid #333;
@@ -169,7 +169,7 @@ hr {
     border: none;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    background-color: #111;
+    background-color: #fff;
 }
 
 .note-title, .note-title:hover, .note-title:visited {
@@ -484,7 +484,7 @@ pre code {
   font-size: 15px;
   overflow:auto; */
 
-/* color: #ac4142; */
+/* color: #1da1f2; */
 
 /* } */
 
@@ -1089,7 +1089,7 @@ pre code {
 }
 
 .module {
-    color: #ac4142;
+    color: #1da1f2;
     font-size: 24px;
 }
 
@@ -1099,11 +1099,11 @@ p {
     margin-block-end: 10px;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    color: #bbb;
+    color: #000;
 }
 
 p u {
-    border-bottom: 2px solid #ac4142;
+    border-bottom: 2px solid #1da1f2;
     text-decoration: none;
 }
 
@@ -1114,7 +1114,7 @@ center {
 }
 
 red {
-    color: #ac4142;
+    color: #1da1f2;
 }
 
 .wrap-collabsible {
@@ -1389,7 +1389,7 @@ white {
 
 .input-group-text {
     font-weight: bold;
-    color: #ac4142;
+    color: #1da1f2;
 }
 
 .videoWrapper {
@@ -1577,7 +1577,7 @@ ul.listing>h4 {
 }
 
 .twitter-button:hover {
-    fill: #ac4142;
+    fill: #1da1f2;
 }
 
 .facebook-button {
@@ -1585,7 +1585,7 @@ ul.listing>h4 {
 }
 
 .facebook-button:hover {
-    fill: #ac4142;
+    fill: #1da1f2;
 }
 
 .linkedin-button {
@@ -1593,11 +1593,11 @@ ul.listing>h4 {
 }
 
 .linkedin-button:hover {
-    fill: #ac4142;
+    fill: #1da1f2;
 }
 
 h3, h4 {
-    color: #ac4142;
+    color: #1da1f2;
 }
 
 .footer-brand {
@@ -1605,12 +1605,12 @@ h3, h4 {
     font-weight: 700 !important;
 }
 
-.footer-brand a {
-    color: #ac4142;
-}
+/* .footer-brand a {
+    color: #1da1f2;
+} */
 
 .footer-brand a:hover {
-    color: #ac4142;
+    color: #1da1f2;
 }
 
 .blogpost img {
@@ -1626,9 +1626,9 @@ h3, h4 {
 }
 
 .tag {
-    background-color: #ac4142;
+    background-color: #1da1f2;
     width: auto;
-    border: 1px solid #ac4142;
+    border: 1px solid #1da1f2;
     padding: 3px;
     border-radius: 7px;
     text-transform: uppercase;
@@ -1790,7 +1790,7 @@ blockquote {
 
 blockquote p {
     padding: 10px;
-    border-left: solid 4px #ac4142;
+    border-left: solid 4px #1da1f2;
     font-style: italic;
     /* font-family: 'EB Garamond', serif; */
     /* font-size: 100%; */
@@ -1798,7 +1798,7 @@ blockquote p {
 
 /* .post-content blockquote { */
 
-/* border-left: 3px solid #ac4142; */
+/* border-left: 3px solid #1da1f2; */
 
 /* position: relative; */
 
@@ -1871,3 +1871,64 @@ small {
     border: 2px solid black;
     border-radius: 7px;
 }
+
+.book-cover {
+    width: 100px;
+    position: relative;
+    border-radius: .2rem;
+    z-index: 1;
+    transition: .3s;
+    line-height: 1;
+    margin-right: 2rem;
+    perspective: 50rem;
+    transform-style: preserve-3d;
+}
+
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+    font-size: 1.5em;
+  }
+   
+  .stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+    color: rgb(235, 235, 235);
+  }
+   
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /* font-size: 2em; */
+  }
+   
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8d53b;
+  }
+
+
+  .outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .middle {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    /*whatever width you want*/
+  }

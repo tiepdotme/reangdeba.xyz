@@ -8,7 +8,7 @@ permalink: /me/
 
 > "When life itself is lunatic, who knows where the madness lies?" <br> &mdash; Tara Westover
 
-## Reang:
+### Reang:
 
 * 👨🏻‍🎓 studies Electrical Engineering
 * 👨🏻‍🎓 teaches on [YouTube](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ)
@@ -60,17 +60,13 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
 <p style="color:#ac4142; "><b>Follow him elsewhere 🍿</b></p>
 <div class="row">
 
-    <div class="col-sm-4">
+    <div class="col-sm-5">
         <a href="https://github.com/reangdeba"><i class="fab fa-github"></i></a>
         <a href="https://youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ"><i class="fab fa-youtube"></i></a>
         <a href="https://twitter.com/reangdeba"><i class="fab fa-twitter"></i></a>
         <a href="https://instagram.com/reangdeba_"><i class="fab fa-instagram"></i></a>
         <a href="https://linkedin.com/in/reangdeba"><i class="fab fa-linkedin"></i></a>
-        <a href="https://dev.to/reangdeba">
-
-  <i class="fab fa-dev" title="reangdeba's DEV Profile"></i>
-</a>
-
+        <a href="https://dev.to/reangdeba"><i class="fab fa-dev" title="reangdeba's DEV Profile"></i></a>
     </div>
 
 </div>
