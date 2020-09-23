@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Books wishlist"
+permalink: /reads/wishlist
+---
+<p><a href="/reads"><code>$ cd ..</code></a></p>
+<p>If you feel like buying me something, you should highly consider buying me one of these books for whatever reason. Thanks? :wink: </p>
+<div>
+    {% for book in site.data.books_wishlist %}
+    <a href="{{ book.link }}" target="_blank">
+        <div class="row">
+            <div class="col-sm-2">
+                <img class="book-cover" src="/assets/images/book_covers/{{ book.image_name }}"
+                    alt="Cover of {{ book.title }}">
+            </div>
+            <div class="p-1">
+                <h5>{{ book.title }}</h5>
+                <p>{{ book.author }}</p>
+                <a href="https://buymeacoffee.com/reangdeba" target="_blank">Buy me the book!</a>
+            </div>
+        </div>
+    </a>
+    <br>
+    {% endfor %}
+
+</div>

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Adding comments to my blog!"
+description: "Sweet, beautiful, GitHub looking comments, powered by utterances."
+author: Debashish Reang
+thumbnail: "/assets/images/alt_dp.jpg"
+tags: [tech]
+---
+I have thought about a suitable comments system for my blog for about three years now. I initially used Disqus for comments, but the site's load time and the clutter really upset me. So, I got rid of it. I prefer minimalist look over anything else. In fact, I am probably 55%:45% if you ask me to choose between minimal looks and utility of things.
+
+This site focusses on minimalism (as if it's not already apparent). I live a minimalist life too. No, it's not because of some deep philosophical realization. I'm mostly broke, and hence the frugal lifestyle. With that, let me ask you for your kind donations. It helps me keep the site running. You can go to [support](/thanks) for more details.
+
+Okay, now back to the article. Like I said, I prefer minimalistic system over others. I came across this thing called [utterances](https://utteranc.es/) on Tania Rascia's blog a few days ago, and fell in love with it. It took me about two minutes to get the thing up and running. It's awesome.
+
+Go ahead and try it out! If you wish to be anonymous, you can of course use the anonymous link for giving feedback. Thanks for reading!
