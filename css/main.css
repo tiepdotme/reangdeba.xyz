@@ -153,11 +153,6 @@ cite {
   } */
 
 .header {
-    border-top: 4px solid #333;
-    /* color: #666666; */
-    /* border-bottom: 1px solid #e8e8e8; */
-    /* font-family: 'Roboto', sans-serif; */
-    /* font-family: 'EB Garamond', serif; */
     min-height: 56px;
     font-weight: bold;
     text-decoration: none;
@@ -1785,13 +1780,14 @@ pre[class*="language-"] {
 
 blockquote {
     display: block;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 blockquote p {
     padding: 10px;
-    border-left: solid 4px #1da1f2;
+    border-left: solid 8px #bebebe;
     font-style: italic;
+    opacity: 0.7;
     /* font-family: 'EB Garamond', serif; */
     /* font-size: 100%; */
 }

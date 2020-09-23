@@ -5,9 +5,6 @@ permalink: /me/
 ---
 <p><a href="https://www.instagram.com/reangdeba_/" target="_blank"><img src="/assets/images/duckduck.jpg" style="float: right; max-width: 33%; margin: 0 0 1em 2em; border-radius: 50%"></a></p>
 
-
-> "When life itself is lunatic, who knows where the madness lies?" <br> &mdash; Tara Westover
-
 ### Reang:
 
 * 👨🏻‍🎓 studies Electrical Engineering
@@ -18,9 +15,10 @@ permalink: /me/
 * 📚 also loves [books](/reads)
 * 🐈 unconditionally loves Taylor Swift
 
-<!-- ## Currently using:
 
-* **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
+<!-- ### Currently using: -->
+
+<!-- * **Computer:** [13" MacBook Air](https://amzn.to/3ctKtm3)
 * **Hosting:** [Netlify](https://netlify.com)
 * **Editor:** [Visual Studio Code](https://code.visualstudio.com/)
 * **Static site generator:** [Jekyll](https://jekyllrb.com/)
@@ -54,6 +52,8 @@ At times, he dances weirdly to 'Sadi Gali' and 'London Thumakda'.💃 And he lov
 a) He'd been asked a few times if he's from China or Nepal or Bhutan.
 <br>
 b) This helps him appreciate the diverse world he lives in. He's grateful. 😃
+
+> "When life itself is lunatic, who knows where the madness lies?" <br> &mdash; Tara Westover
 
 Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that he took at IIT Kanpur.
 
