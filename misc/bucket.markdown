@@ -4,7 +4,6 @@ title: "Bucket list"
 comments: false
 permalink: /bucket/
 ---
-<p>This list was last modified on: <i>{{ page.last_modified_at | date: "%B %-d, %Y" }}</i>.</p>
 
 ### Life
 
@@ -49,15 +48,16 @@ permalink: /bucket/
         crossorigin="anonymous"></script>
 
 <script>
-        var deno = {{site.data.bucket_list}}.length;
-        var newprogress = Math.round(4/deno*100);
+        var deno = {{ site.data.bucket_list.size }};
+        var nume = {{ site.data.bucket_complete.size }};
+        var newprogress = Math.round(nume/deno*100);
 $('#theprogressbar').attr('aria-valuenow', newprogress).css('width', newprogress+'%');
 
 $('#theprogressbar').text(newprogress + '%');
 </script>
 
 <script>
-        var progress = Math.round(21/92*100);
+        var progress = Math.round(21/84*100);
 $('#lifeprogressbar').attr('aria-valuenow', progress).css('width', progress+'%');
 
 $('#lifeprogressbar').text(progress + '%');
