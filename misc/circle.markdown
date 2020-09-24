@@ -42,4 +42,4 @@ Feel free to checkout this [playlist](https://open.spotify.com/playlist/1PP6YFym
 * [Laura Gao](https://www.lauragao.com/hey)
 * [Deedy's](http://debarghyadas.com/writes/)
 
-Do you have any suggestions? Feel free to shoot an email to <a href="mailto:hi@reangdeba.xyz">hi@reangdeba.xyz</a>. You can also get in touch via social media.
+Do you have any suggestions? Feel free to shoot an email to <a href="mailto:[removethis]hi@reangdeba.xyz">hi@reangdeba.xyz</a>. You can also get in touch via social media.
