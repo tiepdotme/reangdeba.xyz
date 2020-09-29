@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Semester Update"
+description: "I don't know why you should be reading this, but okay. This is a tiny little update about my life situation. I'm not sure it'll be useful to you in any way but read on."
+author: Debashish Reang
+thumbnail: "/assets/images/dp.jpg"
+tags: [life update]
+---
+Hi, there! I hope you are doing well. So, it's official. I filled out the form for CAT 2020, hoping to try my hand at admission to IIM A or B. Yeah, right; I filled only those two options. I looked at other institutes, and none of the other cities appealed to me. God save me.
+
+Siri tells me that there are 61 days until November 29, 2020. That's the D-Day, the day of CAT 2020. I've been preparing for it for the last few weeks, and while I'm confident about it, there are hundreds of thousands of others competing for the few hundred seats [^1]. So, we'll see what happens.
+
+I don't know what an MBA is like and what it has in store for me, but I wish to explore it and see it for myself. Honestly, I'm not very sure about what it is that I want from life. I hope I get a sense of what I genuinely wish to do by the time I'm 30 or so so that I can spend the next 20-30 years working on it.
+
+I will also upload daily lessons, however small, on YouTube from now on. You can find all of the classes that I uploaded thus far [here](https://www.youtube.com/channel/UCc0hAFLO1vlv208es8Yt2TQ?view_as=subscriber). I don't know what sort of impact these lessons will have, nevertheless hit the subscribe button if you feel like supporting me. 
+
+That's it. Those are the tiny life updates. Thanks for reading! Take care. Stay well. And be awesome. :smile:
+
+### References
+[^1]: [2.3 lakh candidates registered for CAT 2020](https://www.telegraphindia.com/india/drop-in-iim-entrance-test-applicants/cid/1793162)
