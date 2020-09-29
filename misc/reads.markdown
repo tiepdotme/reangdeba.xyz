@@ -2,6 +2,7 @@
 layout: page
 title: "Bookshelf"
 permalink: /readings/
+thumbnail: "assets/images/bookshelf.jpg"
 comments: false
 ---
 I read about 150 words per minute (wpm) as per this [website](https://www.myreadspeed.com/). My personal [goal](https://www.goodreads.com/user_challenges/21227074) for 2020 is to read **50** books. Let's see how far I can get by the end of the year. I also plan to write a summary of my readings by the end of the year.
