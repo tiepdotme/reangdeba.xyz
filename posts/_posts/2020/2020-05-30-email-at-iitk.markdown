@@ -33,7 +33,7 @@ You might want to send an email to professors for several reasons. The most prom
 
 **Asking about a course.** Sometimes you might want to email the professor, seeking details about certain things like grades, attendance, office hours, prereqs etc. The following template should do the job for you.
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Template</h5>
@@ -53,7 +53,7 @@ You might want to send an email to professors for several reasons. The most prom
   </div>
 </div>
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Sample: Scheduling an office hour</h5>
@@ -75,7 +75,7 @@ You might want to send an email to professors for several reasons. The most prom
 
 **Asking for a project to work on.** This one might be a little tricky and varies from professor to professor. However, the general template should work in most cases. Of course, mere copying and pasting the template given here might not help.
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Template</h5>
@@ -95,7 +95,7 @@ You might want to send an email to professors for several reasons. The most prom
   </div>
 </div>
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Sample: Asking for work opportunities</h5>
@@ -122,7 +122,7 @@ You might want to send an email to professors for several reasons. The most prom
 
 **Sending emails to administrative staff.** There is a formal procedure for most things. Still, exceptional circumstances may arise, or it is possible that you just aren’t aware of the process. In most cases, writing an email and then following the instructions that you receive in reply to your email should work. As a pro tip, **smiling almost always helps**. Concretely, I applied for a scholarship sometime back and really screwed up a few entries while filling up the form. The guy in the office seemed like he did not have a great day either. However, I went up to him and smiled broadly for some reason, explaining to him what I’d done right and what I messed up. He corrected the mistakes and approved my application within 10 minutes or so. So, smile!
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Template</h5>
@@ -142,7 +142,7 @@ You might want to send an email to professors for several reasons. The most prom
   </div>
 </div>
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Sample: Asking for a bonafide certificate</h5>
@@ -161,7 +161,7 @@ You might want to send an email to professors for several reasons. The most prom
 
 ### 3. To alumni and strangers
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Sample: Asking for the template of that nice resume that you just saw</h5>
@@ -203,7 +203,7 @@ You might want to send an email to professors for several reasons. The most prom
 
 This section was added after a junior asked me about how to write emails informing the professor about one's will to discontinue working on a project. While it should be easy for most people, I'm putting it out here so that someone might benefit from it. In general, you can follow the template below.
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Sample: Informing the professor about one's will to discontinue working on a project.</h5>
@@ -231,7 +231,7 @@ I am in no way an expert on communicating effectively. In fact, there have been 
 
 ### Bonus
 
-<div class="card bg-dark">
+<div class="card bg-light">
   <div class="card-body">
 
     <h5 class="card-title">Real email: Asking about hitchhiking across Europe</h5>
