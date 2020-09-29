@@ -2,14 +2,14 @@
 /* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,700&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
-}
+} */
 
-html, body {
-    height: 100%;
-}
+html {
+    scroll-behavior: smooth;
+  }
 
 body {
     font-family: 'Source Serif Pro', serif;
@@ -157,14 +157,14 @@ cite {
     font-weight: bold;
     text-decoration: none;
     top: 0;
-    position: fixed;
+    /* position: fixed; */
     right: 0;
     left: 0;
-    z-index: 1030;
+    /* z-index: 1030; */
     border: none;
-    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    background-color: #fff;
+    /* -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); */
+    /* background-color: #fff; */
 }
 
 .note-title, .note-title:hover, .note-title:visited {
@@ -1462,15 +1462,6 @@ ul.listing>h4 {
 }
 
 
-/* .content img:not(.emoji) {
-  padding: 3px;
-  max-width: 100%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-} */
-
 .content .listing {
     margin: 0 0 0 0;
     padding: 0;
@@ -1600,15 +1591,11 @@ h3, h4 {
     font-weight: 700 !important;
 }
 
-/* .footer-brand a {
-    color: #1da1f2;
-} */
-
 .footer-brand a:hover {
     color: #1da1f2;
 }
 
-.blogpost img {
+.blogpost img:not(.emoji) {
     max-width: 80%;
     display: block;
     margin-left: auto;
