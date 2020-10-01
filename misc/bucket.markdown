@@ -1,7 +1,8 @@
 ---
 layout: page
 title: "Bucket list"
-comments: false
+comments: true
+thumbnail: "/assets/images/bucket.jpg"
 permalink: /bucket/
 ---
 
