@@ -1740,7 +1740,7 @@ pre[class*="language-"] {
 
 .date {
     color: gray;
-    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .katex-display>.katex {
