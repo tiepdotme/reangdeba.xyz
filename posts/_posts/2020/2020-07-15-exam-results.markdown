@@ -5,6 +5,7 @@ description: "You are awesome irrespective of your exam scores. You'll end up do
 author: Debashish Reang
 thumbnail: "/assets/images/results.jpg"
 comments: true
+published: false
 tags: [Results, Exams]
 ---
 

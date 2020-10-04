@@ -4,6 +4,7 @@ title: "College life: myths vs the truths"
 description: "The good, the meh, and everything in between about college."
 author: Debashish Reang
 thumbnail: "/assets/images/future.jpg"
+published: false
 tags: [college]
 ---
 

@@ -5,6 +5,7 @@ description: "Sweet, beautiful, GitHub looking comments, powered by utterances."
 author: Debashish Reang
 thumbnail: "/assets/images/alt_dp.jpg"
 tags: [tech]
+published: false
 ---
 I have thought about a suitable comments system for my blog for about three years now. I initially used Disqus for comments, but the site's load time and the clutter really upset me. So, I got rid of it. I prefer minimalist look over anything else. In fact, I am probably 55%:45% if you ask me to choose between minimal looks and utility of things.
 

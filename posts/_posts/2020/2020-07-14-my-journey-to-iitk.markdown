@@ -5,6 +5,7 @@ description: "IIT Kanpur is awesome. I won't trade the experience I've had for a
 author: Debashish Reang
 thumbnail: "/assets/images/iitk_journey_3.jpg"
 comments: true
+published: false
 tags: [Campus life]
 ---
 

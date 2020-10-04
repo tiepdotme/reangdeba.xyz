@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Semester Review"
+title: "6th Semester Review"
 description: "The 6th semester summed up in a few words. Lots of rants ahead. <reddot>You have been warned!</reddot>"
 author: Debashish Reang
 thumbnail: "/assets/images/21.jpg"

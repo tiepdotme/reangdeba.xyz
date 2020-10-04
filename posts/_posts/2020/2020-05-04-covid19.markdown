@@ -6,6 +6,7 @@ subtitle: "May be we shouldn't use wartime language after all."
 author: "Debashish Reang"
 thumbnail: "/assets/images/lockdown.jpg"
 comments: true
+published: false
 tags: [COVID-19, wartime, ENG124A]
 ---
 

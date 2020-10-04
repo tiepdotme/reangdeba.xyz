@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dear IITK 🙏"
+title: "Dear IIT Kanpur"
 description: "A collection of midnight thoughts aimed towards the admins at IIT Kanpur. Please, you can do better!"
 author: Debashish Reang
 thumbnail: "/assets/images/folded_hands.jpg"

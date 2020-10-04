@@ -7,20 +7,11 @@ layout: default
         <div class="post-container">
             <header class="post-header">
                 <div>
-                    <h2>{{ page.title }}</h2>
-                    <p class="post-subtitle">{{ page.subtitle }}</p>
-                    <p class="meta roboto" style="text-transform:uppercase; font-size:80%;">
-                        {% capture postime %}{{ page.date | date: "%B %-d, %Y" }}{% endcapture %}
-                        {% capture modtime %}{{ page.last_modified_at | date: "%B %-d, %Y" }}{% endcapture %}
-                        {{ page.date | date: "%B %-d, %Y" }}{% if page.author %} •
-                        {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %} • <reddot>
-                            {% capture words %}
-                            {{ page.content | number_of_words | minus: 250 }}
-                            {% endcapture %}
-                            {% unless words contains "-" %}
-                            {{ words | plus: 250 | divided_by: 250 | append: " minute read" }}
-                            {% endunless %}</reddot>
-                    </p>
+                    <h3>{{ page.title }}</h3>
+                    <!-- <p class="post-subtitle">{{ page.subtitle }}</p>
+                    <p style="font-weight:bold;">
+                        {{ page.date | date: "%B %-d, %Y" }}
+                    </p> -->
                     <hr>
                 </div>
             </header>
@@ -28,16 +19,12 @@ layout: default
             <article class="post-content blogpost">
                 {{ content }}
 
-                <div>
                     <p>If you enjoy reading my work, you can <a href="https://reangdeba.substack.com/subscribe"
                             target="_blank">subscribe</a> by
-                        email.</p>
+                        email. You can leave an anonymous feedback <a href="https://forms.gle/k95pq3vrWCSjwEtJA"
+                        target="_blank">here</a>.</p>
                     <!-- <iframe src="https://reangdeba.substack.com/embed" width="300" height="70" frameborder="0"
                         scrolling="no"></iframe> -->
-                </div>
-
-                <p>You can leave an anonymous feedback <a href="https://forms.gle/k95pq3vrWCSjwEtJA"
-                        target="_blank">here</a>.</p>
 
                 <!-- <div class="share-panel mac">
                     <div class="row">
@@ -78,7 +65,7 @@ layout: default
 
                 <hr>
                 <blockquote>
-                    <p>For suggestions, corrections etc. please send me an <a href="mailto:hi@reangdeba.xyz">email</a>,
+                    <p>For suggestions, corrections etc. please send me an <a href="mailto:[removethis]hi@reangdeba.xyz">email</a>,
                         or
                         reach out on <a href="https://twitter.com/reangdeba">Twitter</a>.<br>
                         If you are the GitHub type, you can <a
@@ -87,9 +74,9 @@ layout: default
                             page on GitHub</a>.</p>
                 </blockquote>
 
-                <script src="https://utteranc.es/client.js" repo="reangdeba/reangdeba.xyz" issue-term="pathname"
+                <!-- <script src="https://utteranc.es/client.js" repo="reangdeba/reangdeba.xyz" issue-term="pathname"
                     theme="github-light" crossorigin="anonymous" async>
-                    </script>
+                    </script> -->
 
                 <div class="card bg-dark">
                     <div class="card-body">

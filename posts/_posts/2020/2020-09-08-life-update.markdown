@@ -4,6 +4,7 @@ title: "Life is short, life updates even shorter"
 description: "A few words about the coronavirus and work-from-home thingy situation. Life is a struggle. The article is going to be a series of rants about many unrelated things."
 author: Debashish Reang
 thumbnail: "/assets/images/future.jpg"
+published: false
 tags: [thoughts]
 ---
 <div class="mac">

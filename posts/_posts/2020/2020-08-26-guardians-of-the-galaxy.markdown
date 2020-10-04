@@ -6,6 +6,7 @@ author: Debashish Reang
 thumbnail: "/assets/images/gog.jpg"
 comments: true
 tags: [thoughts, iitk]
+published: false
 ---
 <div class="text-center">
   <img src="/assets/images/gog.jpg" class="rounded" alt="groot">

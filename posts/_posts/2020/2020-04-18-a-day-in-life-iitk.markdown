@@ -6,6 +6,7 @@ subtitle: "I love my <code>life</code> at IIT Kanpur"
 author: "Debashish Reang"
 thumbnail: "/assets/images/night_profile_photo.jpeg"
 comments: true
+published: false
 tags: [life, iitk]
 ---
 

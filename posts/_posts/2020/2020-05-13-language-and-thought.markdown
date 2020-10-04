@@ -5,6 +5,7 @@ description: "My answer to an ENG124A assignment asking the same question. Much 
 subtitle: "Yes, the way people use language shapes their thought process."
 author: Debashish Reang
 thumbnail: "/assets/images/thought.jpg"
+published: false
 tags: [language, thought, eng124a]
 ---
 Humans have the remarkable ability to adapt to their surroundings, and face tough situations. Remarkable progress have been made in academia to study the connection between human thought and the language that they use. In this article, I’ll argue for why I think that languages shapes the way we think and their implications.
