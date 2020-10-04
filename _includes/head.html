@@ -26,8 +26,8 @@
 
     {% if page.thumbnail %}
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ page.url }}{{ page.thumbnail }}">
-    <meta property="og:image" content="{{ page.url }}{{ page.thumbnail }}">
+    <meta name="twitter:image" content="{{ site.url }}{{ page.thumbnail }}">
+    <meta property="og:image" content="{{ site.url }}{{ page.thumbnail }}">
     {% else %}
     <meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ site.url }}{{ site.title_image }}">
