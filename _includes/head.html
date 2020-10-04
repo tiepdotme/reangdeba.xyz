@@ -45,6 +45,10 @@
 
     {%- feed_meta -%}
 
+    {% if jekyll.environment == 'production' %}
+    {% include google-analytics.html %}
+    {% endif %}
+
 
     <link rel="canonical" href="https://reangdeba.xyz/">
     <link href="/assets/fa/css/all.css" rel="stylesheet">

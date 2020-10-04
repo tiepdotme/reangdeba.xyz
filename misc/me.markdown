@@ -73,6 +73,8 @@ Here is his [bucket](/bucket/) list. [Here](/courses/) is a list of courses that
 
 He's best reached by email. His email address is `hi@reangdeba.xyz` Please consider reading [communication](/communication/). **Now in first-person.**
 
+I participate on [Twitter](https://twitter.com/reangdeba) and [Instagram](https://instagram.com/reangdeba_) these days. Go say hi!
+
 I'm always open to interesting conversation and collaboration. If you are at IIT Kanpur and wish to meet up, coffee is on me. No questions asked. <span style="color: red">Let's have coffee?</span>☕
 
 **What's with the emojis?**<br>
