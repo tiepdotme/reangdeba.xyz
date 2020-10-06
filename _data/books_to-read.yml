@@ -312,14 +312,6 @@
   link: https://www.goodreads.com/book/show/28820444-the-elephant-in-the-brain
   rating: '0'
   title: The Elephant in the Brain
-- author: Trevor Noah
-  fullTitle: 'Born a Crime: Stories From a South African Childhood'
-  id: '29780253'
-  image_name: 29780253._SX98_.jpg
-  image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1473867911l/29780253._SX98_.jpg
-  link: https://www.goodreads.com/book/show/29780253-born-a-crime
-  rating: '0'
-  title: Born a Crime
 - author: Melinda Gates
   fullTitle: 'The Moment of Lift: How Empowering Women Changes the World'
   id: '40776644'
@@ -328,3 +320,11 @@
   link: https://www.goodreads.com/book/show/40776644-the-moment-of-lift
   rating: '0'
   title: The Moment of Lift
+- author: Jane Hawking
+  fullTitle: 'Travelling To Infinity: My Life With Stephen'
+  id: '25884153'
+  image_name: 25884153.jpg
+  image_url: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436544538l/25884153.jpg
+  link: https://www.goodreads.com/book/show/25884153-travelling-to-infinity
+  rating: '0'
+  title: Travelling To Infinity

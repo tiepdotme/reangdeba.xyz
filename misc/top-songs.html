@@ -1,0 +1,24 @@
+---
+layout: page
+title: Top songs
+permalink: "/top-songs"
+---
+<blockquote><p>Taylor Swift shall forever have my unconditional love. The ranking here should not be misinterpreted for fading love. Hari Om!</p></blockquote>
+<hr>
+
+
+{% for song in site.data.top_songs %}
+        <a href="{{ song.url }}" target="_blank">
+            <div class="row">
+                <div class="col col-sm-2">
+                    <img class="song-cover" src="/assets/images/album_covers/{{ song.image_name }}"
+                        alt="Cover of {{ song.name }}">
+                </div>
+                <div class="col col-sm-3 p-1">
+                    <h5>{{ song.name }}</h5>
+                    <p>{{ song.artists }}</p>
+                </div>
+            </div>
+        </a>
+        <br>
+        {% endfor %}

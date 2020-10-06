@@ -11,7 +11,26 @@ layout: default
         <p><a href="https://www.goodreads.com/user/show/53163185-debashish-reang">Here</a> is the link to my Goodreads profile. The Goodreads profile is updated (slightly) more frequently than this page. Nowadays, I mostly read on my Kindle and listen to audiobooks on Audible.
         </p>
         <br>
-        {% for book in site.data.books %}
+        {% for book in site.data.books_currently-reading %}
+        <a href="{{ book.link }}" target="_blank">
+            <div class="row">
+                <div class="col col-sm-2">
+                    <img class="book-cover" src="/assets/images/book_covers/{{ book.image_name }}"
+                        alt="Cover of {{ book.title }}">
+                </div>
+                <div class="col col-sm-3 p-1">
+                    <h5>{{ book.title }}</h5>
+                    <p>{{ book.author }}</p>
+                    <p style="color: red;"><i>Currently reading</i></p>
+                </div>
+            </div>
+        </a>
+        <br>
+        {% endfor %}
+
+        <h3>Read</h3>
+        <hr>
+        {% for book in site.data.books_read %}
         <a href="{{ book.link }}" target="_blank">
             <div class="row">
                 <div class="col col-sm-2">
@@ -37,10 +56,10 @@ layout: default
 <script>
     const starTotal = 5;
 
-    {% for book in site.data.books %}
+    {% for book in site.data.books_read %}
     const rating_{{book.id}} = {{ book.rating }};
-    const starPercentage_{{book.id}} = (rating_{{book.id}} / starTotal) * 100;
-    const starPercentageRounded_{{book.id}} = `${(Math.round(starPercentage_{{book.id}} / 10) * 10)}%`;
+    const starPercentage_{{book.id}} = (rating_{{book.id}} * 100) / starTotal;
+    const starPercentageRounded_{{book.id}} = `${(Math.round(starPercentage_{{book.id}} * 100) / 100)}%`;
     document.querySelector(`.a_{{book.id}} .stars-inner`).style.width = starPercentageRounded_{{book.id}};
     {% endfor %}
 

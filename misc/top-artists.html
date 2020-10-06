@@ -1,0 +1,23 @@
+---
+layout: page
+title: Top artists
+permalink: "/top-artists"
+---
+<blockquote><p>Taylor Swift shall forever have my unconditional love. The ranking here should not be misinterpreted for fading love. Hari Om!</p></blockquote>
+<hr>
+
+{% for artist in site.data.top_artists %}
+        <a href="{{ artist.url }}" target="_blank">
+            <div class="row">
+                <div class="col col-sm-2">
+                    <img class="artist-cover" src="/assets/images/album_covers/{{ artist.image_name }}"
+                        alt="Cover of {{ artist.name }}">
+                </div>
+                <div class="col col-sm-3 p-1">
+                    <h5>{{ artist.name }}</h5>
+                    <p>{{ artist.genre }}</p>
+                </div>
+            </div>
+        </a>
+        <br>
+        {% endfor %}

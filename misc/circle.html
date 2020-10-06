@@ -1,0 +1,165 @@
+---
+layout: page
+title: "Circle"
+subtitle: "A non-exhaustive summary of my life, in no particular order."
+permalink: /circle/
+---
+<blockquote><p>This page was last modified <i><span id="lastMod">...</span></i> day(s) ago.</p></blockquote>
+
+I'm currently <output id="age">.....</output> years old. I've been tracking my activities since October 2020.
+
+<h3>Reading <small><a href="/reads">(see all &RightArrow;)</a></small></h3>
+<h4>Currently Reading</h4>
+<div class="row">
+{% for book in site.data.books_currently-reading limit: 3%}
+<div class="col-md">
+        <a href="{{ book.link }}" target="_blank">
+                    <img class="book-cover" src="/assets/images/book_covers/{{ book.image_name }}"
+                        alt="Cover of {{ book.title }}">
+
+                        <h5 class="mt-2">{{ book.title }}</h5>
+                        <p>{{ book.author }}</p>
+                    <!-- <div class="row">
+                        <div class="col">
+                            <img class="book-cover" src="/assets/images/book_covers/{{ book.image_name }}"
+                        alt="Cover of {{ book.title }}">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h5>{{ book.title }}</h5>
+                            <p>{{ book.author }}</p>
+                        </div>
+                    </div> -->
+                <!-- <div class="col col-sm-3 p-1">
+                    <h5>{{ book.title }}</h5>
+                    <p>{{ book.author }}</p>
+                </div> -->
+        
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
+        <h4>Recently Read</h4>
+        <div class="row">
+        {% for book in site.data.books_read limit: 4%}
+        <div class="col col-sm-3">
+                <a href="{{ book.link }}" target="_blank">
+                            <img class="book-cover" src="/assets/images/book_covers/{{ book.image_name }}"
+                                alt="Cover of {{ book.title }}">
+                                <h6 class="mt-2">{{ book.title }}</h6>
+                    <p>{{ book.author }}</p>
+                        <!-- <div class="col col-sm-3 p-1">
+                            <h5>{{ book.title }}</h5>
+                            <p>{{ book.author }}</p>
+                        </div> -->
+                </a>
+                <br>
+            </div>
+                {% endfor %}
+            </div>
+        
+<h3>Top Artists <small><a href="/top-artists">(explore all top artists &RightArrow;)</a></small></h3>
+
+<div class="row">
+    {% for artist in site.data.top_artists limit: 5%}
+    <div class="col col-sm-2">
+            <a href="{{ artist.url }}" target="_blank">
+                        <img class="artist-cover" src="/assets/images/album_covers/{{ artist.image_name }}"
+                            alt="Cover of {{ artist.name }}">
+                            <h6 class="mt-2">{{ artist.name }}</h6>
+                            <p>{{ artist.genre }}</p>
+                <!-- <p>{{ book.author }}</p> -->
+                    <!-- <div class="col col-sm-3 p-1">
+                        <h5>{{ book.title }}</h5>
+                        <p>{{ book.author }}</p>
+                    </div> -->
+            </a>
+            <br>
+        </div>
+            {% endfor %}
+        </div>
+
+        <h3>Top Songs <small><a href="/top-songs">(explore all top songs &RightArrow;)</a></small></h3>
+
+        <div class="row">
+            {% for song in site.data.top_songs limit: 5%}
+            <div class="col col-sm-2">
+                    <a href="{{ song.url }}" target="_blank">
+                                <img class="song-cover" src="/assets/images/album_covers/{{ song.image_name }}"
+                                    alt="Cover of {{ song.name }}">
+                                    <h6 class="mt-2">{{ song.name }}</h6>
+                                    <p>{{ song.artists }}</p>
+                        <!-- <p>{{ book.author }}</p> -->
+                            <!-- <div class="col col-sm-3 p-1">
+                                <h5>{{ book.title }}</h5>
+                                <p>{{ book.author }}</p>
+                            </div> -->
+                    </a>
+                    <br>
+                </div>
+                    {% endfor %}
+                </div>
+
+
+<h3>Blogroll</h3>
+
+<ul>
+    <li><a href="https://guzey.com/">Alexey Guzey</a></li>
+    <li><a href="https://karpathy.github.io">Andrej Karpathy</a></li>
+    <li><a href="http://pgbovine.net/intro.htm">Philip Guo</a></li>
+    <li><a href="https://huyenchip.com/blog/">Chip Huyen</a></li>
+    <li><a href="https://www.lauragao.com/hey">Laura Gao</a></li>
+    <li><a href="http://debarghyadas.com/writes/">Deedy's</a></li>
+    </ul>
+
+<blockquote><p>Do you have any suggestions? Feel free to shoot an email to <a href="mailto:[removethis]hi@reangdeba.xyz">hi@reangdeba.xyz</a>. You can also get in touch via social media.</p></blockquote>
+
+
+<!-- https://codepen.io/nikma/pen/XMNdPg -->
+
+<script>
+    function ageCalc() {
+  var minutes = 1000 * 60;
+  var hours = minutes * 60;
+  var days = hours * 24;
+  var years = days * 365.25;
+
+  dt = 6;
+  mn = 7;
+  mn++;
+  yy = 1999;
+  var date1 = new Date(mn + "/" + dt + "/" + yy);
+
+  var date2 = new Date();
+  var timeDiff = (date2.getTime() - date1.getTime());
+  var age = (timeDiff / years);
+  age = parseFloat(Math.round(age * 100000000000) / 100000000000).toFixed(11);
+
+  document.getElementById("age").innerHTML = age;
+
+  setTimeout("ageCalc()", 50);
+
+}
+window.onload = ageCalc();
+
+function convertDigitIn(str) {
+  return str.split('/').reverse().join('/');
+}
+</script>
+
+<script>
+
+      var minutes = 1000 * 60;
+  var hours = minutes * 60;
+  var days = hours * 24;
+    var date1 = new Date("{{ page.last_modified_at | date: '%m/%d/%Y'}}");
+
+    var date2 = new Date();
+    var daysDiff = (date2.getTime() - date1.getTime())/days + 1;
+    var lastMod = parseFloat(daysDiff).toFixed(0);
+    console.log(parseFloat(daysDiff).toFixed(0));
+
+    document.getElementById("lastMod").innerHTML = lastMod;
+</script>
