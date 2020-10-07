@@ -157,7 +157,7 @@ function convertDigitIn(str) {
     var date1 = new Date("{{ page.last_modified_at | date: '%m/%d/%Y'}}");
 
     var date2 = new Date();
-    var daysDiff = (date2.getTime() - date1.getTime())/days + 1;
+    var daysDiff = (date2.getTime() - date1.getTime())/days;
     var lastMod = parseFloat(daysDiff).toFixed(0);
     console.log(parseFloat(daysDiff).toFixed(0));
 
