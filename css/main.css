@@ -393,12 +393,13 @@ cite {
     /* font-weight: bold; */
 }
 
-.post-content {
-    margin: 0 0 30px;
-}
 
 .post-content>* {
     margin: 20px 0;
+}
+
+.post-content .emoji {
+    margin: 0;
 }
 
 /* .post-content h1,
@@ -1602,6 +1603,10 @@ h3, h4 {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+.emoji {
+    display: inline;
 }
 
 .footer-subscription {

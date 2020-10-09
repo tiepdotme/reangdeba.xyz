@@ -28,6 +28,11 @@
   image_url: https://i.scdn.co/image/ab67616d0000b273e178ef5b0f2bb4aa86a4c177
   name: Lose You To Love Me - Demo Version
   url: https://open.spotify.com/track/5IoZdDVZdAnr4Icx4VNOep
+- artists: BLACKPINK
+  image_name: 207UhtrPquuAae44b2LhZW.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
+  name: How You Like That
+  url: https://open.spotify.com/track/207UhtrPquuAae44b2LhZW
 - artists: Adele
   image_name: 6QPKYGnAW9QozVz2dSWqRg.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273ba764098164f221484bcc309
@@ -48,11 +53,11 @@
   image_url: https://i.scdn.co/image/ab67616d0000b2734281932550ab6056eea3a856
   name: 21 Guns
   url: https://open.spotify.com/track/3IHHqmfKJHyI0obINUdg1W
-- artists: BLACKPINK
-  image_name: 207UhtrPquuAae44b2LhZW.jpeg
+- artists: BLACKPINK, Selena Gomez
+  image_name: 4Q9hOAbmZVZqu6wNJCbRnz.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
-  name: How You Like That
-  url: https://open.spotify.com/track/207UhtrPquuAae44b2LhZW
+  name: Ice Cream (with Selena Gomez)
+  url: https://open.spotify.com/track/4Q9hOAbmZVZqu6wNJCbRnz
 - artists: A.R. Rahman
   image_name: 4UJkUnfEEL8B2JZ1OQfYOO.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273f3582107f127c2765fafb431
@@ -93,8 +98,3 @@
   image_url: https://i.scdn.co/image/ab67616d0000b2731a53cb45af75e30370c7e0ee
   name: Main Pal Do Pal Ka Shair Hoon
   url: https://open.spotify.com/track/2MAQWNhW0jKI0qWnNNO8C9
-- artists: BLACKPINK
-  image_name: 7e7VjLxO5xJINHvnRytrqi.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b273895cda6254392eb17aae5390
-  name: PLAYING WITH FIRE
-  url: https://open.spotify.com/track/7e7VjLxO5xJINHvnRytrqi

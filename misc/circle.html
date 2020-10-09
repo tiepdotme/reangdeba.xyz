@@ -55,6 +55,9 @@ I'm currently <output id="age">.....</output> years old. I've been tracking my a
                             <p>{{ book.author }}</p>
                         </div> -->
                 </a>
+                {% if book.notes %}
+                    <a href="{{ book.notes }}">Notes</a>
+                    {% endif %}
                 <br>
             </div>
                 {% endfor %}
