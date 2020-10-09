@@ -18,11 +18,6 @@
   image_url: https://i.scdn.co/image/ab67616d0000b273f3582107f127c2765fafb431
   name: Maskhari
   url: https://open.spotify.com/track/3AeOPuf7VfwUsxeQNN9Vsv
-- artists: The Local Train
-  image_name: 6ZmtxXUXRVjxOhugKkmerC.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b27358ecb3e5ec3bbef70ee09e43
-  name: Dil Mere
-  url: https://open.spotify.com/track/6ZmtxXUXRVjxOhugKkmerC
 - artists: The Chainsmokers, sirenXX
   image_name: 5brMyscUnQg14hMriS91ks.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b2730b0b9c3d320c6715de19b9e4
@@ -53,11 +48,6 @@
   image_url: https://i.scdn.co/image/ab67616d0000b2734281932550ab6056eea3a856
   name: 21 Guns
   url: https://open.spotify.com/track/3IHHqmfKJHyI0obINUdg1W
-- artists: BLACKPINK, Selena Gomez
-  image_name: 60jpDubMmVyR5molJp2TCm.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b273dea19d0032ddc086dabbe3c8
-  name: Ice Cream (with Selena Gomez)
-  url: https://open.spotify.com/track/60jpDubMmVyR5molJp2TCm
 - artists: BLACKPINK
   image_name: 207UhtrPquuAae44b2LhZW.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
@@ -93,8 +83,18 @@
   image_url: https://i.scdn.co/image/ab67616d0000b273f3582107f127c2765fafb431
   name: Khulke Jeene Ka
   url: https://open.spotify.com/track/1XFZMenJ30FfGOsj8X5sqf
-- artists: The Local Train
-  image_name: 4LtSTc3xANVhYeeN69nscM.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b273ea6c4f2c7e92b23616f1045a
-  name: Aaftaab
-  url: https://open.spotify.com/track/4LtSTc3xANVhYeeN69nscM
+- artists: Taylor Swift
+  image_name: 1hm4V38egkiHOgxTUpu0zg.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b273d7004b0da78a8aefa965ca55
+  name: betty - Live from the 2020 Academy of Country Music Awards
+  url: https://open.spotify.com/track/1hm4V38egkiHOgxTUpu0zg
+- artists: Mukesh
+  image_name: 2MAQWNhW0jKI0qWnNNO8C9.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b2731a53cb45af75e30370c7e0ee
+  name: Main Pal Do Pal Ka Shair Hoon
+  url: https://open.spotify.com/track/2MAQWNhW0jKI0qWnNNO8C9
+- artists: BLACKPINK
+  image_name: 7e7VjLxO5xJINHvnRytrqi.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b273895cda6254392eb17aae5390
+  name: PLAYING WITH FIRE
+  url: https://open.spotify.com/track/7e7VjLxO5xJINHvnRytrqi
