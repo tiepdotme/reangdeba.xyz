@@ -15,11 +15,11 @@ comments: false
 ### Social Media
 
 * 🐦 Twitter: I open Twitter ([@reangdeba](https://twitter.com/reangdeba)) more often than not. Say hi! I try to reply to everyone.
-* 👍 Facebook: I check Facebook 2-3 times a week just to catch up with on-campus events, or have a look at Subtle Curry Traits memes. Feel free to say "hi!" if you wish to, but if you are not a friend your text might land up in a different folder that I don't usually check. My username is [@reangdeba](https://www.facebook.com/reangdeba).
+* 👍 Facebook: My username is [@reangdeba](https://www.facebook.com/reangdeba). I'm not active on Facebook.
 * 📸 Instagram: I am on Instagram as [@reangdeba_](https://www.instagram.com/reangdeba_/). I don't usually message people on Instagram, so I might not reply to your texts as well. But, feel free to follow if you like my posts. :stuck_out_tongue_winking_eye:
 * 💼 LinkedIn: I do read LinkedIn ([@reangdeba](https://www.linkedin.com/in/reangdeba/)) messages, but very rarely. How rare? umm, about once a month.
 
-**tl;dr**: Follow me on social media but email is best for reaching me.:stuck_out_tongue_winking_eye:
+**tl;dr**: Follow me on social media but email is best for reaching out to me.:stuck_out_tongue_winking_eye:
 
 ### Meet-ups
 * :coffee: You might find me at CCD if you're on campus. I love meeting up with people in real life. If you happen to be a family member or related to a family member in some way, I'll be happy to buy you coffee. I usually go there in between classes and after 6 PM on most weekdays.
