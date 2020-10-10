@@ -3,11 +3,6 @@
   image_url: https://i.scdn.co/image/ab67616d0000b27358ecb3e5ec3bbef70ee09e43
   name: Choo Lo
   url: https://open.spotify.com/track/2qgXrzJsry4KgYoJCpuaul
-- artists: Avicii
-  image_name: 0ct6r3EGTcMLPtrXHDvVjc.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b2730ae4f4d42e4a09f3a29f64ad
-  name: The Nights
-  url: https://open.spotify.com/track/0ct6r3EGTcMLPtrXHDvVjc
 - artists: Billie Eilish
   image_name: 73SpzrcaHk0RQPFP73vqVR.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273f7b7174bef6f3fbfda3a0bb7
@@ -33,6 +28,11 @@
   image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
   name: How You Like That
   url: https://open.spotify.com/track/207UhtrPquuAae44b2LhZW
+- artists: BLACKPINK, Selena Gomez
+  image_name: 4Q9hOAbmZVZqu6wNJCbRnz.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
+  name: Ice Cream (with Selena Gomez)
+  url: https://open.spotify.com/track/4Q9hOAbmZVZqu6wNJCbRnz
 - artists: Adele
   image_name: 6QPKYGnAW9QozVz2dSWqRg.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273ba764098164f221484bcc309
@@ -53,11 +53,11 @@
   image_url: https://i.scdn.co/image/ab67616d0000b2734281932550ab6056eea3a856
   name: 21 Guns
   url: https://open.spotify.com/track/3IHHqmfKJHyI0obINUdg1W
-- artists: BLACKPINK, Selena Gomez
-  image_name: 4Q9hOAbmZVZqu6wNJCbRnz.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
-  name: Ice Cream (with Selena Gomez)
-  url: https://open.spotify.com/track/4Q9hOAbmZVZqu6wNJCbRnz
+- artists: Avicii
+  image_name: 0ct6r3EGTcMLPtrXHDvVjc.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b2730ae4f4d42e4a09f3a29f64ad
+  name: The Nights
+  url: https://open.spotify.com/track/0ct6r3EGTcMLPtrXHDvVjc
 - artists: A.R. Rahman
   image_name: 4UJkUnfEEL8B2JZ1OQfYOO.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273f3582107f127c2765fafb431
@@ -88,13 +88,13 @@
   image_url: https://i.scdn.co/image/ab67616d0000b273f3582107f127c2765fafb431
   name: Khulke Jeene Ka
   url: https://open.spotify.com/track/1XFZMenJ30FfGOsj8X5sqf
+- artists: BLACKPINK
+  image_name: 0u5FYJWJLcLzSN9S1Wb2ag.jpeg
+  image_url: https://i.scdn.co/image/ab67616d0000b27383e20fb049016e87123cb093
+  name: Lovesick Girls
+  url: https://open.spotify.com/track/0u5FYJWJLcLzSN9S1Wb2ag
 - artists: Taylor Swift
   image_name: 1hm4V38egkiHOgxTUpu0zg.jpeg
   image_url: https://i.scdn.co/image/ab67616d0000b273d7004b0da78a8aefa965ca55
   name: betty - Live from the 2020 Academy of Country Music Awards
   url: https://open.spotify.com/track/1hm4V38egkiHOgxTUpu0zg
-- artists: Mukesh
-  image_name: 2MAQWNhW0jKI0qWnNNO8C9.jpeg
-  image_url: https://i.scdn.co/image/ab67616d0000b2731a53cb45af75e30370c7e0ee
-  name: Main Pal Do Pal Ka Shair Hoon
-  url: https://open.spotify.com/track/2MAQWNhW0jKI0qWnNNO8C9

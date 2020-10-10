@@ -33,43 +33,43 @@
   image_url: https://i.scdn.co/image/f55cab0739390cf3b2c2f773b9c779b2f0ae8a99
   name: Ed Sheeran
   url: https://open.spotify.com/artist/6eUKZXaKkcviH0Ku9w2n3V
-- genre: Canadian pop
-  image_name: 7n2wHs1TKAczGzO7Dd2rGr.jpeg
-  image_url: https://i.scdn.co/image/809b93c47fca237138e53968d86682f09d0f45a2
-  name: Shawn Mendes
-  url: https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr
-- genre: Dance pop
-  image_name: 69GGBxA162lTqCwzJG5jLp.jpeg
-  image_url: https://i.scdn.co/image/960547a625bc2eb742bb3dd170cbc049d2e94cf9
-  name: The Chainsmokers
-  url: https://open.spotify.com/artist/69GGBxA162lTqCwzJG5jLp
-- genre: Desi pop
-  image_name: 5rQoBDKFnd1n6BkdbgVaRL.jpeg
-  image_url: https://i.scdn.co/image/5049c429f5afb43459fac5339a6118784ae21afd
-  name: Guru Randhawa
-  url: https://open.spotify.com/artist/5rQoBDKFnd1n6BkdbgVaRL
-- genre: Dance pop
-  image_name: 5ZsFI1h6hIdQRw2ti0hz81.jpeg
-  image_url: https://i.scdn.co/image/9aa52d0443bc2c02a9187e7dd4f36ca417989915
-  name: ZAYN
-  url: https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81
-- genre: Dance pop
-  image_name: 0ZED1XzwlLHW4ZaG4lOT6m.jpeg
-  image_url: https://i.scdn.co/image/197f548899c94f33cdf198b2985e9d5e267bb47b
-  name: Julia Michaels
-  url: https://open.spotify.com/artist/0ZED1XzwlLHW4ZaG4lOT6m
-- genre: Bow pop
-  image_name: 0jW6R8CVyVohuUJVcuweDI.jpeg
-  image_url: https://i.scdn.co/image/e4b2ffe3383ff34cad8eea7c1302f9fcb247bf14
-  name: The Piano Guys
-  url: https://open.spotify.com/artist/0jW6R8CVyVohuUJVcuweDI
-- genre: Pop
-  image_name: 2wY79sveU1sp5g7SokKOiI.jpeg
-  image_url: https://i.scdn.co/image/e73b42ee3f3169fe041201e088a60533f2bd2f7f
-  name: Sam Smith
-  url: https://open.spotify.com/artist/2wY79sveU1sp5g7SokKOiI
 - genre: Boy band
   image_name: 4AK6F7OLvEQ5QYCBNiQWHq.jpeg
   image_url: https://i.scdn.co/image/5bb443424a1ad71603c43d67f5af1a04da6bb3c8
   name: One Direction
   url: https://open.spotify.com/artist/4AK6F7OLvEQ5QYCBNiQWHq
+- genre: Dance pop
+  image_name: 6M2wZ9GZgrQXHCFfjv46we.jpeg
+  image_url: https://i.scdn.co/image/330f9806621bc0fe67f5c06f2f1f8df53d011b4e
+  name: Dua Lipa
+  url: https://open.spotify.com/artist/6M2wZ9GZgrQXHCFfjv46we
+- genre: Canadian pop
+  image_name: 7n2wHs1TKAczGzO7Dd2rGr.jpeg
+  image_url: https://i.scdn.co/image/809b93c47fca237138e53968d86682f09d0f45a2
+  name: Shawn Mendes
+  url: https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr
+- genre: Desi pop
+  image_name: 5rQoBDKFnd1n6BkdbgVaRL.jpeg
+  image_url: https://i.scdn.co/image/5049c429f5afb43459fac5339a6118784ae21afd
+  name: Guru Randhawa
+  url: https://open.spotify.com/artist/5rQoBDKFnd1n6BkdbgVaRL
+- genre: Permanent wave
+  image_name: 7oPftvlwr6VrsViSDV7fJY.jpeg
+  image_url: https://i.scdn.co/image/41778f8778469286e6aa9ef751cdc8e942bc0a6f
+  name: Green Day
+  url: https://open.spotify.com/artist/7oPftvlwr6VrsViSDV7fJY
+- genre: Pop
+  image_name: 04gDigrS5kc9YWfZHwBETP.jpeg
+  image_url: https://i.scdn.co/image/305c7c493ca5c108ade08dea6a169694db911644
+  name: Maroon 5
+  url: https://open.spotify.com/artist/04gDigrS5kc9YWfZHwBETP
+- genre: Desi pop
+  image_name: 1wRPtKGflJrBx9BmLsSwlU.jpeg
+  image_url: https://i.scdn.co/image/9b9643ab7444d6184d1b33e534cacc15c1e44186
+  name: Pritam
+  url: https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU
+- genre: Dance pop
+  image_name: 5ZsFI1h6hIdQRw2ti0hz81.jpeg
+  image_url: https://i.scdn.co/image/9aa52d0443bc2c02a9187e7dd4f36ca417989915
+  name: ZAYN
+  url: https://open.spotify.com/artist/5ZsFI1h6hIdQRw2ti0hz81
